@@ -7,7 +7,7 @@ BindsTo=docker.service
 [Service]
 Type=simple
 WorkingDirectory=/root
-ExecStart=docker container run --rm --name guide-analysis-browser -p "127.0.0.1:8000:8000" --log-driver journalctl -a stdout -a stderr gneak123/guide_browser:amd shiny run -h 0.0.0.0 -p 8000 app.py
+ExecStart=docker container run --rm --name=guide-analysis-browser -p "127.0.0.1:8000:8000" --log-driver=journald -a stdout -a stderr gneak123/guide_browser:amd shiny run -h 0.0.0.0 -p 8000 app.py
 
 [Install]
 WantedBy=multi-user.target
