@@ -1,0 +1,11 @@
+services:
+  guide-browser:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./all_phenos:/app/all_phenos:ro
+      - ./degas_betas.npy:/app/degas_betas.npy:ro
+      - ./guide_all_100lat_bl_ll.npz:/app/guide_all_100lat_bl_ll.npz:ro
+      - ./w_values.npz:/app/w_values.npz:ro
+      - ./betas.npy:/app/betas.npy:ro

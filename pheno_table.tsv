@@ -1,0 +1,2131 @@
+	Phenotype	Top 5 Latent Factor Indices (ordered by variance component)	Top 1 Variance Component	Top 3 Variance Component	Top 5 Variance Component
+0	breast cysts	23, 49, 71, 78, 38	13.60%	28.55%	39.17%
+1	bone disorder	23, 79, 72, 49, 45	14.26%	34.15%	46.28%
+2	anxiety/panic attacks	23, 72, 79, 49, 64	9.32%	24.74%	35.26%
+3	connective tissue disorder	23, 78, 72, 74, 39	8.98%	19.43%	28.36%
+4	housemaid's knee (prepatellar bursitis)	23, 49, 78, 71, 27	11.78%	25.88%	36.99%
+5	svt/supraventricular tachycardia	49, 23, 78, 20, 95	10.51%	27.88%	39.39%
+6	angina	10, 64, 83, 71, 45	22.74%	41.19%	56.78%
+7	anal fissure	39, 78, 11, 99, 23	9.23%	21.35%	31.69%
+8	Severe depression	11, 20, 51, 38, 78	18.06%	40.49%	51.16%
+9	leukaemia	31, 23, 78, 18, 49	10.23%	26.41%	37.55%
+10	testicular cancer	79, 72, 82, 13, 25	12.81%	32.06%	40.84%
+11	prostate cancer	27, 92, 8, 73, 51	23.49%	44.95%	57.77%
+12	lymphoma	23, 51, 20, 97, 78	10.85%	26.34%	36.69%
+13	cervical cancer	23, 71, 39, 78, 98	9.22%	21.79%	32.22%
+14	uterine/endometrial cancer	27, 72, 23, 89, 67	8.73%	23.43%	35.13%
+15	vulval cancer	23, 78, 22, 49, 66	15.07%	30.46%	40.06%
+16	psychological/psychiatric problem	23, 78, 79, 71, 49	14.16%	25.19%	33.96%
+17	bronchiectasis	23, 79, 78, 49, 77	9.23%	23.88%	34.05%
+18	cataract	92, 20, 1, 59, 86	11.18%	27.19%	37.13%
+19	mrsa/methicillin resistant staphylococcus aureus	89, 18, 23, 32, 78	15.77%	31.60%	41.89%
+20	gastrointestinal bleeding	23, 78, 77, 11, 22	11.60%	25.45%	33.92%
+21	iritis	23, 79, 49, 78, 22	15.45%	32.82%	42.48%
+22	mitral valve disease	23, 79, 49, 78, 72	12.79%	27.64%	38.32%
+23	osteoporosis	92, 64, 79, 80, 20	20.31%	34.66%	42.81%
+24	ankylosing spondylitis	23, 49, 78, 1, 67	12.28%	24.88%	33.62%
+25	ectopic pregnancy	89, 82, 79, 8, 49	14.88%	31.50%	40.77%
+26	scoliosis	8, 79, 23, 49, 89	11.97%	33.01%	44.71%
+27	bowel/intestinal obstruction	72, 79, 94, 23, 27	11.56%	27.09%	37.71%
+28	eye/eyelid problem	23, 49, 78, 39, 1	10.79%	24.28%	34.17%
+29	ovarian cyst or cysts	23, 79, 89, 78, 8	13.07%	28.29%	37.66%
+30	nephritis	23, 78, 89, 71, 49	12.59%	28.04%	41.60%
+31	low platelets/platelet disorder	23, 79, 49, 78, 81	13.47%	27.70%	38.29%
+32	renal failure not requiring dialysis	23, 39, 49, 79, 77	10.68%	23.12%	34.28%
+33	liver failure/cirrhosis	79, 23, 8, 49, 78	13.04%	30.83%	40.40%
+34	acute infective polyneuritis/guillain-barre syndrome	23, 49, 78, 39, 79	12.68%	28.40%	40.43%
+35	meniere's disease	23, 78, 49, 89, 80	15.00%	30.41%	38.85%
+36	leg claudication/ intermittent claudication	23, 8, 71, 49, 79	10.05%	20.14%	28.65%
+37	subarachnoid haemorrhage	23, 27, 79, 78, 49	10.98%	26.56%	37.48%
+38	uterine polyps	79, 23, 8, 72, 49	12.68%	27.68%	37.68%
+39	femoral hernia	89, 23, 78, 27, 73	13.00%	30.65%	40.71%
+40	fracture toe	23, 78, 79, 49, 71	14.52%	30.42%	42.55%
+41	trigemminal neuralgia	23, 71, 1, 78, 27	10.78%	26.84%	39.11%
+42	pancreatitis	68, 23, 78, 39, 1	55.91%	65.45%	70.45%
+43	mitral regurgitation/incompetence	23, 30, 49, 78, 0	20.60%	31.61%	40.17%
+44	bladder problem (not cancer)	23, 8, 82, 49, 77	8.03%	22.53%	35.08%
+45	fracture shoulder/scapula	23, 49, 78, 79, 89	14.84%	31.15%	42.86%
+46	scarlet fever/scarlatina	27, 78, 23, 73, 1	8.83%	24.88%	35.39%
+47	osteoarthritis	20, 51, 54, 8, 83	19.61%	41.48%	53.71%
+48	kidney stone/ureter stone/bladder stone	79, 39, 23, 27, 20	9.12%	21.83%	30.08%
+49	alcohol dependency	23, 71, 79, 39, 49	13.49%	31.09%	42.27%
+50	fracture rib	23, 78, 77, 49, 1	13.07%	24.81%	33.54%
+51	other respiratory problems	79, 38, 23, 68, 39	7.73%	21.51%	32.75%
+52	bronchitis	23, 78, 16, 49, 30	12.74%	25.74%	34.28%
+53	infective/viral hepatitis	23, 79, 27, 49, 78	13.55%	26.42%	36.85%
+54	optic neuritis	79, 23, 86, 8, 59	10.68%	25.23%	35.94%
+55	adrenocortical insufficiency/addison's disease	23, 27, 64, 30, 73	9.26%	23.26%	33.70%
+56	shingles	23, 79, 49, 71, 78	14.35%	32.42%	42.24%
+57	osteomyelitis	23, 78, 49, 27, 98	14.17%	25.37%	34.26%
+58	miscarriage	83, 79, 68, 73, 49	9.93%	23.33%	33.75%
+59	emphysema/chronic bronchitis	72, 86, 74, 79, 39	17.37%	30.26%	38.21%
+60	eye trauma	23, 39, 71, 67, 78	12.60%	29.27%	38.52%
+61	gastroenteritis/dysentry	23, 49, 79, 22, 27	11.65%	27.56%	40.55%
+62	thyroid goitre	39, 71, 59, 99, 17	8.00%	21.39%	33.44%
+63	vertigo	23, 78, 79, 1, 49	15.65%	31.08%	43.48%
+64	heart failure/pulmonary odema	61, 10, 8, 1, 64	18.59%	34.58%	42.75%
+65	gestational hypertension/pre-eclampsia	79, 23, 72, 82, 8	12.37%	28.32%	38.41%
+66	chronic sinusitis	23, 78, 71, 37, 72	8.72%	22.73%	31.59%
+67	sarcoidosis	78, 23, 80, 49, 39	8.62%	24.72%	36.78%
+68	alcoholic liver disease/alcoholic cirrhosis	23, 89, 39, 78, 71	10.15%	20.99%	30.79%
+69	gynaecological disorder (not cancer)	23, 39, 1, 78, 79	12.65%	30.19%	38.81%
+70	fracture shaft of femur	23, 78, 89, 49, 79	17.17%	33.55%	45.11%
+71	prolapsed disc/slipped disc	79, 23, 49, 20, 80	11.59%	26.86%	36.68%
+72	dupuytren's contracture	23, 78, 89, 49, 66	15.14%	32.59%	46.32%
+73	stress	59, 23, 89, 78, 49	9.42%	23.98%	34.47%
+74	iron deficiency anaemia	8, 23, 18, 54, 94	9.29%	20.10%	29.04%
+75	haemorrhoids/piles	89, 54, 1, 20, 49	9.24%	21.82%	29.99%
+76	oesophagitis/barretts oesophagus	72, 39, 78, 89, 23	20.89%	32.91%	41.51%
+77	pituitary adenoma/tumour	23, 49, 71, 39, 79	10.89%	26.75%	35.94%
+78	tuberculosis (tb)	72, 79, 82, 23, 49	11.27%	29.69%	40.25%
+79	irritable bowel syndrome	72, 39, 38, 79, 83	25.46%	40.74%	52.32%
+80	polycythaemia vera	23, 71, 79, 78, 1	11.17%	25.50%	35.94%
+81	disorder of adrenal gland	23, 79, 49, 8, 78	12.07%	28.74%	38.02%
+82	kidney/renal cell cancer	89, 27, 49, 77, 23	13.03%	26.09%	37.22%
+83	bladder cancer	23, 89, 49, 78, 77	15.90%	28.62%	37.91%
+84	female genital tract cancer	23, 77, 8, 79, 73	9.05%	21.75%	32.74%
+85	eye and/or adnexal cancer	23, 8, 79, 49, 72	14.89%	30.59%	43.60%
+86	brain cancer/primary malignant brain tumour	23, 49, 79, 78, 39	13.65%	29.06%	41.19%
+87	male genital tract cancer	27, 73, 92, 8, 64	16.86%	42.58%	52.60%
+88	ovarian cancer	23, 71, 78, 0, 49	14.79%	32.78%	43.89%
+89	fracture vertebra/crush fracture/vertebral collapse	79, 23, 77, 73, 8	12.87%	29.78%	41.75%
+90	sciatica	23, 49, 78, 79, 27	10.01%	26.80%	36.74%
+91	rectal or colon adenoma/polyps	23, 49, 78, 79, 39	13.42%	29.00%	36.28%
+92	diabetic eye disease	23, 78, 89, 82, 77	9.83%	22.73%	32.68%
+93	dysmenorrhoea/dysmenorrhea	23, 27, 1, 39, 78	7.71%	19.76%	29.72%
+94	septicaemia/sepsis	79, 23, 8, 78, 67	10.70%	26.33%	34.67%
+95	testicular problems (not cancer)	82, 77, 23, 89, 8	8.53%	22.48%	35.63%
+96	lichen sclerosis	23, 22, 30, 0, 78	12.19%	25.85%	33.87%
+97	giant cell/temporal arteritis	22, 59, 71, 23, 35	9.28%	24.38%	33.86%
+98	fracture lower leg/ankle	72, 79, 23, 27, 94	7.80%	22.40%	31.91%
+99	post-traumatic stress disorder	23, 78, 49, 16, 79	19.78%	36.54%	44.85%
+100	myasthenia gravis	23, 79, 78, 49, 58	16.99%	33.98%	44.75%
+101	tonsiltis	23, 49, 39, 89, 1	13.15%	27.32%	37.26%
+102	type 1 diabetes	23, 78, 58, 89, 49	13.46%	25.52%	36.78%
+103	fracture sternum	27, 64, 89, 23, 73	10.20%	23.88%	35.48%
+104	parathyroid gland problem (not cancer)	23, 49, 71, 11, 78	8.81%	20.04%	29.22%
+105	gastric/stomach ulcers	27, 23, 67, 78, 49	9.56%	24.92%	33.36%
+106	parkinsons disease	23, 79, 39, 49, 72	9.76%	24.94%	35.14%
+107	bursitis	23, 78, 49, 94, 77	14.67%	36.96%	48.51%
+108	endometriosis	38, 80, 79, 23, 20	7.41%	21.24%	32.84%
+109	trapped nerve/compressed nerve	23, 89, 49, 67, 79	15.14%	29.52%	40.88%
+110	pulmonary embolism +/- dvt	89, 73, 54, 1, 51	12.89%	31.62%	43.32%
+111	fracture tibia	23, 79, 49, 82, 81	10.39%	24.66%	35.56%
+112	ulcerative colitis	80, 39, 92, 64, 20	12.11%	33.76%	46.42%
+113	rheumatic fever	27, 23, 78, 73, 49	11.84%	29.70%	38.71%
+114	urinary frequency/incontinence	54, 23, 78, 24, 79	11.45%	26.74%	37.34%
+115	retinal problem	23, 71, 79, 78, 45	11.56%	29.20%	41.38%
+116	synovitis	23, 78, 72, 16, 49	14.84%	32.19%	41.43%
+117	chickenpox	72, 39, 23, 92, 78	10.46%	26.03%	38.82%
+118	pleural effusion	23, 78, 1, 49, 54	15.03%	28.47%	38.94%
+119	acute myeloid leukaemia	23, 82, 78, 38, 49	13.28%	29.29%	43.48%
+120	mouth cancer	23, 78, 49, 0, 39	11.13%	20.69%	28.02%
+121	benign breast lump	23, 39, 78, 49, 72	15.64%	31.98%	42.08%
+122	thyroiditis	23, 78, 89, 49, 8	14.00%	27.74%	40.72%
+123	paraplegia	23, 59, 78, 79, 71	13.15%	25.63%	35.61%
+124	aortic dissection	27, 54, 51, 1, 20	67.12%	81.32%	87.32%
+125	spinal injury	23, 79, 89, 78, 82	11.90%	26.19%	36.96%
+126	peptic ulcer	27, 73, 1, 78, 23	21.17%	35.42%	43.62%
+127	hyperthyroidism/thyrotoxicosis	58, 23, 83, 75, 78	60.09%	66.34%	71.60%
+128	monoclonal gammopathy/not myeloma	23, 78, 49, 27, 17	16.42%	29.78%	37.31%
+129	fracture radius	20, 92, 62, 78, 73	30.00%	44.46%	56.20%
+130	otosclerosis	23, 89, 78, 49, 16	14.03%	35.16%	44.67%
+131	cervical spondylosis	79, 23, 7, 49, 78	9.07%	23.36%	34.50%
+132	sclerosing cholangitis	72, 39, 23, 89, 78	8.87%	25.90%	39.69%
+133	aortic aneurysm	27, 54, 51, 1, 20	65.35%	79.66%	85.93%
+134	cardiomyopathy	20, 89, 92, 78, 73	13.40%	28.82%	40.56%
+135	hereditary/genetic haematological disorder	89, 54, 1, 73, 23	12.39%	32.61%	44.99%
+136	tendonitis/tendinitis/tenosynovitis	79, 23, 49, 78, 8	11.37%	31.56%	43.91%
+137	cervical intra-epithelial neoplasia (cin)/precancerous cells cervix	23, 79, 49, 78, 8	10.25%	24.23%	37.47%
+138	pericarditis	23, 79, 22, 39, 77	10.96%	28.51%	37.01%
+139	inguinal hernia	51, 73, 20, 92, 59	52.17%	65.62%	73.39%
+140	fracture finger	23, 89, 38, 78, 16	10.59%	20.85%	30.16%
+141	cranial nerve problem/palsy	23, 78, 49, 79, 71	18.75%	37.04%	47.25%
+142	schizophrenia	72, 23, 79, 83, 78	8.98%	23.09%	33.79%
+143	breast disease (not cancer)	39, 79, 22, 71, 77	6.61%	19.09%	30.04%
+144	allergy to house dust mite	23, 79, 49, 78, 1	16.82%	44.19%	55.81%
+145	hepatitis c	89, 78, 82, 27, 23	16.04%	32.75%	46.63%
+146	prostate problem (not cancer)	23, 78, 71, 72, 39	8.83%	21.25%	30.85%
+147	fracture face/orbit/eye socket	89, 23, 78, 35, 82	10.21%	24.49%	34.67%
+148	menorrhagia (unknown cause)	72, 92, 39, 77, 78	17.39%	38.56%	47.39%
+149	blistering/desquamating skin disorder	23, 92, 64, 78, 27	10.95%	22.33%	32.35%
+150	fibromyalgia	23, 49, 78, 38, 79	13.35%	24.32%	33.73%
+151	post-natal depression	77, 79, 23, 22, 39	8.08%	22.21%	32.24%
+152	bell's palsy/facial nerve palsy	23, 78, 39, 49, 71	14.44%	32.08%	42.07%
+153	tinnitus/tiniitis	23, 49, 78, 79, 27	10.78%	25.56%	33.79%
+154	abdominal hernia	27, 23, 73, 71, 13	10.73%	24.86%	36.69%
+155	pericardial effusion	23, 49, 79, 78, 89	14.79%	32.30%	43.63%
+156	contact dermatitis	27, 30, 23, 0, 78	8.82%	24.63%	35.13%
+157	pyelonephritis	23, 78, 49, 79, 22	16.21%	32.88%	44.67%
+158	irregular heart beat	23, 79, 49, 78, 39	13.72%	28.37%	37.64%
+159	stroke	23, 8, 49, 58, 78	8.53%	19.43%	29.68%
+160	constipation	72, 23, 1, 78, 39	11.32%	22.60%	31.96%
+161	disc degeneration	83, 23, 79, 49, 8	13.19%	33.29%	47.40%
+162	bph/benign prostatic hypertrophy	23, 82, 49, 77, 79	9.58%	25.03%	37.53%
+163	cholelithiasis/gall stones	68, 10, 59, 2, 39	97.30%	97.73%	98.06%
+164	cellulitis	27, 25, 98, 90, 72	8.01%	20.29%	30.01%
+165	aortic aneurysm rupture	27, 54, 51, 1, 20	62.12%	76.91%	83.73%
+166	chronic laryngitis	23, 78, 49, 16, 72	14.70%	36.75%	43.36%
+167	eye infection	23, 79, 73, 49, 78	10.70%	26.46%	38.06%
+168	thyroid problem (not cancer)	23, 78, 89, 38, 49	10.08%	20.09%	29.72%
+169	osteopenia	23, 49, 79, 77, 8	16.86%	30.95%	41.00%
+170	myocarditis	79, 23, 49, 77, 82	11.37%	25.03%	35.83%
+171	stomach disorder	23, 79, 78, 49, 73	11.71%	27.71%	41.40%
+172	respiratory failure	23, 79, 78, 16, 49	15.25%	33.62%	42.97%
+173	inflammatory bowel disease	27, 80, 92, 39, 64	10.42%	29.29%	43.93%
+174	polymyalgia rheumatica	89, 23, 83, 38, 39	8.59%	23.33%	35.64%
+175	psoriatic arthropathy	11, 79, 20, 23, 77	9.26%	26.55%	38.41%
+176	dry eyes	23, 49, 27, 78, 71	9.06%	21.41%	32.16%
+177	High blood pressure	71, 52, 60, 74, 21	90.74%	95.72%	97.39%
+178	other abdominal problem	23, 39, 79, 82, 1	12.36%	27.61%	38.46%
+179	back pain	23, 82, 78, 79, 49	9.80%	25.58%	35.84%
+180	fracture skull/head	23, 72, 79, 83, 78	14.55%	31.53%	44.54%
+181	rectal cancer	92, 72, 20, 79, 39	8.26%	22.84%	34.74%
+182	colon cancer/sigmoid cancer	92, 51, 20, 32, 74	9.61%	24.99%	38.19%
+183	large bowel cancer/colorectal cancer	92, 64, 51, 71, 80	9.62%	24.77%	36.67%
+184	pancreas cancer	23, 79, 78, 67, 71	10.17%	23.28%	33.56%
+185	gallbladder/bile duct cancer	23, 78, 49, 89, 79	17.59%	34.63%	45.71%
+186	liver/hepatocellular cancer	89, 78, 23, 49, 39	14.52%	36.50%	48.09%
+187	gall bladder disease	23, 79, 49, 75, 39	12.88%	27.62%	40.04%
+188	hiv/aids	23, 27, 30, 64, 39	8.10%	21.12%	32.14%
+189	fracture jaw	82, 27, 30, 22, 23	9.98%	25.32%	35.46%
+190	oesophageal varicies	79, 23, 49, 1, 8	13.88%	30.55%	40.42%
+191	atrial flutter	61, 94, 1, 3, 63	99.53%	99.67%	99.70%
+192	hypopituitarism	23, 78, 49, 71, 0	16.98%	33.30%	43.00%
+193	chronic obstructive airways disease/copd	20, 83, 27, 73, 51	16.76%	31.64%	41.72%
+194	headaches (not migraine)	23, 49, 78, 99, 79	12.59%	25.33%	34.01%
+195	chronic skin ulcers	23, 78, 30, 27, 49	14.07%	25.52%	35.71%
+196	Prostate cancer	27, 92, 8, 73, 51	23.49%	44.95%	57.77%
+197	subdural haemorrhage/haematoma	23, 16, 78, 72, 49	16.57%	32.65%	45.48%
+198	mania/bipolar disorder/manic depression	8, 89, 82, 79, 18	12.90%	28.66%	40.06%
+199	abnormal smear (cervix)	89, 82, 77, 79, 73	11.31%	27.11%	36.84%
+200	heart valve problem/heart murmur	8, 23, 79, 49, 78	11.31%	31.47%	43.50%
+201	disc problem	89, 23, 78, 0, 49	15.26%	36.64%	46.02%
+202	back problem	23, 72, 39, 78, 49	8.64%	22.90%	32.22%
+203	allergy or anaphylactic reaction to food	23, 79, 78, 49, 16	13.05%	28.54%	37.45%
+204	spine arthritis/spondylitis	23, 79, 89, 78, 16	11.46%	27.74%	40.78%
+205	deliberate self-harm/suicide attempt	23, 82, 89, 78, 49	14.36%	30.48%	40.81%
+206	joint pain	54, 23, 16, 79, 94	5.20%	14.26%	21.85%
+207	rosacea	23, 78, 39, 89, 37	11.88%	27.16%	37.21%
+208	multiple sclerosis	23, 78, 49, 71, 16	13.86%	33.09%	44.07%
+209	nasal polyps	37, 70, 51, 23, 39	52.99%	80.88%	84.35%
+210	jaundice (unknown cause)	23, 73, 49, 78, 89	8.36%	21.53%	33.32%
+211	pelvic inflammatory disease/ pid	23, 79, 73, 1, 22	11.99%	28.96%	38.77%
+212	joint disorder	23, 73, 78, 49, 79	12.17%	30.29%	41.85%
+213	skin cancer	75, 18, 2, 58, 79	94.71%	99.28%	99.39%
+214	colitis/not crohns or ulcerative colitis	39, 23, 78, 80, 49	11.34%	28.46%	39.25%
+215	insomnia	23, 39, 79, 78, 49	15.29%	34.66%	43.88%
+216	mitral stenosis	23, 78, 89, 22, 49	17.35%	36.07%	46.13%
+217	burns N/A	23, 71, 49, 39, 78	11.91%	26.11%	38.91%
+218	malabsorption/coeliac disease	92, 58, 80, 98, 8	10.72%	28.92%	42.12%
+219	retinal detachment	9, 23, 78, 49, 75	15.06%	32.02%	41.10%
+220	asbestosis	23, 78, 49, 54, 85	18.67%	41.54%	50.64%
+221	benign/essential tremor	23, 22, 71, 39, 59	8.69%	21.52%	32.84%
+222	brain haemorrhage	82, 23, 27, 79, 77	9.87%	22.00%	33.73%
+223	hypertrophic cardiomyopathy (hcm/hocm)	20, 8, 77, 92, 22	14.95%	30.02%	41.77%
+224	thyroid cancer	23, 78, 59, 79, 67	11.34%	25.63%	34.92%
+225	mesothelioma	79, 23, 86, 49, 22	9.90%	23.86%	33.86%
+226	primary bone cancer	79, 23, 49, 86, 38	12.52%	30.10%	39.48%
+227	non-melanoma skin cancer	75, 18, 67, 58, 35	96.12%	99.20%	99.30%
+228	sarcoma/fibrosarcoma	23, 79, 49, 74, 86	11.97%	27.28%	34.65%
+229	bone metastases/bony secondaries	23, 49, 78, 89, 71	17.83%	33.09%	42.18%
+230	respiratory/intrathoracic cancer	23, 20, 94, 82, 79	6.33%	18.04%	28.42%
+231	hayfever/allergic rhinitis	51, 37, 64, 20, 39	48.34%	85.46%	90.27%
+232	aplastic anaemia	23, 39, 78, 49, 71	14.48%	30.84%	40.80%
+233	unclassifiable	23, 78, 59, 20, 48	9.84%	24.65%	34.37%
+234	spontaneous pneumothorax/recurrent pneumothorax	23, 79, 89, 49, 78	14.91%	30.27%	40.60%
+235	depression	92, 20, 11, 79, 73	20.86%	41.90%	51.35%
+236	nervous breakdown	23, 89, 59, 78, 1	8.70%	22.81%	32.14%
+237	malaria	23, 49, 78, 39, 79	14.26%	28.28%	37.96%
+238	renal failure requiring dialysis	23, 78, 89, 49, 27	11.92%	30.97%	42.45%
+239	mumps/epidemic parotitis	89, 23, 78, 27, 77	9.21%	25.63%	37.51%
+240	bile duct obstruction/ascending cholangitis	72, 23, 39, 71, 78	8.66%	24.35%	35.32%
+241	polio/poliomyelitis	23, 71, 89, 78, 49	15.36%	28.34%	39.47%
+242	transient ischaemic attack (tia)	61, 23, 78, 27, 49	16.21%	41.45%	48.18%
+243	varicose veins	20, 11, 59, 86, 75	37.29%	51.57%	60.75%
+244	spinal stenosis	79, 23, 49, 73, 27	12.27%	27.90%	37.10%
+245	urinary tract infection/kidney infection	23, 73, 89, 27, 20	7.91%	19.16%	29.86%
+246	vaginal prolapse/uterine prolapse	18, 68, 54, 94, 75	8.95%	22.54%	33.03%
+247	fracture neck of femur/hip	23, 89, 39, 27, 78	11.66%	26.84%	37.59%
+248	tongue cancer	23, 78, 79, 49, 39	16.46%	31.52%	44.54%
+249	oesophageal cancer	72, 23, 83, 38, 45	8.33%	19.32%	27.74%
+250	parotid gland cancer	23, 78, 49, 89, 22	13.08%	30.89%	43.61%
+251	stomach cancer	49, 23, 79, 78, 72	11.25%	31.62%	43.37%
+252	small intestine/small bowel cancer	23, 78, 79, 49, 71	14.13%	30.01%	40.58%
+253	Bowel cancer	27, 0, 23, 79, 94	9.12%	23.95%	35.80%
+254	fracture wrist/colles fracture	23, 78, 89, 49, 81	13.50%	32.45%	42.74%
+255	cerebral aneurysm	23, 59, 94, 1, 49	11.12%	24.11%	35.37%
+256	menopausal symptoms/menopause	23, 78, 71, 89, 79	17.71%	32.45%	43.83%
+257	glaucoma	6, 92, 72, 27, 20	65.78%	73.44%	78.45%
+258	gastritis/gastric erosions	68, 23, 79, 78, 27	13.62%	29.37%	40.19%
+259	umbilical hernia	20, 23, 78, 1, 86	11.98%	29.59%	38.76%
+260	essential hypertension	74, 52, 71, 83, 60	88.43%	95.42%	97.10%
+261	epicondylitis	8, 79, 67, 23, 68	8.65%	23.75%	34.79%
+262	encephalitis	23, 89, 78, 49, 0	13.19%	31.24%	40.71%
+263	aortic stenosis	10, 1, 23, 78, 74	12.78%	24.43%	34.55%
+264	pyloric stenosis	23, 8, 22, 2, 35	7.50%	20.09%	27.62%
+265	carpal tunnel syndrome	20, 29, 92, 16, 7	34.71%	50.67%	56.88%
+266	renal/kidney failure	23, 74, 59, 49, 20	13.46%	23.56%	32.87%
+267	fracture thumb	23, 78, 71, 49, 18	12.75%	28.70%	38.60%
+268	polycystic ovaries/polycystic ovarian syndrome	89, 82, 8, 38, 49	15.15%	30.38%	39.83%
+269	fracture upper arm/humerus/elbow	89, 23, 79, 82, 49	12.23%	29.26%	40.59%
+270	fracture patella/knee	23, 78, 89, 71, 49	10.37%	24.56%	36.14%
+271	vasculitis	23, 79, 59, 49, 22	7.63%	18.88%	28.71%
+272	rectal prolapse	23, 78, 27, 71, 84	12.87%	23.81%	33.38%
+273	retinal artery/vein occlusion	23, 73, 79, 49, 11	10.55%	24.72%	35.55%
+274	duodenal ulcer	23, 8, 72, 10, 78	9.43%	24.61%	36.68%
+275	blepharitis/eyelid infection	23, 78, 1, 0, 49	10.01%	25.50%	35.71%
+276	systemic lupus erythematosis/sle	23, 78, 49, 71, 66	12.94%	28.46%	36.57%
+277	other neurological problem	23, 78, 68, 49, 27	13.01%	30.07%	40.47%
+278	muscle/soft tissue problem	38, 89, 83, 72, 23	12.47%	29.46%	41.98%
+279	disorder or pituitary gland	23, 89, 82, 39, 99	14.17%	28.66%	39.50%
+280	peritonitis	89, 23, 49, 78, 79	10.19%	25.37%	34.68%
+281	polycystic kidney	23, 22, 77, 49, 79	8.73%	20.65%	30.27%
+282	anaemia	78, 23, 58, 38, 2	7.33%	19.28%	28.27%
+283	undescended testicle	23, 79, 49, 78, 41	15.39%	30.23%	38.14%
+284	muscle or soft tissue injuries	89, 23, 82, 79, 49	9.39%	24.00%	33.15%
+285	peripheral nerve disorder	23, 79, 78, 49, 16	23.76%	41.02%	49.39%
+286	Alzheimer's disease/dementia	72, 10, 18, 8, 54	87.52%	90.67%	92.47%
+287	Parkinson's disease	91, 23, 76, 90, 49	10.41%	21.92%	31.14%
+288	hyperparathyroidism	23, 78, 49, 79, 27	13.70%	29.28%	41.83%
+289	labyrinthitis	89, 23, 38, 79, 78	8.98%	21.87%	31.20%
+290	clotting disorder/excessive bleeding	73, 1, 54, 89, 51	12.77%	34.48%	46.71%
+291	liver/biliary/pancreas problem	23, 67, 79, 27, 89	11.09%	26.58%	36.01%
+292	ureteric obstruction/hydronephrosis	23, 80, 78, 39, 49	15.11%	26.90%	37.12%
+293	heart arrhythmia	72, 20, 23, 79, 38	7.24%	20.87%	31.66%
+294	peripheral nerve injury	82, 27, 49, 23, 30	9.99%	24.77%	35.96%
+295	food intolerance	23, 79, 8, 78, 49	15.37%	30.10%	40.05%
+296	heart/cardiac problem	49, 23, 78, 41, 39	9.85%	25.03%	36.27%
+297	spina bifida	23, 89, 78, 49, 27	14.20%	35.48%	49.18%
+298	migraine	20, 38, 92, 62, 0	36.06%	49.09%	57.95%
+299	enlarged prostate	23, 39, 49, 78, 72	12.50%	28.46%	42.16%
+300	pulmonary fibrosis	79, 23, 32, 49, 72	10.90%	24.30%	33.43%
+301	fracture forearm/wrist	20, 92, 23, 73, 78	26.41%	43.52%	54.18%
+302	cerebral palsy	23, 79, 49, 7, 78	20.06%	38.79%	49.56%
+303	myositis/myopathy	23, 49, 71, 78, 77	9.79%	24.96%	35.32%
+304	malignant melanoma	18, 75, 72, 79, 8	63.19%	89.89%	91.69%
+305	chronic myeloid	23, 73, 1, 27, 59	11.07%	27.54%	38.49%
+306	chronic lymphocytic	31, 23, 8, 79, 77	12.92%	27.95%	38.88%
+307	hodgkins lymphoma/hodgkins disease	23, 39, 89, 78, 10	14.82%	30.59%	40.56%
+308	non-hodgkins lymphoma	23, 22, 80, 79, 13	10.02%	20.74%	29.92%
+309	multiple myeloma	23, 39, 78, 27, 0	9.82%	23.52%	35.05%
+310	other renal/kidney problem	23, 49, 79, 78, 8	11.91%	30.57%	38.96%
+311	spinal cord disorder	23, 49, 79, 78, 67	17.46%	30.84%	38.06%
+312	uterine fibroids	72, 38, 62, 39, 94	9.61%	20.51%	29.50%
+313	pneumonia	72, 38, 23, 79, 78	12.75%	24.80%	33.04%
+314	pleurisy	23, 78, 79, 49, 81	11.12%	30.05%	38.80%
+315	sick sinus syndrome	61, 23, 79, 59, 49	14.26%	34.38%	44.90%
+316	psoriasis	51, 20, 8, 58, 89	29.92%	52.14%	59.49%
+317	lichen planus	23, 89, 78, 72, 49	16.07%	35.86%	46.95%
+318	emphysema	92, 68, 80, 23, 20	14.09%	30.09%	41.87%
+319	rheumatoid arthritis	58, 73, 23, 86, 72	27.70%	40.01%	49.92%
+320	lymphoedema	89, 23, 78, 39, 49	15.29%	29.72%	40.06%
+321	mitral valve prolapse	72, 23, 38, 83, 79	9.43%	25.54%	39.18%
+322	ear/vestibular disorder	72, 39, 23, 38, 78	19.56%	35.13%	49.10%
+323	macular degeneration	23, 89, 78, 49, 8	12.22%	31.62%	42.05%
+324	epilepsy	23, 78, 49, 79, 81	14.88%	32.41%	42.36%
+325	acne/acne vulgaris	23, 79, 49, 78, 77	16.96%	35.08%	45.72%
+326	hepatitis	23, 78, 49, 7, 89	18.32%	30.93%	40.46%
+327	benign neuroma	23, 78, 77, 49, 11	15.73%	31.09%	39.61%
+328	gout	59, 99, 8, 38, 39	84.98%	89.94%	91.79%
+329	rubella/german measles	23, 78, 1, 49, 71	14.25%	29.75%	42.01%
+330	cholecystitis	68, 10, 2, 1, 59	96.99%	97.56%	97.89%
+331	herpes simplex	23, 39, 78, 71, 49	14.17%	31.37%	43.93%
+332	erectile dysfunction/impotence	23, 78, 39, 49, 79	15.70%	27.92%	38.77%
+333	interstitial lung disease	23, 78, 79, 89, 30	18.86%	35.46%	43.06%
+334	diabetes	15, 72, 73, 27, 20	82.41%	92.56%	94.22%
+335	arterial embolism	78, 23, 64, 20, 49	10.09%	24.42%	33.71%
+336	diabetic neuropathy/ulcers	23, 78, 49, 79, 22	18.01%	37.34%	45.61%
+337	helicobacter pylori	82, 79, 8, 27, 89	10.95%	26.22%	36.33%
+338	peripheral vascular disease	10, 8, 64, 13, 82	11.43%	26.95%	35.87%
+339	throat or larynx disorder	78, 89, 23, 49, 16	11.87%	32.55%	42.45%
+340	asthma	37, 70, 51, 3, 18	97.52%	98.81%	99.08%
+341	fracture ulna	23, 49, 79, 78, 1	16.97%	32.36%	42.34%
+342	Chronic bronchitis/emphysema	27, 80, 77, 92, 10	12.26%	30.43%	41.32%
+343	sleep apnoea	79, 72, 8, 24, 20	8.29%	21.18%	29.79%
+344	allergy/hypersensitivity/anaphylaxis	23, 78, 49, 89, 67	12.75%	25.66%	37.20%
+345	anorexia/bulimia/other eating disorder	23, 77, 79, 89, 78	12.04%	28.56%	38.35%
+346	fracture clavicle/collar bone	72, 23, 79, 82, 38	9.31%	23.14%	31.08%
+347	respiratory infection	23, 67, 38, 92, 16	7.69%	20.70%	30.11%
+348	gestational diabetes	23, 49, 78, 89, 82	15.93%	33.87%	47.55%
+349	alopecia/hair loss	23, 78, 49, 16, 17	16.69%	33.60%	41.31%
+350	heart attack/myocardial infarction	10, 64, 51, 45, 92	20.97%	38.64%	50.77%
+351	Diabetes	15, 72, 73, 27, 20	82.41%	92.56%	94.22%
+352	hiatus hernia	51, 73, 86, 54, 64	57.20%	67.33%	72.65%
+353	measles/morbillivirus	77, 23, 49, 78, 2	10.52%	25.78%	37.13%
+354	wegners granulmatosis	23, 78, 22, 30, 7	11.63%	24.64%	33.38%
+355	primary biliary cirrhosis	23, 79, 78, 49, 81	17.93%	35.31%	47.83%
+356	Weighted-mean ISOVF in tract forceps major	45, 89, 14, 86, 8	8.62%	23.61%	34.41%
+357	Volume of grey matter in VIIb Cerebellum (right)	54, 99, 51, 35, 20	49.17%	71.95%	78.42%
+358	Volume of grey matter in VIIIa Cerebellum (left)	54, 99, 35, 8, 89	58.32%	82.35%	86.10%
+359	Volume of grey matter in VIIb Cerebellum (left)	54, 99, 51, 35, 64	50.30%	71.61%	80.51%
+360	Volume of grey matter in Vermis VIIb Cerebellum	54, 99, 8, 89, 59	44.71%	66.10%	73.49%
+361	Number of unsuccessful stop-smoking attempts	72, 23, 82, 30, 78	8.67%	21.16%	30.13%
+362	Volume of grey matter in Crus II Cerebellum (right)	54, 51, 99, 35, 20	43.13%	65.45%	75.00%
+363	Volume of grey matter in Crus I Cerebellum (right)	54, 48, 99, 20, 89	29.15%	52.67%	67.31%
+364	Volume of grey matter in Crus II Cerebellum (left)	54, 51, 99, 35, 20	42.62%	62.77%	74.93%
+365	Volume of grey matter in Crus I Cerebellum (left)	54, 48, 92, 20, 99	27.08%	45.83%	59.76%
+366	Volume of grey matter in Vermis Crus I Cerebellum	79, 23, 59, 49, 86	9.03%	22.44%	31.97%
+367	Diastolic blood pressure, manual reading	72, 39, 79, 68, 21	22.43%	35.73%	47.03%
+368	Diastolic blood pressure, automated reading	21, 60, 52, 71, 74	94.06%	97.91%	99.19%
+369	Leg bone area (left)	94, 92, 27, 89, 80	38.52%	55.61%	63.14%
+370	Arm bone area (right)	92, 94, 20, 39, 23	15.61%	33.45%	43.08%
+371	Arms combined bone area	94, 92, 64, 78, 23	22.51%	45.01%	52.12%
+372	Leg bone area (right)	94, 92, 27, 89, 0	39.64%	56.25%	64.28%
+373	Arm bone area (left)	92, 94, 20, 39, 64	21.08%	43.19%	52.46%
+374	Hand grip strength (left)	65, 99, 35, 8, 7	80.91%	96.38%	97.17%
+375	Number of stillbirths	23, 79, 49, 78, 54	11.88%	29.08%	39.12%
+376	Legs combined bone area	94, 92, 27, 89, 64	45.04%	60.78%	68.32%
+377	Mean ICVF in splenium of corpus callosum on FA skeleton	81, 46, 14, 97, 11	87.72%	94.03%	94.97%
+378	Mean ICVF in fornix on FA skeleton	0, 81, 89, 97, 67	13.62%	31.28%	40.33%
+379	Volume of grey matter in Cingulate Gyrus, anterior division (left)	48, 23, 38, 78, 11	11.60%	27.38%	37.02%
+380	Volume of grey matter in Cingulate Gyrus, anterior division (right)	23, 48, 38, 89, 78	13.40%	28.82%	38.31%
+381	Volume of grey matter in Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex) (left)	23, 89, 48, 59, 32	9.83%	22.68%	32.56%
+382	Volume of grey matter in Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex) (right)	23, 48, 49, 20, 78	13.81%	31.92%	44.24%
+383	Spherical power (left)	9, 66, 7, 48, 29	99.68%	99.85%	99.87%
+384	Volume of grey matter in Frontal Medial Cortex (right)	48, 23, 2, 78, 86	13.29%	29.32%	38.61%
+385	Mean ICVF in middle cerebellar peduncle on FA skeleton	81, 14, 20, 0, 46	28.06%	58.74%	70.38%
+386	Volume of grey matter in Vermis Crus II Cerebellum	54, 99, 35, 23, 2	43.10%	62.23%	68.41%
+387	Volume of grey matter in Subcallosal Cortex (left)	48, 20, 51, 79, 38	74.91%	80.69%	84.83%
+388	Mean ICVF in body of corpus callosum on FA skeleton	81, 46, 64, 27, 97	82.49%	93.84%	95.20%
+389	logMAR in round (right)	20, 92, 80, 62, 1	49.37%	61.94%	71.44%
+390	logMAR in round (left)	92, 80, 59, 1, 98	67.68%	86.42%	90.02%
+391	Weighted-mean L1 in tract uncinate fasciculus (left)	14, 97, 57, 20, 78	71.77%	82.78%	86.79%
+392	Longest period of depression	79, 83, 23, 38, 72	8.57%	24.25%	36.50%
+393	Childhood sunburn occasions	18, 75, 67, 8, 59	90.42%	98.49%	98.68%
+394	Mean ISOVF in corticospinal tract on FA skeleton (right)	89, 73, 79, 20, 39	14.84%	33.75%	44.73%
+395	Weighted-mean MO in tract forceps minor	79, 89, 2, 23, 27	8.56%	21.71%	32.96%
+396	Hip circumference	41, 23, 49, 50, 29	61.63%	97.21%	98.23%
+397	Volume of grey matter in Hippocampus (right)	48, 20, 92, 78, 79	37.78%	59.46%	64.63%
+398	Weighted-mean L2 in tract superior thalamic radiation (left)	46, 0, 97, 57, 13	50.97%	83.46%	87.52%
+399	Time spend outdoors in summer	2, 51, 18, 79, 22	91.93%	95.70%	96.50%
+400	Volume of grey matter in Lateral Occipital Cortex, inferior division (left)	48, 23, 49, 78, 72	42.20%	55.98%	62.60%
+401	Weighted-mean MO in tract forceps major	89, 73, 27, 59, 23	10.25%	25.84%	35.96%
+402	Platelet crit	19, 40, 70, 42, 91	98.94%	99.27%	99.49%
+403	Mean reticulocyte volume	72, 91, 55, 92, 27	26.33%	57.44%	67.00%
+404	Birth weight of first child	45, 64, 39, 2, 86	12.58%	32.31%	47.75%
+405	Weighted-mean FA in tract posterior thalamic radiation (right)	57, 46, 81, 14, 64	33.33%	64.37%	77.08%
+406	Age started wearing glasses or contact lenses	27, 92, 38, 9, 99	32.54%	63.96%	75.91%
+407	Pulse rate, automated reading	26, 21, 89, 99, 8	99.30%	99.46%	99.56%
+408	Mean ISOVF in inferior cerebellar peduncle on FA skeleton (left)	73, 23, 0, 49, 20	8.45%	20.39%	31.24%
+409	Weighted-mean MD in tract acoustic radiation (left)	51, 64, 14, 57, 46	46.47%	66.54%	73.97%
+410	Weighted-mean MO in tract cingulate gyrus part of cingulum (left)	89, 73, 59, 23, 79	6.38%	17.58%	25.90%
+411	Weighted-mean MD in tract anterior thalamic radiation (left)	97, 14, 57, 81, 0	81.52%	89.54%	94.51%
+412	Weighted-mean MD in tract acoustic radiation (right)	59, 1, 27, 20, 46	15.83%	32.15%	44.76%
+413	Leg total mass (left)	94, 1, 17, 73, 20	49.12%	87.88%	91.47%
+414	Weighted-mean FA in tract superior longitudinal fasciculus (right)	46, 57, 97, 81, 0	58.86%	86.66%	92.16%
+415	Corneal hysteresis (left)	4, 38, 98, 6, 80	84.20%	90.41%	92.30%
+416	Median BOLD effect (in group-defined mask) for faces activation	39, 98, 52, 32, 67	61.87%	79.46%	83.29%
+417	Gynoid total mass	94, 17, 1, 73, 27	47.25%	93.68%	96.13%
+418	Gynoid tissue fat percentage	1, 17, 94, 20, 27	63.69%	95.69%	96.73%
+419	Leg lean mass (left)	94, 1, 20, 17, 61	94.96%	96.68%	97.37%
+420	Systolic blood pressure, manual reading	60, 72, 39, 71, 79	10.79%	25.45%	38.43%
+421	Weighted-mean MD in tract corticospinal tract (right)	97, 46, 73, 92, 30	25.61%	45.52%	52.77%
+422	Weighted-mean MD in tract forceps major	14, 45, 57, 89, 1	14.83%	33.23%	46.62%
+423	Weighted-mean MD in tract forceps minor	46, 97, 64, 81, 20	28.87%	59.45%	81.13%
+424	Weighted-mean MD in tract inferior fronto-occipital fasciculus (left)	57, 81, 14, 97, 46	61.15%	85.39%	93.88%
+425	Weighted-mean MD in tract cingulate gyrus part of cingulum (right)	46, 81, 97, 0, 64	55.20%	80.82%	90.08%
+426	Weighted-mean L3 in tract uncinate fasciculus (left)	14, 20, 57, 92, 27	73.37%	86.50%	89.87%
+427	Weighted-mean MD in tract parahippocampal part of cingulum (right)	64, 51, 38, 67, 80	34.94%	59.10%	71.20%
+428	Weighted-mean MD in tract corticospinal tract (left)	97, 81, 46, 73, 89	22.03%	44.09%	56.21%
+429	Arm lean mass (right)	94, 20, 27, 74, 67	84.26%	88.55%	90.36%
+430	Arm tissue fat percentage (right)	1, 17, 94, 27, 79	65.07%	91.43%	93.52%
+431	Arm total mass (right)	94, 17, 1, 20, 27	57.21%	86.46%	92.61%
+432	Arms fat mass	17, 1, 94, 27, 73	79.25%	97.36%	97.98%
+433	Arm lean mass (left)	94, 20, 71, 67, 68	85.41%	88.57%	90.35%
+434	Total fat mass	17, 1, 23, 94, 82	92.81%	98.28%	98.57%
+435	Arm total mass (left)	94, 17, 1, 20, 27	59.25%	88.13%	93.69%
+436	Father's age at death	64, 74, 10, 92, 68	17.65%	44.27%	54.32%
+437	Arms lean mass	94, 71, 74, 32, 67	89.17%	90.96%	92.25%
+438	Arms tissue fat percentage	1, 17, 94, 27, 73	51.15%	93.77%	95.15%
+439	Weighted-mean FA in tract acoustic radiation (left)	57, 46, 14, 0, 81	24.41%	58.11%	65.40%
+440	Mean ISOVF in posterior thalamic radiation on FA skeleton (left)	0, 1, 13, 62, 46	66.38%	71.42%	75.13%
+441	Weighted-mean L2 in tract medial lemniscus (left)	38, 51, 1, 27, 45	47.62%	60.02%	69.59%
+442	Weighted-mean ISOVF in tract corticospinal tract (left)	20, 23, 32, 27, 78	8.53%	22.41%	33.52%
+443	Weighted-mean ISOVF in tract uncinate fasciculus (right)	0, 46, 23, 72, 89	46.78%	53.71%	60.04%
+444	Inverted contrast-to-noise ratio in T1	2, 23, 78, 54, 30	9.90%	22.08%	31.18%
+445	Inverted signal-to-noise ratio in T1	54, 82, 78, 23, 32	10.63%	22.07%	32.18%
+446	Weighted-mean L3 in tract parahippocampal part of cingulum (right)	64, 51, 38, 67, 80	32.74%	59.06%	70.02%
+447	Weighted-mean L3 in tract corticospinal tract (left)	46, 81, 14, 72, 39	25.90%	50.29%	61.10%
+448	Weighted-mean L3 in tract corticospinal tract (right)	46, 81, 97, 59, 92	44.91%	63.05%	70.82%
+449	Weighted-mean L3 in tract forceps major	57, 14, 45, 89, 11	15.10%	34.97%	47.99%
+450	Weighted-mean L3 in tract forceps minor	46, 81, 64, 97, 20	33.49%	69.97%	84.82%
+451	Weighted-mean L3 in tract inferior fronto-occipital fasciculus (left)	57, 81, 14, 46, 20	71.33%	90.96%	95.94%
+452	Weighted-mean L3 in tract inferior fronto-occipital fasciculus (right)	57, 81, 46, 97, 92	63.44%	89.66%	96.88%
+453	Weighted-mean L3 in tract inferior longitudinal fasciculus (left)	57, 81, 14, 46, 51	74.95%	93.61%	96.54%
+454	Weighted-mean L3 in tract inferior longitudinal fasciculus (right)	57, 81, 46, 97, 14	77.09%	95.74%	97.54%
+455	Weighted-mean L3 in tract middle cerebellar peduncle	38, 73, 13, 39, 11	33.17%	51.18%	64.00%
+456	Nucleated red blood cell percentage	27, 99, 54, 39, 1	18.76%	49.31%	65.57%
+457	Volume of grey matter in Temporal Occipital Fusiform Cortex (left)	23, 48, 54, 78, 38	10.37%	26.81%	37.28%
+458	Volume of grey matter in Vermis VIIIa Cerebellum	54, 99, 35, 8, 89	53.76%	75.86%	83.26%
+459	Volume of grey matter in Vermis VIIIb Cerebellum	54, 99, 89, 80, 8	48.23%	73.40%	82.14%
+460	Volume of grey matter in VIIIb Cerebellum (left)	54, 99, 89, 8, 35	48.08%	74.66%	81.40%
+461	Volume of grey matter in IX Cerebellum (left)	54, 99, 35, 80, 89	49.82%	75.82%	83.07%
+462	Maximum carotid IMT (intima-medial thickness) at 210 degrees	23, 64, 79, 89, 78	9.32%	22.88%	33.46%
+463	Volume of grey matter in IX Cerebellum (right)	54, 99, 80, 89, 35	46.13%	72.32%	80.29%
+464	Volume of grey matter in Vermis IX Cerebellum	54, 99, 89, 80, 35	49.03%	76.23%	82.98%
+465	Volume of grey matter in Vermis X Cerebellum	54, 99, 89, 67, 8	36.26%	56.49%	63.93%
+466	Volume of grey matter in Parahippocampal Gyrus, posterior division (right)	48, 23, 20, 82, 78	18.92%	34.61%	44.52%
+467	Mean carotid IMT (intima-medial thickness) at 210 degrees	23, 79, 86, 49, 64	8.88%	23.18%	31.48%
+468	Volume of grey matter in Lingual Gyrus (right)	48, 54, 20, 79, 91	71.18%	76.12%	80.50%
+469	Mean carotid IMT (intima-medial thickness) at 120 degrees	89, 86, 23, 45, 83	10.99%	22.60%	32.07%
+470	Volume of grey matter in Temporal Fusiform Cortex, anterior division (right)	48, 23, 89, 20, 38	20.74%	36.03%	45.29%
+471	Volume of grey matter in Temporal Fusiform Cortex, posterior division (left)	48, 20, 23, 78, 92	44.52%	56.80%	63.88%
+472	Maximum carotid IMT (intima-medial thickness) at 120 degrees	89, 23, 79, 45, 83	12.85%	25.50%	36.29%
+473	Weighted-mean L3 in tract uncinate fasciculus (right)	14, 57, 97, 46, 81	65.77%	76.36%	82.87%
+474	Mean FA in fornix cres+stria terminalis on FA skeleton (left)	46, 97, 54, 23, 57	11.86%	31.32%	43.63%
+475	6mm strong meridian (right)	66, 73, 20, 27, 38	95.46%	97.56%	98.23%
+476	Weighted-mean L2 in tract anterior thalamic radiation (right)	97, 81, 46, 57, 0	79.87%	86.95%	92.28%
+477	Mean ISOVF in cerebral peduncle on FA skeleton (right)	14, 89, 59, 23, 49	15.67%	32.54%	44.34%
+478	Mean ISOVF in cerebral peduncle on FA skeleton (left)	14, 23, 78, 49, 48	26.87%	46.86%	56.42%
+479	Mean ISOVF in anterior limb of internal capsule on FA skeleton (left)	0, 27, 23, 24, 72	46.69%	54.23%	60.14%
+480	Mean ISOVF in inferior cerebellar peduncle on FA skeleton (right)	23, 38, 27, 49, 89	17.94%	33.91%	44.36%
+481	Potassium in urine	89, 8, 67, 20, 98	85.48%	89.69%	91.93%
+482	Volume of grey matter in Superior Parietal Lobule (right)	23, 49, 2, 27, 78	20.26%	31.68%	42.23%
+483	Average weekly champagne plus white wine intake	20, 73, 51, 62, 83	30.52%	44.12%	52.65%
+484	Volume of grey matter in X Cerebellum (left)	23, 54, 78, 0, 72	10.82%	28.05%	38.01%
+485	Fluid intelligence score	24, 77, 79, 2, 8	98.39%	98.80%	98.97%
+486	Age asthma diagnosed	37, 51, 40, 86, 72	75.20%	82.43%	85.91%
+487	Platelet distribution width	55, 76, 72, 43, 42	95.22%	98.39%	98.95%
+488	Pulse wave Arterial Stiffness index	54, 73, 27, 83, 45	19.25%	44.27%	59.55%
+489	Age heart attack diagnosed	23, 86, 89, 79, 1	9.49%	21.83%	32.00%
+490	Arm tissue fat percentage (left)	1, 17, 94, 79, 27	69.24%	91.89%	93.94%
+491	Number of live births	18, 68, 54, 20, 73	8.67%	22.02%	34.12%
+492	6mm weak meridian (left)	66, 73, 54, 38, 99	90.83%	96.59%	97.46%
+493	3mm weak meridian (left)	66, 73, 51, 20, 64	94.62%	97.58%	98.29%
+494	6mm asymmetry index (right)	73, 20, 8, 78, 98	23.08%	45.04%	52.95%
+495	3mm asymmetry index (right)	4, 23, 72, 78, 39	13.83%	28.56%	36.23%
+496	Median z-statistic (in group-defined mask) for shapes activation	39, 98, 52, 67, 80	61.02%	79.65%	82.94%
+497	Maximum carotid IMT (intima-medial thickness) at 150 degrees	72, 89, 86, 45, 83	17.12%	34.14%	44.22%
+498	Cereal intake	35, 67, 89, 74, 52	95.59%	96.51%	97.15%
+499	3mm asymmetry index (left)	82, 32, 27, 73, 77	8.24%	22.25%	35.91%
+500	6mm asymmetry index (left)	73, 20, 66, 78, 8	18.59%	33.80%	44.48%
+501	3mm weak meridian (right)	66, 73, 64, 51, 20	94.11%	97.42%	98.11%
+502	6mm weak meridian (right)	66, 73, 92, 54, 83	90.71%	95.22%	97.14%
+503	Volume of grey matter in Temporal Pole (left)	48, 23, 20, 83, 77	47.60%	55.43%	61.71%
+504	Median T2star in pallidum (left)	20, 54, 92, 38, 27	8.93%	25.62%	36.98%
+505	Mother's age at death	64, 20, 18, 77, 10	20.13%	38.25%	49.27%
+506	Median T2star in putamen (left)	20, 92, 27, 38, 80	19.22%	41.12%	50.78%
+507	Median T2star in putamen (right)	20, 92, 27, 8, 38	20.51%	41.44%	52.10%
+508	Median T2star in amygdala (left)	23, 78, 83, 99, 94	13.33%	32.54%	41.39%
+509	Median T2star in amygdala (right)	27, 23, 78, 64, 89	15.02%	34.96%	45.48%
+510	Median T2star in hippocampus (left)	83, 23, 86, 72, 38	10.76%	27.69%	37.79%
+511	Median T2star in hippocampus (right)	83, 89, 39, 38, 23	8.38%	24.30%	36.23%
+512	Weighted-mean FA in tract superior thalamic radiation (left)	46, 57, 54, 97, 27	66.95%	76.09%	80.85%
+513	Median T2star in accumbens (left)	23, 39, 78, 49, 27	11.80%	25.87%	37.40%
+514	Median T2star in accumbens (right)	27, 23, 79, 86, 20	8.47%	20.90%	30.44%
+515	Mean FA in splenium of corpus callosum on FA skeleton	46, 81, 14, 57, 97	34.30%	69.59%	81.01%
+516	Median z-statistic (in group-defined mask) for faces activation	39, 98, 52, 27, 80	61.95%	80.11%	83.62%
+517	Mean corpuscular haemoglobin	55, 91, 43, 27, 20	95.22%	98.28%	98.52%
+518	Weighted-mean FA in tract uncinate fasciculus (left)	14, 20, 57, 92, 74	62.23%	79.34%	83.08%
+519	Weighted-mean FA in tract superior thalamic radiation (right)	46, 57, 54, 27, 97	69.79%	76.05%	80.91%
+520	Weighted-mean MD in tract medial lemniscus (left)	38, 27, 51, 80, 1	46.64%	59.32%	68.00%
+521	L1-L4 area	94, 27, 39, 0, 89	23.62%	34.84%	43.95%
+522	Median BOLD effect (in group-defined mask) for shapes-faces contrast	20, 27, 74, 71, 39	15.50%	32.57%	45.57%
+523	Index of best refractometry result (left)	23, 49, 79, 38, 20	18.48%	32.07%	43.96%
+524	Neutrophill count	40, 42, 86, 19, 91	97.65%	98.27%	98.75%
+525	Age when loss of vision due to injury or trauma diagnosed	82, 30, 89, 38, 32	10.36%	25.14%	35.85%
+526	Longest period of unenthusiasm/disinterest	23, 78, 83, 49, 94	17.25%	33.62%	46.58%
+527	Weighted-mean MD in tract anterior thalamic radiation (right)	97, 81, 14, 27, 0	87.20%	92.36%	94.55%
+528	Age bronchiectasis diagnosed by doctor	22, 77, 23, 27, 71	8.96%	24.05%	32.97%
+529	Average weekly beer plus cider intake	39, 80, 98, 99, 71	31.25%	69.27%	80.69%
+530	Minimum carotid IMT (intima-medial thickness) at 210 degrees	23, 78, 49, 22, 72	10.48%	24.61%	34.67%
+531	Mean FA in tapetum on FA skeleton (right)	20, 57, 23, 80, 83	20.79%	42.26%	49.54%
+532	Mean FA in tapetum on FA skeleton (left)	81, 20, 46, 23, 57	12.09%	32.97%	45.34%
+533	Weighted-mean MD in tract superior thalamic radiation (right)	97, 0, 46, 1, 14	35.17%	84.23%	89.55%
+534	Mean FA in uncinate fasciculus on FA skeleton (left)	14, 20, 46, 23, 27	25.21%	49.64%	59.02%
+535	Weighted-mean MD in tract superior longitudinal fasciculus (right)	46, 97, 81, 57, 0	44.76%	70.21%	85.81%
+536	Weighted-mean MD in tract superior longitudinal fasciculus (left)	46, 57, 81, 97, 0	31.33%	73.54%	88.41%
+537	Weighted-mean MD in tract posterior thalamic radiation (right)	57, 14, 97, 81, 59	37.35%	67.69%	80.88%
+538	Weighted-mean MD in tract posterior thalamic radiation (left)	57, 14, 97, 64, 59	38.65%	57.52%	73.26%
+539	Weighted-mean MD in tract medial lemniscus (right)	38, 54, 99, 27, 39	72.11%	86.06%	89.72%
+540	Sodium in urine	67, 89, 1, 45, 64	95.52%	96.65%	97.48%
+541	Weighted-mean MD in tract middle cerebellar peduncle	38, 73, 13, 39, 11	34.58%	54.40%	66.19%
+542	Weighted-mean MD in tract inferior longitudinal fasciculus (right)	57, 81, 14, 97, 0	74.16%	90.13%	94.60%
+543	Android tissue fat percentage	17, 94, 73, 45, 23	94.49%	96.81%	97.34%
+544	Android lean mass	94, 20, 27, 73, 1	88.06%	91.01%	93.01%
+545	Android fat mass	17, 1, 73, 13, 94	97.33%	97.86%	98.25%
+546	Android bone mass	84, 20, 94, 23, 51	43.93%	68.40%	75.71%
+547	Weighted-mean ICVF in tract inferior fronto-occipital fasciculus (right)	81, 57, 14, 59, 46	79.00%	97.15%	97.82%
+548	Weighted-mean ICVF in tract inferior fronto-occipital fasciculus (left)	81, 57, 14, 46, 59	78.26%	97.03%	98.04%
+549	Weighted-mean ICVF in tract forceps minor	81, 46, 14, 64, 27	84.73%	93.67%	96.28%
+550	Weighted-mean ICVF in tract forceps major	81, 57, 97, 27, 18	77.67%	93.16%	94.15%
+551	Mean FA in fornix cres+stria terminalis on FA skeleton (right)	97, 89, 14, 57, 46	10.58%	24.32%	36.76%
+552	Weighted-mean MO in tract cingulate gyrus part of cingulum (right)	23, 46, 2, 78, 89	13.83%	28.68%	35.57%
+553	Mean FA in superior longitudinal fasciculus on FA skeleton (right)	46, 57, 97, 81, 38	62.28%	85.91%	91.43%
+554	Mean FA in superior longitudinal fasciculus on FA skeleton (left)	46, 57, 97, 81, 20	62.71%	84.21%	88.20%
+555	Mean FA in cingulum cingulate gyrus on FA skeleton (right)	46, 81, 97, 27, 14	52.62%	67.28%	76.70%
+556	Mean FA in cingulum cingulate gyrus on FA skeleton (left)	46, 81, 97, 27, 11	61.99%	73.84%	79.35%
+557	Weighted-mean MD in tract uncinate fasciculus (left)	14, 20, 57, 97, 92	79.25%	89.13%	92.06%
+558	Mean FA in cingulum hippocampus on FA skeleton (left)	14, 46, 57, 23, 79	19.86%	41.32%	51.38%
+559	Mean FA in superior fronto-occipital fasciculus on FA skeleton (right)	97, 46, 23, 73, 92	22.49%	42.00%	50.46%
+560	90th percentile of z-statistic (in group-defined amygdala activation mask) for shapes- faces contrast	74, 64, 71, 86, 92	11.24%	31.28%	44.39%
+561	Weighted-mean MO in tract parahippocampal part of cingulum (left)	23, 20, 49, 79, 78	16.34%	28.26%	38.43%
+562	Weighted-mean MO in tract parahippocampal part of cingulum (right)	23, 22, 49, 59, 28	7.70%	21.22%	30.17%
+563	Age deep-vein thrombosis (DVT, blood clot in leg) diagnosed	23, 79, 73, 89, 22	10.39%	24.06%	33.55%
+564	Volume of grey matter in Middle Temporal Gyrus, temporooccipital part (left)	23, 48, 81, 78, 49	19.20%	33.89%	44.90%
+565	Abdominal subcutaneous adipose tissue volume (ASAT)	77, 82, 22, 30, 68	10.72%	27.29%	36.48%
+566	Total thigh muscle volume	72, 30, 23, 82, 2	8.85%	22.89%	34.38%
+567	Volume of grey matter in Middle Temporal Gyrus, anterior division (right)	48, 20, 23, 27, 78	24.56%	48.71%	57.92%
+568	Volume of grey matter in Middle Temporal Gyrus, anterior division (left)	48, 23, 78, 49, 81	43.93%	58.00%	63.61%
+569	Volume of grey matter in Superior Temporal Gyrus, posterior division (right)	48, 20, 23, 78, 68	57.26%	68.08%	73.92%
+570	Volume of grey matter in Superior Temporal Gyrus, posterior division (left)	48, 23, 78, 82, 49	41.02%	53.49%	60.20%
+571	Age COPD (Chronic Obstructive Pulmonary Disease) diagnosed by doctor	27, 82, 73, 30, 25	11.22%	31.86%	45.32%
+572	Forced expiratory volume in 1-second (FEV1)	7, 44, 3, 96, 16	68.44%	93.26%	96.18%
+573	Trunk fat mass	23, 49, 33, 30, 50	39.38%	84.49%	92.44%
+574	Posterior thigh lean muscle volume (left)	72, 30, 82, 23, 2	9.14%	22.41%	33.48%
+575	Posterior thigh lean muscle volume (right)	23, 72, 78, 82, 49	13.73%	31.60%	42.95%
+576	Age tuberculosis diagnosed by doctor	23, 78, 67, 8, 59	6.68%	18.12%	28.99%
+577	Lifetime number of same-sex sexual partners	23, 79, 49, 83, 78	13.26%	26.27%	35.89%
+578	Mean ISOVF in superior fronto-occipital fasciculus on FA skeleton (left)	0, 79, 27, 23, 72	28.39%	38.43%	47.11%
+579	Standing height	53, 16, 5, 78, 7	46.29%	82.92%	89.94%
+580	Weighted-mean L1 in tract posterior thalamic radiation (right)	57, 97, 81, 14, 59	30.30%	61.34%	76.42%
+581	Volume of grey matter in Vermis VI Cerebellum	54, 99, 89, 73, 59	33.69%	52.72%	59.35%
+582	Volume of grey matter in VI Cerebellum (right)	54, 99, 35, 48, 20	50.55%	69.33%	78.12%
+583	oesophageal disorder	79, 23, 73, 8, 49	9.97%	26.50%	38.29%
+584	Volume of grey matter in I-IV Cerebellum (right)	54, 99, 20, 92, 89	39.78%	60.23%	71.02%
+585	Volume of grey matter in V Cerebellum (left)	54, 99, 20, 92, 35	39.77%	59.01%	67.89%
+586	Volume of grey matter in V Cerebellum (right)	54, 99, 20, 92, 89	40.21%	60.87%	70.74%
+587	Volume of grey matter in VI Cerebellum (left)	54, 99, 35, 20, 89	51.41%	73.26%	80.81%
+588	Volume of grey matter in Ventral Striatum (left)	54, 99, 89, 48, 80	33.30%	53.84%	66.80%
+589	Volume of grey matter in Ventral Striatum (right)	54, 99, 89, 48, 51	31.49%	59.52%	72.16%
+590	Volume of grey matter in Brain-Stem	48, 54, 20, 89, 23	24.45%	51.25%	59.93%
+591	Volume of grey matter in I-IV Cerebellum (left)	54, 99, 35, 92, 20	42.27%	59.93%	70.37%
+592	Weighted-mean ISOVF in tract corticospinal tract (right)	38, 8, 72, 23, 73	7.48%	20.56%	30.71%
+593	Volume of grey matter in Parahippocampal Gyrus, posterior division (left)	48, 23, 78, 20, 82	40.00%	54.02%	59.07%
+594	Weighted-mean ISOVF in tract parahippocampal part of cingulum (right)	64, 51, 38, 67, 99	31.41%	59.44%	69.28%
+595	Weighted-mean ISOVF in tract parahippocampal part of cingulum (left)	38, 64, 27, 80, 11	17.89%	44.78%	58.27%
+596	Weighted-mean ISOVF in tract inferior fronto-occipital fasciculus (right)	0, 13, 1, 54, 17	76.96%	82.16%	85.10%
+597	Weighted-mean ISOVF in tract inferior fronto-occipital fasciculus (left)	0, 13, 1, 54, 68	68.24%	75.83%	79.81%
+598	Weighted-mean ISOVF in tract forceps minor	0, 23, 78, 39, 1	69.18%	74.19%	78.52%
+599	Mean carotid IMT (intima-medial thickness) at 150 degrees	89, 72, 86, 45, 83	12.93%	29.94%	41.62%
+600	Eosinophill percentage	70, 86, 37, 43, 45	89.42%	99.18%	99.42%
+601	Mean FA in posterior corona radiata on FA skeleton (right)	46, 81, 57, 20, 14	28.39%	75.60%	85.55%
+602	Weighted-mean ISOVF in tract inferior longitudinal fasciculus (right)	0, 13, 1, 54, 62	77.71%	83.35%	86.11%
+603	Weighted-mean ISOVF in tract inferior longitudinal fasciculus (left)	0, 13, 1, 46, 62	68.73%	76.13%	80.48%
+604	Systolic blood pressure, automated reading	60, 21, 71, 52, 74	93.33%	97.60%	99.49%
+605	Weighted-mean ICVF in tract anterior thalamic radiation (left)	81, 97, 46, 0, 14	67.26%	94.33%	96.54%
+606	Forced vital capacity (FVC), Best measure	7, 44, 3, 96, 16	60.89%	91.00%	96.04%
+607	Weighted-mean ICVF in tract anterior thalamic radiation (right)	81, 97, 14, 46, 0	62.64%	90.32%	94.70%
+608	Number of spontaneous miscarriages	23, 79, 78, 49, 64	11.97%	26.82%	39.08%
+609	Volume of grey matter in Temporal Fusiform Cortex, anterior division (left)	48, 23, 89, 49, 78	35.99%	47.43%	55.25%
+610	Reticulocyte percentage	36, 93, 95, 27, 8	93.44%	96.99%	97.63%
+611	Maximum digits remembered correctly	2, 20, 78, 24, 23	17.52%	33.17%	45.72%
+612	Weighted-mean MO in tract uncinate fasciculus (right)	89, 27, 73, 23, 79	9.88%	23.87%	35.53%
+613	Minimum carotid IMT (intima-medial thickness) at 150 degrees	72, 83, 23, 89, 68	11.51%	21.93%	30.42%
+614	Weighted-mean ICVF in tract parahippocampal part of cingulum (left)	14, 81, 57, 51, 46	37.82%	78.93%	84.95%
+615	Volume of grey matter in Temporal Fusiform Cortex, posterior division (right)	48, 20, 23, 78, 82	47.72%	58.22%	64.53%
+616	Weighted-mean FA in tract acoustic radiation (right)	46, 14, 81, 57, 20	34.14%	52.79%	64.43%
+617	Femur lower neck BMD (bone mineral density) (left)	84, 23, 78, 49, 20	30.16%	49.58%	60.25%
+618	fracture hand	79, 72, 23, 49, 8	13.36%	31.76%	44.23%
+619	fracture neck/cervical fracture	89, 23, 78, 49, 8	20.22%	35.66%	44.91%
+620	Mean ICVF in external capsule on FA skeleton (left)	14, 81, 97, 46, 0	33.13%	78.22%	87.87%
+621	breast fibroadenoma	23, 89, 1, 39, 79	10.93%	25.72%	34.29%
+622	vocal cord polyp	79, 73, 23, 77, 49	12.98%	28.62%	39.58%
+623	Volume of grey matter in Angular Gyrus (left)	48, 23, 78, 49, 98	24.53%	44.38%	52.15%
+624	Volume of grey matter	48, 89, 23, 78, 20	98.59%	99.07%	99.21%
+625	Age emphysema/chronic bronchitis diagnosed	23, 79, 89, 49, 86	9.78%	25.65%	37.69%
+626	Mean signal-to-noise ratio (SNR), (left)	92, 23, 73, 86, 77	9.08%	20.61%	30.88%
+627	Signal-to-noise-ratio (SNR) of triplet (left)	73, 77, 0, 23, 86	11.65%	25.27%	36.50%
+628	Weighted-mean OD in tract parahippocampal part of cingulum (right)	89, 18, 20, 79, 23	11.22%	24.65%	35.74%
+629	Coffee intake	64, 62, 39, 8, 13	47.43%	68.96%	80.93%
+630	Weighted-mean OD in tract corticospinal tract (right)	27, 38, 67, 46, 97	13.86%	29.46%	40.86%
+631	Mean ICVF in pontine crossing tract on FA skeleton	23, 27, 78, 14, 13	10.93%	26.10%	36.46%
+632	Volume of grey matter in Middle Temporal Gyrus, posterior division (right)	48, 23, 78, 49, 81	74.91%	82.16%	85.16%
+633	raynaud's phenomenon/disease	23, 78, 48, 79, 49	18.64%	32.86%	44.03%
+634	deep venous thrombosis (dvt)	54, 89, 73, 1, 51	14.90%	37.72%	50.57%
+635	type 2 diabetes	15, 72, 10, 38, 49	64.09%	76.59%	79.25%
+636	gastro-oesophageal reflux (gord)/gastric reflux	20, 51, 99, 92, 8	22.88%	42.48%	51.89%
+637	scleroderma/systemic sclerosis	23, 49, 78, 82, 27	14.26%	28.31%	41.25%
+638	brain abscess/intracranial abscess	23, 78, 71, 79, 49	17.20%	31.09%	41.79%
+639	prostatitis	72, 79, 39, 82, 30	23.00%	40.26%	47.87%
+640	fibrocystic disease	23, 78, 49, 82, 77	16.33%	31.92%	39.63%
+641	3mm index of best keratometry results (left)	77, 82, 23, 27, 78	8.24%	20.66%	30.15%
+642	pernicious anaemia	89, 58, 23, 78, 49	13.84%	31.60%	40.61%
+643	cervical polyps	23, 30, 27, 78, 79	13.27%	28.58%	39.38%
+644	fracture foot	23, 8, 49, 78, 79	12.72%	25.29%	36.61%
+645	allergy or anaphylactic reaction to drug	23, 78, 49, 89, 79	17.76%	33.65%	44.36%
+646	female infertility	89, 77, 72, 73, 20	17.59%	29.18%	38.59%
+647	chronic fatigue syndrome	23, 78, 49, 39, 0	13.46%	25.49%	34.70%
+648	Volume of grey matter in Middle Temporal Gyrus, posterior division (left)	48, 23, 20, 78, 54	67.60%	75.77%	79.31%
+649	arthritis (nos)	20, 98, 0, 83, 27	15.85%	30.52%	41.02%
+650	appendicitis	79, 23, 72, 74, 82	9.12%	23.64%	35.21%
+651	Volume of pallidum (right)	48, 54, 20, 99, 35	49.08%	70.90%	77.60%
+652	Volume of hippocampus (left)	20, 48, 54, 23, 78	17.39%	39.91%	51.71%
+653	Volume of caudate (right)	48, 23, 92, 77, 83	56.74%	66.32%	71.76%
+654	Volume of putamen (left)	48, 23, 54, 89, 20	46.25%	56.15%	62.35%
+655	Volume of putamen (right)	48, 20, 54, 23, 99	51.79%	61.90%	69.24%
+656	Volume of pallidum (left)	48, 54, 99, 23, 89	43.42%	65.67%	72.34%
+657	Volume of brain, grey+white	48, 20, 89, 82, 8	96.83%	97.67%	98.17%
+658	Volume of thalamus (left)	48, 20, 54, 72, 35	73.59%	89.06%	91.47%
+659	Volume of thalamus (right)	48, 20, 54, 99, 35	73.72%	89.52%	91.95%
+660	Age when periods started (menarche)	87, 23, 49, 29, 78	99.31%	99.62%	99.74%
+661	Weighted-mean MO in tract middle cerebellar peduncle	72, 38, 89, 39, 83	17.04%	41.76%	50.92%
+662	Weighted-mean MO in tract medial lemniscus (left)	23, 59, 27, 49, 82	6.79%	19.59%	28.68%
+663	Red blood cell (erythrocyte) distribution width	55, 72, 91, 10, 40	88.40%	96.73%	97.42%
+664	lung cancer	75, 18, 59, 80, 11	48.00%	66.99%	71.20%
+665	Breast cancer	20, 59, 72, 79, 11	42.86%	57.29%	64.18%
+666	Lung cancer	75, 18, 59, 80, 11	48.00%	66.99%	71.20%
+667	breast cancer	20, 59, 72, 79, 11	42.86%	57.29%	64.18%
+668	salivary gland cancer	23, 78, 30, 32, 0	11.10%	23.87%	33.24%
+669	cancer of lip/mouth/pharynx/oral cavity	79, 23, 49, 78, 16	14.09%	33.89%	44.93%
+670	larynx/throat cancer	23, 49, 79, 89, 78	19.61%	36.96%	47.36%
+671	QRS duration	26, 61, 23, 89, 90	12.60%	24.73%	34.90%
+672	Corneal resistance factor (right)	4, 6, 38, 92, 80	86.81%	94.06%	95.43%
+673	Corneal hysteresis (right)	4, 38, 80, 92, 98	83.70%	90.20%	93.28%
+674	Intra-ocular pressure, Goldmann-correlated (right)	6, 4, 80, 66, 52	90.15%	98.27%	98.60%
+675	Intra-ocular pressure, corneal-compensated (right)	6, 4, 51, 11, 59	85.89%	88.98%	90.80%
+676	6mm index of best keratometry results (right)	72, 82, 39, 77, 32	11.24%	23.22%	33.60%
+677	Monocyte count	42, 43, 40, 19, 86	81.64%	99.38%	99.67%
+678	Monocyte percentage	43, 42, 55, 86, 45	96.71%	98.59%	99.11%
+679	Hand grip strength (right)	65, 99, 35, 8, 16	81.20%	95.80%	96.79%
+680	Spine bone area	94, 17, 84, 23, 89	23.37%	44.21%	56.16%
+681	Number of unenthusiastic/disinterested episodes	23, 78, 49, 67, 27	19.83%	40.48%	49.45%
+682	Pulse rate (during blood-pressure measurement)	26, 89, 8, 59, 99	68.78%	74.25%	78.31%
+683	Reticulocyte count	36, 72, 95, 8, 93	95.49%	96.42%	97.29%
+684	Volume of grey matter in Frontal Medial Cortex (left)	48, 23, 78, 49, 81	24.42%	45.16%	53.98%
+685	Mean signal-to-noise ratio (SNR), (right)	92, 20, 32, 73, 51	15.46%	28.61%	38.50%
+686	Volume of grey matter in Paracingulate Gyrus (left)	48, 23, 20, 18, 49	56.33%	62.75%	67.39%
+687	Volume of grey matter in Paracingulate Gyrus (right)	48, 86, 23, 94, 20	45.19%	53.75%	60.33%
+688	Mean ICVF in genu of corpus callosum on FA skeleton	81, 46, 27, 14, 64	75.40%	88.65%	91.99%
+689	Volume of grey matter in Subcallosal Cortex (right)	48, 20, 72, 79, 54	63.84%	72.36%	77.15%
+690	Bread intake	92, 89, 39, 64, 80	16.58%	47.16%	65.94%
+691	Weighted-mean L1 in tract superior thalamic radiation (right)	97, 0, 14, 46, 81	43.63%	77.34%	82.30%
+692	Waist circumference	23, 49, 29, 63, 50	97.94%	98.82%	99.13%
+693	Volume of grey matter in Supramarginal Gyrus, posterior division (right)	23, 78, 8, 48, 49	10.79%	25.19%	34.98%
+694	Median BOLD effect (in group-defined mask) for shapes activation	39, 98, 52, 27, 80	62.10%	80.61%	83.81%
+695	Leg tissue fat percentage (left)	1, 17, 27, 79, 94	89.00%	93.97%	95.29%
+696	Leg fat mass (left)	23, 49, 22, 50, 29	48.40%	96.64%	98.33%
+697	Weighted-mean MD in tract cingulate gyrus part of cingulum (left)	46, 81, 97, 0, 89	46.31%	80.08%	86.57%
+698	3mm index of best keratometry results (right)	23, 59, 78, 2, 77	11.74%	27.40%	37.91%
+699	Gynoid lean mass	94, 27, 52, 73, 17	94.36%	95.09%	95.61%
+700	Gynoid fat mass	17, 1, 94, 92, 23	52.33%	96.57%	97.13%
+701	Haemoglobin concentration	55, 91, 40, 36, 43	89.86%	98.34%	98.69%
+702	Weighted-mean MO in tract acoustic radiation (left)	77, 22, 68, 11, 23	7.85%	22.76%	33.94%
+703	Weighted-mean FA in tract medial lemniscus (left)	38, 89, 73, 39, 67	24.92%	41.19%	48.29%
+704	Volume of grey matter in Planum Temporale (right)	48, 20, 38, 23, 68	22.42%	43.23%	54.26%
+705	Volume of grey matter in Heschl's Gyrus (includes H1 and H2) (right)	48, 20, 23, 39, 78	48.24%	69.18%	72.78%
+706	Volume of grey matter in Angular Gyrus (right)	48, 23, 78, 49, 83	28.63%	48.73%	55.33%
+707	90th percentile of z-statistic (in group-defined mask) for shapes activation	39, 98, 52, 72, 67	59.57%	78.89%	82.43%
+708	90th percentile of BOLD effect (in group-defined mask) for shapes activation	39, 98, 52, 67, 79	60.01%	79.12%	81.89%
+709	90th percentile of z-statistic (in group-defined mask) for shapes-faces contrast	39, 20, 27, 71, 64	14.91%	31.79%	45.86%
+710	90th percentile of BOLD effect (in group-defined amygdala activation mask) for shapes-faces contrast	86, 74, 79, 89, 27	12.17%	29.40%	41.04%
+711	90th percentile of z-statistic (in group-defined mask) for faces activation	39, 98, 52, 27, 71	62.19%	79.70%	83.25%
+712	90th percentile of BOLD effect (in group-defined mask) for shapes-faces contrast	20, 27, 39, 71, 74	14.70%	31.66%	45.13%
+713	Weighted-mean L2 in tract cingulate gyrus part of cingulum (right)	46, 81, 11, 14, 59	59.36%	79.43%	84.94%
+714	Weighted-mean L2 in tract cingulate gyrus part of cingulum (left)	46, 81, 14, 11, 57	65.04%	85.81%	90.56%
+715	Weighted-mean L2 in tract parahippocampal part of cingulum (right)	64, 51, 38, 67, 80	35.34%	59.48%	71.51%
+716	Weighted-mean L2 in tract parahippocampal part of cingulum (left)	64, 38, 27, 80, 92	19.94%	49.54%	63.42%
+717	Weighted-mean L2 in tract corticospinal tract (right)	46, 81, 59, 38, 92	46.48%	60.47%	67.57%
+718	Weighted-mean L2 in tract corticospinal tract (left)	46, 14, 72, 39, 89	28.65%	45.79%	59.69%
+719	Weighted-mean L2 in tract forceps minor	46, 81, 64, 97, 20	35.47%	68.14%	84.14%
+720	Weighted-mean L2 in tract forceps major	57, 45, 89, 14, 11	15.38%	32.84%	46.28%
+721	Weighted-mean MO in tract medial lemniscus (right)	86, 89, 23, 20, 38	6.84%	20.09%	32.84%
+722	Weighted-mean MO in tract posterior thalamic radiation (left)	23, 78, 49, 67, 99	12.03%	25.75%	37.02%
+723	Weighted-mean MO in tract posterior thalamic radiation (right)	49, 81, 39, 79, 23	9.96%	21.69%	32.07%
+724	Weighted-mean MO in tract superior longitudinal fasciculus (left)	23, 11, 38, 46, 49	12.45%	23.76%	33.17%
+725	Weighted-mean MO in tract superior longitudinal fasciculus (right)	27, 23, 73, 78, 67	16.03%	31.51%	40.17%
+726	Weighted-mean MO in tract superior thalamic radiation (left)	27, 38, 54, 23, 79	20.39%	32.26%	42.75%
+727	Weighted-mean MO in tract superior thalamic radiation (right)	27, 38, 46, 23, 54	11.96%	27.16%	38.04%
+728	Weighted-mean MO in tract uncinate fasciculus (left)	48, 23, 1, 11, 38	7.22%	19.95%	30.42%
+729	Femur shaft BMD (bone mineral density) (right)	84, 23, 49, 20, 78	98.37%	98.70%	98.91%
+730	Weighted-mean L1 in tract acoustic radiation (left)	51, 64, 59, 14, 92	44.14%	60.42%	68.82%
+731	Femur total BMD (bone mineral density) (right)	84, 23, 49, 78, 94	99.18%	99.41%	99.50%
+732	Femur total BMD (bone mineral density) T-score (right)	84, 23, 78, 79, 49	99.14%	99.40%	99.53%
+733	Femur troch BMD (bone mineral density) (right)	84, 23, 49, 79, 35	98.81%	99.10%	99.23%
+734	Femur troch BMD (bone mineral density) T-score (right)	84, 23, 79, 1, 49	98.22%	98.64%	98.87%
+735	Femur upper neck BMD (bone mineral density) (right)	84, 23, 78, 49, 83	24.65%	39.54%	48.84%
+736	Volume of grey matter in Middle Frontal Gyrus (left)	48, 23, 78, 49, 79	82.17%	85.70%	87.92%
+737	Volume of grey matter in Occipital Fusiform Gyrus (left)	48, 23, 49, 78, 54	55.07%	65.40%	72.15%
+738	Volume of grey matter in Frontal Operculum Cortex (right)	23, 78, 72, 77, 48	12.26%	27.28%	38.50%
+739	Volume of grey matter in Frontal Operculum Cortex (left)	48, 23, 20, 78, 49	29.98%	49.81%	58.82%
+740	Volume of grey matter in Central Opercular Cortex (right)	48, 20, 23, 78, 89	80.35%	86.42%	88.05%
+741	Volume of grey matter in Central Opercular Cortex (left)	48, 92, 27, 23, 89	72.78%	77.37%	81.15%
+742	Volume of grey matter in Parietal Operculum Cortex (right)	48, 20, 23, 78, 38	26.81%	47.37%	54.85%
+743	Volume of grey matter in Parietal Operculum Cortex (left)	48, 23, 35, 1, 78	30.19%	45.38%	54.60%
+744	Volume of grey matter in Planum Polare (right)	48, 20, 11, 77, 23	65.11%	70.54%	74.69%
+745	Volume of grey matter in Planum Polare (left)	48, 23, 78, 20, 92	58.44%	65.42%	70.59%
+746	Volume of grey matter in Frontal Pole (left)	48, 89, 20, 72, 78	88.25%	91.59%	93.32%
+747	Volume of grey matter in Frontal Pole (right)	48, 35, 72, 39, 20	87.62%	89.79%	91.34%
+748	Mean ICVF in superior cerebellar peduncle on FA skeleton (right)	14, 46, 81, 27, 0	17.31%	47.68%	60.05%
+749	Volume of grey matter in Insular Cortex (right)	48, 92, 8, 20, 64	78.05%	83.36%	87.65%
+750	Volume of grey matter in Superior Frontal Gyrus (left)	48, 72, 20, 23, 59	51.68%	61.05%	66.90%
+751	Volume of grey matter in Superior Frontal Gyrus (right)	48, 20, 23, 38, 49	57.94%	64.92%	70.14%
+752	Cardiac output	23, 2, 35, 78, 22	11.95%	29.62%	40.87%
+753	Cardiac index	23, 30, 82, 78, 27	10.39%	24.27%	35.82%
+754	Average heart rate	22, 39, 11, 59, 72	8.68%	22.52%	34.60%
+755	Body surface area	94, 17, 1, 23, 27	69.88%	92.75%	94.63%
+756	LV ejection fraction	23, 77, 78, 11, 0	10.16%	24.33%	34.40%
+757	Weighted-mean ICVF in tract uncinate fasciculus (left)	14, 81, 57, 20, 46	66.82%	91.73%	93.63%
+758	Weighted-mean ICVF in tract uncinate fasciculus (right)	14, 81, 57, 46, 97	56.37%	85.27%	90.07%
+759	Weighted-mean OD in tract acoustic radiation (left)	20, 23, 72, 38, 39	9.20%	23.12%	35.96%
+760	Weighted-mean ICVF in tract posterior thalamic radiation (right)	81, 57, 46, 27, 14	69.77%	95.92%	96.70%
+761	Weighted-mean L1 in tract anterior thalamic radiation (left)	97, 14, 81, 13, 72	89.33%	92.15%	93.33%
+762	Weighted-mean ICVF in tract superior longitudinal fasciculus (right)	81, 46, 1, 27, 97	87.31%	94.87%	96.34%
+763	Weighted-mean ICVF in tract superior thalamic radiation (left)	81, 97, 46, 27, 20	71.26%	92.67%	94.61%
+764	Weighted-mean L1 in tract cingulate gyrus part of cingulum (left)	0, 20, 23, 78, 22	18.81%	28.37%	35.05%
+765	Weighted-mean L1 in tract anterior thalamic radiation (right)	97, 14, 81, 67, 27	88.19%	91.84%	92.91%
+766	Femur neck BMD (bone mineral density) T-score (right)	84, 23, 49, 78, 59	98.36%	98.72%	98.95%
+767	Femur neck BMD (bone mineral density) (right)	84, 23, 20, 30, 38	97.73%	98.10%	98.36%
+768	Weighted-mean L1 in tract corticospinal tract (left)	27, 97, 20, 81, 54	16.22%	36.42%	46.36%
+769	Weighted-mean L1 in tract parahippocampal part of cingulum (right)	64, 51, 38, 67, 80	29.86%	54.24%	64.96%
+770	Weighted-mean L1 in tract parahippocampal part of cingulum (left)	64, 27, 38, 80, 51	17.00%	44.69%	58.25%
+771	Weighted-mean L1 in tract cingulate gyrus part of cingulum (right)	0, 64, 82, 27, 30	20.67%	32.71%	43.77%
+772	L1-L4 average width	94, 89, 27, 0, 23	20.50%	37.73%	47.63%
+773	Weighted-mean L1 in tract forceps major	14, 8, 89, 45, 0	17.16%	33.64%	44.01%
+774	Weighted-mean L1 in tract corticospinal tract (right)	97, 27, 23, 54, 92	16.51%	37.37%	47.26%
+775	Femur lower neck BMD (bone mineral density) (right)	84, 78, 59, 23, 89	25.16%	39.47%	50.56%
+776	Volume of grey matter in Postcentral Gyrus (left)	48, 23, 82, 91, 78	59.08%	65.51%	69.48%
+777	Volume of grey matter in Postcentral Gyrus (right)	48, 23, 68, 78, 0	57.92%	65.36%	70.21%
+778	Volume of grey matter in Superior Temporal Gyrus, anterior division (right)	20, 23, 48, 27, 78	14.18%	33.60%	46.32%
+779	Volume of grey matter in Superior Temporal Gyrus, anterior division (left)	48, 23, 49, 78, 82	38.39%	52.49%	58.79%
+780	Volume of grey matter in Inferior Temporal Gyrus, posterior division (left)	48, 23, 78, 2, 20	34.28%	45.54%	54.25%
+781	Volume of grey matter in Inferior Temporal Gyrus, posterior division (right)	48, 23, 78, 32, 30	42.94%	60.86%	66.86%
+782	Volume of grey matter in Inferior Temporal Gyrus, temporooccipital part (left)	48, 23, 82, 49, 78	10.47%	27.81%	39.72%
+783	Volume of grey matter in Inferior Temporal Gyrus, temporooccipital part (right)	48, 23, 78, 49, 81	29.74%	43.42%	51.04%
+784	Volume of grey matter in Inferior Frontal Gyrus, pars opercularis (right)	23, 79, 86, 38, 49	8.73%	20.12%	30.56%
+785	Volume of grey matter in Inferior Frontal Gyrus, pars opercularis (left)	23, 48, 78, 59, 49	15.52%	32.49%	44.02%
+786	Volume of grey matter in Inferior Frontal Gyrus, pars triangularis (right)	23, 73, 78, 27, 48	11.01%	28.29%	40.70%
+787	Volume of grey matter in Inferior Frontal Gyrus, pars triangularis (left)	23, 79, 48, 85, 49	14.08%	22.98%	31.08%
+788	Volume of grey matter in Temporal Pole (right)	48, 89, 23, 38, 86	43.33%	54.39%	61.01%
+789	Volume of grey matter in Supramarginal Gyrus, anterior division (right)	23, 27, 48, 78, 67	11.49%	32.49%	46.98%
+790	Volume of grey matter in Precentral Gyrus (right)	48, 23, 86, 49, 38	71.91%	76.87%	79.74%
+791	Volume of grey matter in Precentral Gyrus (left)	48, 23, 20, 72, 38	70.40%	77.24%	79.96%
+792	Weighted-mean MD in tract inferior fronto-occipital fasciculus (right)	57, 97, 81, 46, 14	52.27%	86.23%	91.72%
+793	L1-L4 average height	23, 89, 49, 78, 1	17.89%	38.00%	46.19%
+794	Weighted-mean L3 in tract medial lemniscus (left)	38, 51, 27, 1, 80	47.66%	60.47%	69.81%
+795	Weighted-mean FA in tract anterior thalamic radiation (left)	46, 0, 81, 57, 97	36.82%	62.29%	79.09%
+796	Weighted-mean FA in tract anterior thalamic radiation (right)	46, 97, 0, 81, 57	37.56%	57.45%	72.45%
+797	Weighted-mean FA in tract cingulate gyrus part of cingulum (left)	46, 14, 73, 57, 81	42.93%	52.12%	57.94%
+798	Weighted-mean FA in tract cingulate gyrus part of cingulum (right)	46, 97, 14, 64, 11	50.87%	58.80%	64.76%
+799	Weighted-mean FA in tract parahippocampal part of cingulum (left)	89, 67, 46, 22, 64	12.01%	29.04%	39.60%
+800	Weighted-mean FA in tract parahippocampal part of cingulum (right)	51, 64, 22, 11, 67	15.72%	35.49%	44.81%
+801	Weighted-mean FA in tract corticospinal tract (left)	46, 14, 27, 38, 97	34.78%	50.99%	60.84%
+802	Weighted-mean FA in tract corticospinal tract (right)	46, 27, 97, 54, 14	30.51%	47.43%	57.87%
+803	Weighted-mean FA in tract forceps major	57, 81, 14, 97, 1	34.57%	47.29%	56.81%
+804	Weighted-mean FA in tract forceps minor	46, 81, 57, 14, 64	39.95%	81.14%	87.42%
+805	Number of depression episodes	27, 74, 23, 20, 79	8.41%	23.57%	34.92%
+806	Weighted-mean OD in tract superior thalamic radiation (left)	27, 97, 20, 46, 38	17.20%	37.51%	48.57%
+807	Weighted-mean OD in tract superior thalamic radiation (right)	27, 97, 46, 67, 38	14.69%	36.34%	48.02%
+808	Weighted-mean OD in tract uncinate fasciculus (left)	79, 86, 89, 72, 39	9.19%	20.61%	28.69%
+809	Weighted-mean OD in tract uncinate fasciculus (right)	89, 79, 86, 39, 64	10.30%	26.33%	37.23%
+810	Weighted-mean ISOVF in tract acoustic radiation (left)	51, 64, 92, 1, 78	46.15%	63.37%	69.70%
+811	Weighted-mean ISOVF in tract acoustic radiation (right)	59, 39, 64, 20, 89	11.38%	27.68%	42.22%
+812	Weighted-mean ISOVF in tract anterior thalamic radiation (left)	0, 46, 72, 73, 13	50.61%	62.67%	68.66%
+813	Weighted-mean ISOVF in tract anterior thalamic radiation (right)	0, 68, 46, 13, 54	60.99%	67.14%	71.67%
+814	Weighted-mean ISOVF in tract cingulate gyrus part of cingulum (left)	0, 20, 23, 64, 72	48.59%	61.36%	67.51%
+815	Weighted-mean ISOVF in tract cingulate gyrus part of cingulum (right)	0, 22, 81, 20, 28	70.99%	76.14%	79.23%
+816	Volume of grey matter in X Cerebellum (right)	54, 23, 48, 99, 79	12.81%	29.89%	40.56%
+817	Volume of grey matter in Superior Parietal Lobule (left)	23, 48, 78, 27, 49	13.35%	30.72%	44.84%
+818	Weighted-mean MD in tract parahippocampal part of cingulum (left)	64, 38, 80, 27, 67	21.28%	49.88%	64.14%
+819	Weighted-mean ISOVF in tract superior thalamic radiation (right)	0, 64, 97, 46, 51	85.95%	88.96%	91.17%
+820	Weighted-mean FA in tract uncinate fasciculus (right)	14, 46, 57, 81, 51	35.78%	72.94%	80.34%
+821	Volume of grey matter in Supramarginal Gyrus, anterior division (left)	48, 23, 73, 8, 27	32.90%	47.39%	56.34%
+822	Weighted-mean MO in tract anterior thalamic radiation (left)	23, 78, 49, 86, 0	17.39%	29.73%	38.92%
+823	Median T2star in pallidum (right)	54, 20, 23, 24, 27	14.17%	29.67%	39.62%
+824	Gynoid bone mass	84, 20, 94, 92, 64	59.99%	90.72%	92.96%
+825	Arms total mass	94, 17, 27, 1, 73	59.14%	92.28%	95.76%
+826	Spherical power (right)	9, 66, 7, 50, 24	99.67%	99.81%	99.84%
+827	Mean FA in uncinate fasciculus on FA skeleton (right)	14, 46, 23, 20, 49	12.76%	31.76%	42.97%
+828	Weighted-mean MD in tract superior thalamic radiation (left)	97, 46, 0, 14, 81	34.71%	82.19%	88.29%
+829	Weighted-mean MO in tract inferior fronto-occipital fasciculus (right)	27, 23, 73, 49, 46	11.39%	23.09%	32.31%
+830	Volume of grey matter in Insular Cortex (left)	48, 20, 92, 8, 64	77.84%	85.18%	87.75%
+831	High light scatter reticulocyte percentage	93, 36, 95, 56, 10	84.69%	99.21%	99.88%
+832	Intra-ocular pressure, Goldmann-correlated (left)	6, 4, 51, 11, 13	85.04%	94.55%	95.44%
+833	Femur neck BMD (bone mineral density) T-score (left)	84, 23, 78, 49, 77	98.00%	98.46%	98.65%
+834	Pelvis bone area	94, 20, 89, 0, 51	63.04%	68.60%	73.30%
+835	Trunk bone area	94, 17, 20, 84, 51	57.16%	70.41%	76.94%
+836	Head bone area	23, 48, 49, 2, 78	13.58%	29.48%	37.55%
+837	Ribs bone area	17, 94, 84, 23, 1	55.22%	69.80%	75.60%
+838	Weighted-mean MO in tract corticospinal tract (right)	38, 83, 27, 46, 79	18.01%	34.99%	45.01%
+839	Mean FA in superior corona radiata on FA skeleton (right)	46, 57, 20, 81, 97	60.64%	77.98%	82.47%
+840	Weighted-mean MO in tract corticospinal tract (left)	38, 27, 79, 94, 83	17.07%	31.28%	41.57%
+841	diverticular disease/diverticulitis	23, 72, 89, 39, 78	7.87%	21.61%	33.26%
+842	Volume of grey matter in Occipital Fusiform Gyrus (right)	48, 38, 23, 83, 20	28.75%	40.22%	47.79%
+843	nasal/sinus disorder	23, 71, 78, 49, 72	12.05%	27.88%	38.76%
+844	Cylindrical power (left)	9, 38, 86, 72, 92	13.88%	28.11%	39.07%
+845	Cylindrical power (right)	9, 86, 92, 38, 73	11.88%	30.62%	42.46%
+846	Volume of grey matter in Middle Frontal Gyrus (right)	48, 23, 79, 49, 78	78.34%	83.28%	86.32%
+847	6mm regularity index (right)	23, 49, 78, 79, 81	15.64%	30.13%	39.00%
+848	3mm regularity index (right)	83, 89, 23, 92, 38	7.36%	21.27%	31.33%
+849	3mm regularity index (left)	71, 0, 82, 2, 23	5.75%	16.11%	25.97%
+850	Volume of brain stem + 4th ventricle	48, 54, 20, 99, 35	51.48%	79.27%	85.64%
+851	Volume of accumbens (right)	48, 89, 23, 72, 20	24.33%	35.68%	44.32%
+852	Median T2star in thalamus (right)	38, 72, 86, 20, 39	8.26%	24.48%	35.70%
+853	Median T2star in thalamus (left)	23, 78, 49, 41, 64	11.56%	28.27%	36.94%
+854	Volume of amygdala (left)	23, 79, 49, 78, 64	17.86%	32.45%	43.49%
+855	Volume of hippocampus (right)	48, 54, 23, 99, 78	39.88%	58.83%	67.23%
+856	Volume of accumbens (left)	48, 54, 23, 2, 59	26.27%	47.70%	54.74%
+857	Volume of amygdala (right)	23, 79, 49, 86, 89	11.46%	23.48%	34.02%
+858	Weighted-mean MO in tract inferior longitudinal fasciculus (left)	23, 49, 79, 78, 86	12.14%	27.46%	35.98%
+859	Median T2star in caudate (right)	27, 20, 92, 54, 6	17.25%	40.49%	51.04%
+860	Median T2star in caudate (left)	92, 27, 20, 23, 62	12.90%	36.31%	44.03%
+861	Mean FA in sagittal stratum on FA skeleton (left)	57, 46, 81, 0, 14	49.50%	66.74%	76.41%
+862	Mean corpuscular volume	55, 91, 20, 27, 92	80.51%	91.69%	93.05%
+863	Arm BMC (bone mineral content) (left)	20, 94, 84, 92, 38	55.47%	69.64%	78.27%
+864	Average weekly spirits intake	51, 82, 24, 20, 71	20.16%	31.44%	38.13%
+865	Weighted-mean L2 in tract inferior fronto-occipital fasciculus (left)	57, 81, 14, 46, 20	70.54%	88.19%	95.50%
+866	Mean FA in posterior thalamic radiation on FA skeleton (left)	57, 46, 81, 14, 1	51.65%	67.62%	77.20%
+867	Time spent outdoors in winter	2, 51, 24, 27, 77	88.09%	94.24%	95.30%
+868	Ventricular rate	79, 23, 86, 83, 27	8.46%	20.66%	28.12%
+869	Mean FA in posterior thalamic radiation on FA skeleton (right)	57, 81, 46, 14, 1	52.11%	77.79%	86.72%
+870	Total volume of white matter hyperintensities (from T1 and T2 FLAIR images)	81, 97, 59, 86, 23	21.72%	37.17%	44.68%
+871	Arms BMD (bone mineral density)	20, 84, 92, 38, 62	57.63%	84.92%	88.92%
+872	P duration	23, 49, 72, 83, 79	12.11%	26.33%	37.02%
+873	Median z-statistic (in group-defined mask) for shapes-faces contrast	20, 39, 27, 71, 64	11.83%	32.75%	46.54%
+874	Weighted-mean FA in tract inferior longitudinal fasciculus (right)	57, 46, 81, 97, 14	65.47%	92.32%	94.26%
+875	Forced expiratory volume in 1-second (FEV1), predicted	16, 7, 78, 79, 41	93.11%	95.78%	97.27%
+876	Forced expiratory volume in 1-second (FEV1), Best measure	7, 96, 3, 80, 16	81.19%	93.51%	96.35%
+877	Corneal resistance factor (left)	4, 38, 6, 92, 80	84.17%	90.43%	94.09%
+878	Intra-ocular pressure, corneal-compensated (left)	6, 4, 74, 79, 72	91.96%	95.11%	96.10%
+879	Weighted-mean FA in tract inferior fronto-occipital fasciculus (left)	57, 46, 14, 81, 97	51.70%	76.04%	82.93%
+880	Forced expiratory volume in 1-second (FEV1), predicted percentage	80, 7, 1, 64, 96	65.54%	79.42%	85.26%
+881	Weighted-mean FA in tract inferior fronto-occipital fasciculus (right)	57, 46, 81, 97, 0	51.63%	86.68%	90.61%
+882	Median z-statistic (in group-defined amygdala activation mask) for shapes-faces contrast	64, 74, 71, 27, 92	11.33%	29.02%	41.78%
+883	Weighted-mean FA in tract inferior longitudinal fasciculus (left)	57, 46, 81, 14, 97	67.02%	87.02%	92.43%
+884	Mean FA in superior cerebellar peduncle on FA skeleton (left)	46, 20, 80, 38, 72	18.98%	30.56%	38.73%
+885	Median BOLD effect (in group-defined amygdala activation mask) for shapes-faces contrast	64, 74, 71, 27, 92	11.61%	30.14%	41.73%
+886	Total fat-free mass	94, 73, 20, 71, 45	94.10%	95.06%	95.76%
+887	Weighted-mean FA in tract medial lemniscus (right)	38, 20, 39, 59, 46	12.57%	31.24%	40.85%
+888	Weighted-mean FA in tract posterior thalamic radiation (left)	57, 81, 46, 64, 14	35.37%	56.46%	72.40%
+889	Weighted-mean FA in tract middle cerebellar peduncle	72, 46, 39, 77, 68	11.54%	28.20%	39.82%
+890	Leg tissue fat percentage (right)	1, 17, 27, 79, 94	87.28%	93.24%	94.83%
+891	Leg total mass (right)	94, 1, 17, 73, 20	47.58%	88.79%	92.72%
+892	Leg fat mass (right)	23, 49, 22, 50, 29	47.65%	96.79%	97.98%
+893	Leg lean mass (right)	94, 1, 20, 61, 92	95.97%	97.07%	97.59%
+894	Legs tissue fat percentage	1, 17, 94, 20, 13	84.36%	92.79%	94.32%
+895	Legs total mass	94, 17, 1, 73, 27	56.11%	91.79%	95.23%
+896	Legs fat mass	1, 17, 94, 73, 92	68.86%	95.53%	96.33%
+897	Legs lean mass	94, 17, 1, 71, 61	96.74%	97.45%	97.95%
+898	Mean FA in genu of corpus callosum on FA skeleton	46, 81, 27, 18, 73	37.65%	75.01%	79.96%
+899	Cooked vegetable intake	45, 39, 38, 86, 89	18.35%	38.60%	51.71%
+900	Age at cancer diagnosis	23, 78, 20, 2, 38	10.74%	23.78%	33.18%
+901	Reported occurrences of cancer	27, 54, 92, 74, 39	49.65%	68.89%	74.89%
+902	pericardial problem	23, 79, 49, 82, 27	9.90%	22.95%	34.21%
+903	Weighted-mean ISOVF in tract uncinate fasciculus (left)	14, 0, 23, 46, 78	26.37%	46.20%	55.14%
+904	other joint disorder	92, 72, 77, 38, 68	23.77%	40.22%	49.09%
+905	Mean FA in anterior corona radiata on FA skeleton (left)	46, 81, 57, 0, 97	28.35%	62.68%	77.27%
+906	Weighted-mean L2 in tract inferior fronto-occipital fasciculus (right)	57, 81, 97, 46, 14	66.04%	87.07%	96.57%
+907	90th percentile of BOLD effect (in group-defined mask) for faces activation	39, 98, 52, 67, 79	58.48%	77.46%	81.12%
+908	LV end diastolic volume	30, 2, 68, 82, 23	9.11%	22.82%	33.90%
+909	Age hay fever, rhinitis or eczema diagnosed	37, 51, 92, 75, 79	69.51%	82.01%	85.29%
+910	Mean ISOVF in posterior thalamic radiation on FA skeleton (right)	0, 1, 13, 17, 23	72.34%	76.07%	79.31%
+911	Mean ISOVF in superior corona radiata on FA skeleton (left)	0, 64, 8, 92, 78	84.25%	88.74%	91.10%
+912	Mean ISOVF in superior corona radiata on FA skeleton (right)	0, 64, 97, 8, 78	84.64%	88.47%	90.28%
+913	Mean ISOVF in posterior corona radiata on FA skeleton (left)	0, 64, 92, 13, 78	84.84%	89.26%	91.21%
+914	Mean ISOVF in posterior corona radiata on FA skeleton (right)	0, 64, 92, 8, 78	82.18%	86.46%	88.44%
+915	Mean ISOVF in retrolenticular part of internal capsule on FA skeleton (left)	0, 23, 46, 49, 51	24.38%	37.44%	46.80%
+916	Mean ISOVF in retrolenticular part of internal capsule on FA skeleton (right)	0, 64, 23, 79, 49	33.72%	49.66%	57.13%
+917	Mean ISOVF in anterior corona radiata on FA skeleton (left)	0, 64, 46, 54, 89	78.56%	82.19%	84.72%
+918	Mean FA in retrolenticular part of internal capsule on FA skeleton (right)	46, 57, 81, 97, 14	43.31%	71.23%	78.78%
+919	Age last used hormone-replacement therapy (HRT)	23, 20, 27, 73, 13	11.33%	22.65%	32.27%
+920	Lymphocyte count	31, 40, 19, 42, 86	99.37%	99.61%	99.76%
+921	Number of children fathered	72, 39, 82, 8, 2	11.66%	26.65%	35.33%
+922	Femur total BMD (bone mineral density) (left)	84, 23, 78, 79, 49	99.19%	99.38%	99.49%
+923	Mean FA in posterior limb of internal capsule on FA skeleton (left)	27, 46, 14, 81, 54	17.59%	42.11%	52.39%
+924	Volume of grey matter in Inferior Temporal Gyrus, anterior division (right)	23, 48, 38, 49, 85	13.27%	29.63%	40.87%
+925	Signal-to-noise-ratio (SNR) of triplet (right)	39, 51, 20, 92, 0	9.34%	24.41%	35.16%
+926	Volume of grey matter in Inferior Temporal Gyrus, anterior division (left)	23, 64, 49, 67, 89	10.73%	22.65%	31.68%
+927	Femur troch BMD (bone mineral density) (left)	84, 23, 20, 78, 94	98.74%	99.10%	99.28%
+928	Tea intake	8, 62, 1, 35, 67	88.70%	90.99%	92.80%
+929	Femur upper neck BMD (bone mineral density) T-score (left)	84, 89, 79, 23, 38	21.03%	33.41%	43.49%
+930	Dried fruit intake	51, 77, 73, 79, 38	16.96%	34.43%	47.33%
+931	Age high blood pressure diagnosed	71, 74, 83, 21, 23	10.20%	29.55%	40.23%
+932	Length of menstrual cycle	72, 23, 78, 39, 80	15.14%	30.92%	41.33%
+933	Volume of brain, grey+white, normalised for head size	20, 39, 59, 18, 73	10.75%	28.81%	43.22%
+934	Volume of white matter	48, 20, 8, 79, 77	85.66%	90.57%	92.69%
+935	Volume of white matter (normalised for head size)	20, 73, 48, 18, 39	18.06%	37.18%	50.00%
+936	Wheeze or whistling in the chest in last year	37, 51, 64, 0, 80	77.21%	86.55%	88.87%
+937	Volume of grey matter (normalised for head size)	73, 20, 39, 59, 18	10.82%	28.79%	41.60%
+938	Volume of ventricular cerebrospinal fluid	38, 92, 27, 97, 67	11.21%	26.22%	37.26%
+939	Volume of ventricular cerebrospinal fluid (normalised for head size)	38, 27, 92, 97, 77	10.09%	24.37%	34.19%
+940	Volume of peripheral cortical grey matter	48, 20, 89, 35, 54	97.73%	98.30%	98.70%
+941	Volume of peripheral cortical grey matter (normalised for head size)	73, 39, 20, 59, 18	11.43%	29.76%	44.01%
+942	Volumetric scaling from T1 head image to standard space	48, 89, 73, 82, 59	91.78%	94.59%	95.25%
+943	Tinnitus severity/nuisance	92, 20, 83, 94, 18	10.12%	23.50%	32.79%
+944	Mean corpuscular haemoglobin concentration	55, 72, 43, 79, 23	98.78%	99.42%	99.53%
+945	3mm strong meridian (right)	66, 73, 54, 92, 38	92.16%	97.08%	98.10%
+946	Weighted-mean ISOVF in tract posterior thalamic radiation (left)	0, 14, 64, 54, 23	19.75%	44.16%	55.57%
+947	Sleep duration	98, 52, 71, 99, 90	91.89%	93.84%	94.92%
+948	6mm strong meridian (left)	66, 73, 64, 51, 54	90.69%	96.54%	97.42%
+949	3mm strong meridian (left)	66, 73, 54, 92, 59	91.53%	96.09%	97.52%
+950	Lifetime number of sexual partners	51, 20, 64, 74, 92	19.31%	38.18%	49.09%
+951	Weighted-mean L3 in tract superior longitudinal fasciculus (right)	46, 57, 81, 27, 1	51.71%	86.95%	90.48%
+952	Weighted-mean L3 in tract superior longitudinal fasciculus (left)	57, 46, 81, 1, 97	35.62%	90.46%	92.96%
+953	Weighted-mean L3 in tract superior thalamic radiation (right)	46, 97, 0, 54, 57	43.49%	83.73%	88.20%
+954	Immature reticulocyte fraction	56, 95, 36, 93, 10	77.18%	99.12%	99.70%
+955	Weighted-mean L3 in tract medial lemniscus (right)	38, 54, 99, 27, 39	72.16%	86.33%	89.23%
+956	Weighted-mean MD in tract inferior longitudinal fasciculus (left)	57, 14, 81, 51, 13	70.65%	92.40%	94.48%
+957	Weighted-mean L3 in tract posterior thalamic radiation (right)	57, 14, 81, 97, 46	37.49%	64.68%	77.71%
+958	Weighted-mean L3 in tract posterior thalamic radiation (left)	57, 14, 64, 59, 81	40.87%	62.27%	75.93%
+959	Age glaucoma diagnosed	89, 22, 86, 59, 2	14.69%	30.70%	41.82%
+960	Arm fat mass (right)	23, 49, 22, 28, 33	48.11%	95.90%	96.81%
+961	Volume of grey matter in VIIIa Cerebellum (right)	54, 99, 35, 51, 80	55.59%	79.46%	83.26%
+962	Volume of grey matter in Temporal Occipital Fusiform Cortex (right)	48, 23, 78, 14, 16	33.97%	49.37%	56.75%
+963	Minimum carotid IMT (intima-medial thickness) at 240 degrees	23, 78, 49, 79, 27	14.86%	34.11%	42.93%
+964	Volume of grey matter in VIIIb Cerebellum (right)	54, 99, 35, 80, 89	50.74%	74.49%	81.78%
+965	Age at menopause (last menstrual period)	13, 0, 1, 68, 62	92.47%	94.21%	95.18%
+966	Volume of grey matter in Lingual Gyrus (left)	48, 54, 91, 11, 0	52.73%	59.58%	65.11%
+967	Minimum carotid IMT (intima-medial thickness) at 120 degrees	23, 8, 78, 86, 92	11.89%	26.88%	36.02%
+968	Average weekly fortified wine intake	20, 23, 49, 72, 86	14.12%	29.35%	38.52%
+969	Mean ICVF in cerebral peduncle on FA skeleton (left)	81, 14, 46, 0, 89	27.82%	44.68%	55.00%
+970	Mean ICVF in cerebral peduncle on FA skeleton (right)	81, 14, 46, 0, 54	27.35%	45.95%	54.60%
+971	Average weekly red wine intake	20, 59, 51, 64, 92	34.90%	48.03%	57.44%
+972	Number of cigarettes previously smoked daily	80, 27, 35, 54, 13	15.64%	35.91%	47.20%
+973	Mean FA in superior cerebellar peduncle on FA skeleton (right)	46, 20, 89, 23, 51	30.24%	48.38%	55.03%
+974	Mean FA in fornix on FA skeleton	27, 38, 97, 86, 54	9.01%	21.68%	33.19%
+975	Femur upper neck BMD (bone mineral density) (left)	84, 89, 79, 38, 86	13.80%	28.13%	39.21%
+976	Mean FA in corticospinal tract on FA skeleton (left)	46, 20, 78, 23, 57	21.95%	40.50%	52.30%
+977	Mean FA in corticospinal tract on FA skeleton (right)	89, 23, 14, 78, 82	10.38%	24.81%	34.85%
+978	Mean FA in medial lemniscus on FA skeleton (left)	20, 46, 92, 80, 38	49.24%	63.45%	73.12%
+979	Mean FA in medial lemniscus on FA skeleton (right)	20, 46, 38, 80, 92	47.25%	61.55%	71.30%
+980	Mean FA in inferior cerebellar peduncle on FA skeleton (left)	20, 46, 81, 80, 92	43.19%	59.00%	66.90%
+981	Mean FA in inferior cerebellar peduncle on FA skeleton (right)	20, 46, 81, 80, 57	36.26%	55.80%	64.83%
+982	Total mass	17, 94, 1, 27, 73	55.41%	94.99%	97.06%
+983	Total tissue mass	17, 94, 1, 27, 73	56.93%	95.02%	97.13%
+984	Total tissue fat percentage	17, 1, 94, 73, 27	83.85%	96.81%	97.82%
+985	Total lean mass	94, 20, 73, 71, 45	93.78%	94.94%	95.68%
+986	Trunk total mass	17, 94, 27, 73, 78	81.93%	97.93%	98.38%
+987	Trunk tissue fat percentage	17, 94, 73, 45, 27	93.70%	96.53%	97.08%
+988	Trunk lean mass	94, 20, 73, 45, 1	87.64%	90.23%	92.32%
+989	Weight, manual entry	89, 73, 79, 77, 30	12.36%	26.01%	34.99%
+990	White blood cell (leukocyte) count	40, 31, 55, 73, 42	78.56%	90.22%	93.19%
+991	VAT (visceral adipose tissue) volume	17, 1, 94, 73, 92	92.01%	96.55%	97.30%
+992	VAT (visceral adipose tissue) mass	17, 1, 94, 73, 92	92.06%	96.34%	97.02%
+993	Number of treatments/medications taken	83, 71, 10, 52, 22	94.62%	96.35%	97.12%
+994	Mean ICVF in superior corona radiata on FA skeleton (left)	81, 97, 14, 51, 57	88.36%	96.05%	96.84%
+995	3mm cylindrical power (right)	92, 66, 73, 9, 86	46.70%	59.61%	65.95%
+996	6mm cylindrical power (right)	92, 23, 66, 39, 79	38.32%	48.43%	55.06%
+997	6mm cylindrical power (left)	92, 73, 18, 23, 59	19.30%	31.31%	42.03%
+998	3mm cylindrical power (left)	92, 73, 66, 18, 83	48.36%	61.23%	67.38%
+999	6mm index of best keratometry results (left)	23, 78, 85, 63, 49	14.25%	28.02%	37.09%
+1000	Lymphocyte percentage	55, 40, 31, 43, 92	85.97%	90.63%	93.65%
+1001	Mean ICVF in tapetum on FA skeleton (left)	81, 57, 97, 79, 20	56.58%	72.45%	78.83%
+1002	Mean ICVF in tapetum on FA skeleton (right)	81, 57, 20, 14, 97	42.89%	78.03%	85.08%
+1003	Weighted-mean ICVF in tract posterior thalamic radiation (left)	81, 57, 46, 14, 20	66.92%	96.03%	96.98%
+1004	Weighted-mean ICVF in tract medial lemniscus (right)	14, 81, 20, 0, 51	42.86%	65.81%	77.78%
+1005	Weighted-mean ICVF in tract medial lemniscus (left)	14, 81, 20, 0, 51	37.20%	62.17%	73.34%
+1006	Weighted-mean ICVF in tract middle cerebellar peduncle	81, 14, 20, 51, 0	23.63%	61.52%	73.04%
+1007	Weighted-mean ICVF in tract inferior longitudinal fasciculus (right)	81, 57, 46, 14, 59	72.42%	96.01%	96.97%
+1008	Weighted-mean ICVF in tract inferior longitudinal fasciculus (left)	81, 57, 46, 14, 97	73.80%	97.13%	98.49%
+1009	Age other serious eye condition diagnosed	89, 22, 86, 72, 62	8.17%	21.80%	32.44%
+1010	Weighted-mean MO in tract anterior thalamic radiation (right)	27, 23, 20, 67, 73	13.16%	27.81%	38.89%
+1011	Microalbumin in urine	81, 59, 23, 78, 72	14.42%	31.13%	42.71%
+1012	Weighted-mean MO in tract acoustic radiation (right)	89, 86, 79, 72, 2	10.48%	28.60%	41.48%
+1013	Mean FA in cingulum hippocampus on FA skeleton (right)	46, 14, 57, 17, 23	17.44%	42.09%	52.77%
+1014	Weighted-mean MD in tract uncinate fasciculus (right)	14, 97, 57, 39, 46	69.41%	83.55%	86.53%
+1015	Mean FA in superior fronto-occipital fasciculus on FA skeleton (left)	97, 46, 89, 23, 54	28.13%	48.15%	57.11%
+1016	Volume of grey matter in Middle Temporal Gyrus, temporooccipital part (right)	48, 23, 78, 49, 71	20.12%	39.39%	49.52%
+1017	Forced vital capacity (FVC)	7, 96, 3, 16, 5	48.20%	92.70%	95.79%
+1018	Anterior thigh lean muscle volume (right)	23, 78, 49, 89, 72	15.12%	34.75%	43.96%
+1019	Age sarcoidosis diagnosed by doctor	23, 77, 78, 49, 82	15.71%	34.43%	44.85%
+1020	Visceral adipose tissue volume (VAT)	22, 77, 30, 82, 28	11.44%	25.63%	36.39%
+1021	Peak expiratory flow (PEF)	3, 7, 44, 65, 16	96.96%	98.13%	98.57%
+1022	Anterior thigh lean muscle volume (left)	23, 78, 72, 77, 63	13.63%	27.96%	37.29%
+1023	Mean ISOVF in superior fronto-occipital fasciculus on FA skeleton (right)	0, 23, 92, 27, 78	38.75%	51.01%	60.51%
+1024	Mean ISOVF in cingulum cingulate gyrus on FA skeleton (left)	0, 20, 73, 64, 23	57.60%	66.12%	72.21%
+1025	6mm regularity index (left)	72, 38, 23, 86, 83	10.89%	25.19%	36.38%
+1026	Age started hormone-replacement therapy (HRT)	13, 0, 23, 68, 30	42.60%	51.55%	58.01%
+1027	Chest pain or discomfort	37, 38, 83, 64, 20	9.59%	25.08%	33.12%
+1028	Arm BMD (bone mineral density) (left)	20, 84, 92, 38, 98	65.40%	86.22%	89.62%
+1029	Volume of grey matter in Amygdala (left)	48, 54, 23, 99, 80	77.98%	83.36%	85.96%
+1030	Mean FA in anterior corona radiata on FA skeleton (right)	46, 81, 57, 0, 92	38.16%	70.78%	82.77%
+1031	Weighted-mean ICVF in tract cingulate gyrus part of cingulum (right)	81, 46, 14, 57, 20	49.03%	87.31%	94.37%
+1032	Neutrophill percentage	55, 40, 91, 45, 27	92.41%	94.52%	95.38%
+1033	Weighted-mean L3 in tract anterior thalamic radiation (right)	97, 81, 46, 0, 14	72.59%	83.65%	89.59%
+1034	Weighted-mean ICVF in tract superior longitudinal fasciculus (left)	81, 46, 1, 57, 27	90.75%	95.24%	96.42%
+1035	varicose ulcer	23, 79, 78, 49, 62	18.90%	39.04%	50.85%
+1036	high cholesterol	10, 72, 27, 54, 92	84.23%	95.58%	96.67%
+1037	Weighted-mean ICVF in tract acoustic radiation (left)	81, 57, 14, 46, 0	70.87%	92.69%	94.47%
+1038	Weighted-mean ICVF in tract acoustic radiation (right)	81, 14, 57, 0, 46	76.43%	90.83%	92.89%
+1039	Weighted-mean ICVF in tract parahippocampal part of cingulum (right)	14, 81, 57, 51, 46	38.81%	72.36%	78.29%
+1040	Weighted-mean ICVF in tract cingulate gyrus part of cingulum (left)	81, 46, 57, 14, 20	45.23%	83.48%	93.59%
+1041	Mean ICVF in posterior corona radiata on FA skeleton (right)	81, 57, 14, 20, 97	79.02%	91.57%	95.89%
+1042	fracture fibula	23, 72, 78, 49, 92	11.77%	22.95%	32.36%
+1043	eczema/dermatitis	37, 64, 8, 27, 20	58.35%	67.97%	72.94%
+1044	Weighted-mean ICVF in tract corticospinal tract (left)	81, 46, 64, 27, 97	81.73%	87.63%	91.45%
+1045	Weighted-mean ICVF in tract corticospinal tract (right)	81, 46, 97, 27, 59	65.90%	84.14%	87.30%
+1046	hepatitis a	23, 78, 49, 79, 16	19.26%	41.15%	51.40%
+1047	Weighted-mean MO in tract inferior fronto-occipital fasciculus (left)	23, 49, 78, 79, 18	11.51%	26.77%	35.28%
+1048	Weighted-mean MO in tract inferior longitudinal fasciculus (right)	79, 67, 23, 49, 78	11.38%	29.20%	42.96%
+1049	tennis elbow/lateral epicondylitis	79, 82, 23, 20, 68	6.70%	19.50%	28.68%
+1050	Mean platelet (thrombocyte) volume	76, 55, 91, 40, 72	96.96%	99.81%	99.88%
+1051	Mean FA in sagittal stratum on FA skeleton (right)	57, 46, 81, 97, 27	54.73%	79.33%	83.18%
+1052	Arm BMD (bone mineral density) (right)	20, 84, 92, 38, 62	64.87%	86.02%	89.31%
+1053	Mean ICVF in posterior thalamic radiation on FA skeleton (right)	81, 57, 46, 14, 20	56.60%	92.93%	95.66%
+1054	Mean FA in posterior corona radiata on FA skeleton (left)	46, 57, 81, 20, 97	31.61%	78.93%	86.39%
+1055	Arms BMC (bone mineral content)	20, 84, 94, 92, 64	56.47%	74.32%	82.01%
+1056	Mean FA in superior corona radiata on FA skeleton (left)	46, 57, 97, 81, 18	67.84%	77.68%	82.78%
+1057	Creatinine (enzymatic) in urine	89, 67, 8, 35, 77	87.40%	92.33%	94.39%
+1058	Weighted-mean ISOVF in tract medial lemniscus (right)	38, 54, 99, 27, 39	69.86%	81.68%	87.00%
+1059	Position of the pulse wave peak	27, 83, 54, 73, 26	10.67%	26.00%	36.18%
+1060	Non-cancer illness year/age first occurred	37, 20, 92, 72, 51	57.84%	66.53%	71.54%
+1061	Mean FA in external capsule on FA skeleton (left)	14, 46, 57, 20, 59	40.63%	72.63%	80.91%
+1062	motor neurone disease	59, 23, 35, 78, 22	10.32%	23.10%	33.81%
+1063	plantar fascitis	23, 79, 49, 82, 27	10.40%	26.61%	38.84%
+1064	infectious mononucleosis/glandular fever/epstein barr virus (ebv)	89, 23, 49, 79, 77	12.19%	27.74%	40.21%
+1065	fracture nose	20, 72, 23, 79, 49	8.02%	23.67%	36.12%
+1066	Age emphysema diagnosed by doctor	77, 71, 3, 67, 82	11.07%	25.26%	35.55%
+1067	whooping cough/pertussis	23, 49, 78, 39, 89	10.75%	22.76%	33.71%
+1068	cystitis	89, 23, 27, 78, 79	13.18%	31.46%	41.43%
+1069	peripheral neuropathy	23, 78, 71, 39, 0	11.36%	28.36%	38.38%
+1070	atrial fibrillation	61, 94, 35, 63, 1	99.55%	99.68%	99.71%
+1071	sjogren's syndrome/sicca syndrome	78, 58, 23, 27, 1	8.54%	24.43%	37.29%
+1072	meningitis	23, 27, 89, 79, 49	9.37%	25.66%	36.55%
+1073	head injury	78, 23, 72, 39, 71	9.47%	25.87%	39.52%
+1074	crohns disease	80, 64, 39, 92, 27	10.22%	24.26%	36.16%
+1075	chronic/degenerative neurological problem	23, 22, 78, 30, 49	9.19%	24.65%	35.49%
+1076	obsessive compulsive disorder (ocd)	89, 78, 23, 49, 82	13.40%	32.73%	44.08%
+1077	fracture metatarsal	78, 23, 49, 84, 71	12.88%	34.32%	43.64%
+1078	vitiligo	23, 78, 49, 30, 58	17.92%	33.15%	39.97%
+1079	Total trunk fat	22, 30, 35, 23, 28	10.10%	21.48%	30.74%
+1080	Mean ICVF in posterior corona radiata on FA skeleton (left)	81, 57, 14, 20, 97	81.97%	93.06%	95.95%
+1081	Mean ICVF in sagittal stratum on FA skeleton (right)	81, 57, 46, 0, 59	60.38%	94.38%	95.35%
+1082	Mean ICVF in anterior limb of internal capsule on FA skeleton (left)	81, 97, 14, 46, 64	44.22%	70.00%	77.44%
+1083	Volume of grey matter in Amygdala (right)	48, 54, 99, 23, 92	78.74%	88.24%	90.41%
+1084	Volume of grey matter in Cuneal Cortex (right)	48, 64, 23, 79, 92	50.53%	59.42%	67.46%
+1085	Volume of grey matter in Hippocampus (left)	48, 20, 92, 78, 38	40.79%	57.59%	62.78%
+1086	Volume of grey matter in Pallidum (right)	23, 49, 78, 81, 79	22.63%	41.35%	50.15%
+1087	Volume of grey matter in Pallidum (left)	23, 89, 79, 49, 54	13.56%	25.71%	35.90%
+1088	Volume of grey matter in Putamen (right)	54, 99, 51, 72, 89	24.15%	41.21%	51.79%
+1089	Volume of grey matter in Putamen (left)	54, 99, 72, 89, 51	19.98%	38.32%	50.01%
+1090	Volume of grey matter in Caudate (right)	48, 54, 51, 38, 92	18.29%	32.55%	45.11%
+1091	Volume of grey matter in Caudate (left)	48, 54, 51, 8, 92	12.75%	29.49%	40.75%
+1092	Weighted-mean ISOVF in tract superior longitudinal fasciculus (right)	0, 64, 22, 13, 62	88.61%	90.52%	91.88%
+1093	Weighted-mean ISOVF in tract superior thalamic radiation (left)	0, 64, 46, 97, 78	90.53%	92.79%	94.21%
+1094	Weighted-mean ISOVF in tract posterior thalamic radiation (right)	0, 14, 64, 39, 13	41.90%	57.39%	64.58%
+1095	Weighted-mean ISOVF in tract superior longitudinal fasciculus (left)	0, 1, 64, 13, 17	83.41%	87.38%	89.58%
+1096	hypothyroidism/myxoedema	58, 83, 75, 19, 20	99.08%	99.28%	99.45%
+1097	Weighted-mean ISOVF in tract middle cerebellar peduncle	38, 73, 13, 39, 11	37.21%	53.63%	63.70%
+1098	Weighted-mean L1 in tract medial lemniscus (left)	38, 51, 27, 1, 45	43.08%	56.65%	66.39%
+1099	Mean ICVF in retrolenticular part of internal capsule on FA skeleton (right)	81, 57, 14, 46, 97	79.53%	94.13%	95.67%
+1100	Weighted-mean L1 in tract superior longitudinal fasciculus (right)	97, 0, 46, 81, 14	34.11%	71.98%	81.62%
+1101	Mean ICVF in anterior limb of internal capsule on FA skeleton (right)	81, 97, 14, 46, 0	39.03%	69.56%	77.02%
+1102	Weighted-mean L3 in tract acoustic radiation (left)	51, 64, 57, 14, 46	35.85%	57.17%	71.47%
+1103	Basophill percentage	69, 40, 42, 23, 70	99.60%	99.74%	99.80%
+1104	Weighted-mean L1 in tract posterior thalamic radiation (left)	57, 97, 59, 46, 14	25.22%	55.50%	70.22%
+1105	Weighted-mean L3 in tract cingulate gyrus part of cingulum (left)	46, 81, 14, 27, 11	57.52%	82.37%	88.72%
+1106	Weighted-mean L2 in tract superior longitudinal fasciculus (right)	46, 57, 81, 97, 27	52.48%	79.53%	87.03%
+1107	Weighted-mean L3 in tract anterior thalamic radiation (left)	97, 81, 0, 14, 57	68.71%	81.52%	90.57%
+1108	Weighted-mean L3 in tract acoustic radiation (right)	59, 46, 20, 1, 27	14.69%	29.94%	42.75%
+1109	Volume of grey matter in Lateral Occipital Cortex, superior division (right)	48, 23, 73, 27, 78	59.02%	66.85%	73.57%
+1110	Weighted-mean L1 in tract inferior longitudinal fasciculus (left)	57, 14, 97, 81, 13	40.00%	67.09%	76.57%
+1111	Age when diabetes-related eye disease diagnosed	77, 8, 72, 1, 3	10.89%	23.22%	31.87%
+1112	Weighted-mean L1 in tract inferior fronto-occipital fasciculus (left)	97, 57, 81, 14, 64	22.49%	56.79%	72.01%
+1113	Mean ICVF in superior cerebellar peduncle on FA skeleton (left)	81, 46, 27, 14, 1	18.98%	45.02%	52.89%
+1114	Weighted-mean L1 in tract medial lemniscus (right)	38, 54, 99, 27, 1	67.33%	80.72%	84.08%
+1115	Mean ICVF in inferior cerebellar peduncle on FA skeleton (left)	14, 81, 20, 51, 0	36.45%	69.89%	79.43%
+1116	Weighted-mean L1 in tract middle cerebellar peduncle	38, 73, 13, 11, 54	33.87%	55.61%	66.47%
+1117	Mean carotid IMT (intima-medial thickness) at 240 degrees	23, 59, 78, 32, 0	10.48%	22.68%	32.47%
+1118	Number of pregnancy terminations	72, 23, 78, 64, 39	12.06%	29.62%	39.20%
+1119	Volume of grey matter in Parahippocampal Gyrus, anterior division (right)	48, 20, 23, 11, 81	16.45%	34.13%	43.34%
+1120	Weighted-mean OD in tract cingulate gyrus part of cingulum (right)	73, 82, 27, 8, 97	10.90%	26.35%	37.01%
+1121	Weighted-mean OD in tract corticospinal tract (left)	27, 54, 59, 35, 20	13.15%	29.30%	40.80%
+1122	Age angina diagnosed	23, 79, 89, 67, 49	13.15%	24.95%	34.77%
+1123	Weighted-mean OD in tract inferior fronto-occipital fasciculus (left)	97, 48, 20, 23, 0	17.49%	35.22%	47.59%
+1124	Volume of grey matter in Precuneous Cortex (left)	48, 79, 92, 20, 23	86.61%	89.76%	91.33%
+1125	Number of cigarettes currently smoked daily (current cigarette smokers)	80, 27, 23, 67, 39	20.13%	33.27%	41.65%
+1126	Pulse wave reflection index	26, 89, 99, 59, 73	18.81%	30.78%	39.37%
+1127	Pulse rate	26, 8, 59, 89, 99	70.79%	80.15%	87.01%
+1128	Mother's age	74, 20, 64, 71, 86	8.88%	25.87%	38.26%
+1129	Age stroke diagnosed	27, 86, 2, 85, 23	11.84%	27.16%	37.98%
+1130	Weighted-mean L1 in tract inferior fronto-occipital fasciculus (right)	97, 57, 14, 0, 81	35.62%	66.02%	76.64%
+1131	Cascot confidence score	23, 78, 49, 79, 48	15.59%	28.46%	37.36%
+1132	Position of pulse wave notch	26, 59, 8, 89, 99	57.92%	71.98%	80.11%
+1133	Speech-reception-threshold (SRT) estimate (right)	92, 20, 39, 51, 32	10.98%	26.30%	39.02%
+1134	High light scatter reticulocyte count	95, 36, 56, 93, 10	58.49%	98.79%	99.32%
+1135	urticaria	79, 49, 23, 78, 77	10.27%	27.97%	39.46%
+1136	fracture pelvis	23, 78, 38, 39, 79	13.21%	27.36%	36.74%
+1137	Neuroticism score	90, 11, 64, 27, 74	78.11%	98.64%	98.88%
+1138	Mean ISOVF in anterior limb of internal capsule on FA skeleton (right)	0, 89, 99, 24, 23	62.30%	70.55%	75.65%
+1139	Weighted-mean L2 in tract superior longitudinal fasciculus (left)	46, 57, 81, 97, 27	48.94%	85.58%	90.25%
+1140	Weighted-mean L2 in tract medial lemniscus (right)	38, 54, 99, 39, 27	71.94%	86.34%	88.96%
+1141	Weighted-mean L2 in tract anterior thalamic radiation (left)	97, 57, 81, 0, 14	71.19%	83.67%	91.40%
+1142	Mean ISOVF in middle cerebellar peduncle on FA skeleton	23, 89, 20, 79, 49	10.25%	26.02%	37.51%
+1143	Weighted-mean L1 in tract uncinate fasciculus (right)	14, 97, 57, 72, 39	54.24%	83.51%	85.76%
+1144	Mean ICVF in anterior corona radiata on FA skeleton (left)	81, 97, 46, 64, 59	88.50%	97.21%	97.72%
+1145	Weighted-mean L2 in tract acoustic radiation (right)	59, 46, 20, 1, 64	16.67%	34.45%	46.57%
+1146	Mean ICVF in posterior limb of internal capsule on FA skeleton (right)	81, 46, 97, 14, 64	65.83%	78.33%	83.20%
+1147	Mean ICVF in posterior limb of internal capsule on FA skeleton (left)	81, 46, 97, 0, 64	67.28%	76.01%	82.24%
+1148	Mean ISOVF in medial lemniscus on FA skeleton (left)	38, 72, 14, 23, 39	12.64%	32.83%	43.85%
+1149	Weighted-mean L1 in tract superior thalamic radiation (left)	97, 0, 72, 27, 14	41.72%	68.39%	75.10%
+1150	logMAR, final (left)	92, 80, 59, 1, 98	67.86%	86.89%	90.20%
+1151	Weight	23, 79, 49, 41, 50	34.85%	80.90%	94.56%
+1152	Volume of grey matter in Thalamus (left)	48, 54, 23, 79, 49	28.67%	40.67%	50.07%
+1153	Volume of grey matter in Thalamus (right)	48, 54, 39, 81, 23	29.35%	41.05%	50.91%
+1154	Volume of grey matter in Occipital Pole (left)	48, 77, 62, 92, 73	22.82%	36.34%	45.59%
+1155	logMAR, final (right)	20, 92, 80, 62, 1	41.24%	59.10%	68.82%
+1156	Volume of grey matter in Supracalcarine Cortex (left)	48, 73, 23, 92, 10	18.87%	32.52%	40.02%
+1157	Volume of grey matter in Supracalcarine Cortex (right)	48, 73, 20, 23, 92	34.02%	46.49%	54.91%
+1158	Weighted-mean OD in tract medial lemniscus (right)	59, 20, 79, 8, 22	7.86%	21.26%	31.97%
+1159	Mean ICVF in medial lemniscus on FA skeleton (right)	14, 81, 20, 51, 23	39.50%	51.22%	58.75%
+1160	Mean ICVF in corticospinal tract on FA skeleton (left)	73, 81, 14, 46, 64	11.07%	27.89%	41.42%
+1161	Volume of grey matter in Supramarginal Gyrus, posterior division (left)	23, 48, 27, 68, 67	14.35%	34.11%	43.31%
+1162	Maximum carotid IMT (intima-medial thickness) at 240 degrees	23, 49, 78, 27, 16	15.33%	31.75%	39.85%
+1163	Volume of grey matter in Parahippocampal Gyrus, anterior division (left)	89, 72, 23, 48, 38	8.29%	22.42%	34.96%
+1164	Volume of grey matter in Cuneal Cortex (left)	48, 92, 23, 77, 38	31.78%	42.14%	50.86%
+1165	Pulse wave peak to peak time	54, 73, 83, 27, 45	17.14%	39.41%	55.20%
+1166	Mean ISOVF in pontine crossing tract on FA skeleton	23, 20, 8, 32, 89	8.32%	23.36%	36.16%
+1167	Body mass index (BMI)	23, 30, 49, 29, 33	40.45%	93.77%	96.33%
+1168	Volume of grey matter in Occipital Pole (right)	48, 62, 72, 38, 0	24.46%	38.06%	49.75%
+1169	Volume of grey matter in Planum Temporale (left)	48, 23, 73, 30, 58	17.64%	28.65%	35.85%
+1170	Volume of grey matter in Heschl's Gyrus (includes H1 and H2) (left)	48, 20, 23, 11, 78	27.02%	43.65%	51.38%
+1171	logMAR, initial (right)	20, 80, 62, 92, 1	50.33%	63.02%	71.75%
+1172	Age pulmonary embolism (blood clot in lung) diagnosed	68, 77, 39, 11, 20	9.91%	25.59%	37.35%
+1173	Femur shaft BMD (bone mineral density) (left)	84, 23, 30, 78, 73	98.50%	98.80%	98.99%
+1174	Mean FA in retrolenticular part of internal capsule on FA skeleton (left)	46, 57, 81, 14, 97	33.95%	66.30%	75.29%
+1175	Mean FA in posterior limb of internal capsule on FA skeleton (right)	46, 27, 14, 81, 97	30.68%	49.66%	59.48%
+1176	Femur total BMD (bone mineral density) T-score (left)	84, 23, 78, 94, 49	99.16%	99.36%	99.48%
+1177	Mean FA in anterior limb of internal capsule on FA skeleton (right)	46, 97, 92, 27, 77	46.93%	64.28%	73.83%
+1178	Mean FA in anterior limb of internal capsule on FA skeleton (left)	46, 92, 0, 97, 81	38.63%	53.68%	63.70%
+1179	Mean FA in cerebral peduncle on FA skeleton (right)	46, 14, 57, 20, 23	27.28%	56.85%	64.89%
+1180	Mean FA in cerebral peduncle on FA skeleton (left)	14, 46, 57, 18, 23	30.04%	47.16%	56.13%
+1181	Femur troch BMD (bone mineral density) T-score (left)	84, 23, 78, 20, 94	98.66%	99.04%	99.18%
+1182	Mean ISOVF in external capsule on FA skeleton (left)	0, 13, 54, 23, 78	40.70%	52.19%	60.14%
+1183	Mean ISOVF in sagittal stratum on FA skeleton (right)	0, 13, 59, 46, 81	62.66%	69.43%	74.05%
+1184	Mean ISOVF in sagittal stratum on FA skeleton (left)	0, 23, 78, 81, 46	28.29%	42.17%	52.83%
+1185	Mean ISOVF in cingulum hippocampus on FA skeleton (right)	23, 49, 78, 14, 0	13.05%	27.44%	35.73%
+1186	Mean ISOVF in cingulum hippocampus on FA skeleton (left)	64, 23, 27, 78, 49	14.00%	34.53%	46.36%
+1187	Mean ISOVF in cingulum cingulate gyrus on FA skeleton (right)	0, 81, 27, 79, 20	79.54%	81.90%	83.93%
+1188	Eosinophill count	70, 86, 37, 42, 19	82.31%	98.06%	98.83%
+1189	Mean ICVF in posterior thalamic radiation on FA skeleton (left)	81, 57, 46, 14, 20	53.92%	91.60%	94.81%
+1190	Mean ICVF in sagittal stratum on FA skeleton (left)	81, 57, 46, 14, 97	65.16%	95.79%	96.91%
+1191	dyspepsia/indigestion	23, 78, 49, 94, 16	13.57%	27.94%	36.60%
+1192	Mean ICVF in cingulum cingulate gyrus on FA skeleton (left)	81, 46, 20, 57, 14	60.45%	89.94%	94.82%
+1193	Mean ICVF in cingulum cingulate gyrus on FA skeleton (right)	81, 46, 20, 57, 14	61.43%	89.86%	95.37%
+1194	Years of bringing up phlegm/sputum/mucus on most days	23, 78, 49, 35, 79	24.02%	40.54%	49.45%
+1195	Mean ICVF in uncinate fasciculus on FA skeleton (right)	14, 81, 46, 51, 97	60.05%	78.62%	85.49%
+1196	Mean ICVF in uncinate fasciculus on FA skeleton (left)	14, 81, 46, 51, 27	67.95%	82.67%	86.90%
+1197	LV end systolic volume	20, 68, 23, 78, 64	7.98%	23.52%	33.35%
+1198	LV stroke volume	23, 78, 30, 20, 72	9.06%	24.64%	34.24%
+1199	Mean ICVF in superior longitudinal fasciculus on FA skeleton (right)	81, 46, 14, 1, 57	90.38%	94.96%	96.52%
+1200	Mean ICVF in superior fronto-occipital fasciculus on FA skeleton (right)	81, 97, 59, 57, 54	39.73%	78.64%	82.23%
+1201	Mean ICVF in superior fronto-occipital fasciculus on FA skeleton (left)	81, 97, 0, 72, 20	41.65%	80.99%	84.50%
+1202	Mean ICVF in cingulum hippocampus on FA skeleton (right)	14, 81, 51, 20, 46	39.94%	77.00%	83.85%
+1203	Mean ICVF in cingulum hippocampus on FA skeleton (left)	81, 14, 51, 46, 20	36.60%	72.87%	80.06%
+1204	Mean ICVF in fornix cres+stria terminalis on FA skeleton (right)	81, 14, 0, 20, 46	42.86%	76.86%	84.04%
+1205	Mean ICVF in fornix cres+stria terminalis on FA skeleton (left)	14, 81, 46, 0, 20	36.63%	73.32%	80.73%
+1206	Basophill count	69, 40, 43, 70, 86	98.46%	99.45%	99.59%
+1207	Weighted-mean OD in tract acoustic radiation (right)	89, 79, 23, 64, 67	12.56%	27.60%	36.05%
+1208	Weighted-mean OD in tract anterior thalamic radiation (left)	97, 0, 46, 32, 48	24.03%	40.82%	48.88%
+1209	Weighted-mean ICVF in tract superior thalamic radiation (right)	81, 97, 46, 14, 27	68.51%	92.20%	95.18%
+1210	Mean sphered cell volume	72, 91, 55, 92, 27	31.72%	61.43%	70.31%
+1211	Mean ISOVF in anterior corona radiata on FA skeleton (right)	0, 64, 13, 46, 23	82.92%	86.69%	88.49%
+1212	Weighted-mean L1 in tract acoustic radiation (right)	59, 1, 46, 97, 39	21.04%	35.08%	46.39%
+1213	Fresh fruit intake	77, 89, 71, 8, 3	96.17%	96.88%	97.33%
+1214	Age diabetes diagnosed	58, 79, 23, 78, 38	11.28%	24.55%	34.81%
+1215	Mean ISOVF in fornix cres+stria terminalis on FA skeleton (right)	14, 23, 92, 68, 82	14.41%	28.04%	37.01%
+1216	Age macular degeneration diagnosed	8, 89, 78, 73, 3	8.88%	21.29%	31.67%
+1217	Mean ISOVF in external capsule on FA skeleton (right)	0, 46, 23, 61, 68	56.97%	65.77%	71.66%
+1218	Arm BMC (bone mineral content) (right)	20, 94, 84, 92, 38	57.62%	70.68%	78.64%
+1219	Mean FA in external capsule on FA skeleton (right)	46, 14, 57, 20, 97	40.44%	69.88%	78.91%
+1220	Age chronic bronchitis diagnosed by doctor	22, 27, 28, 23, 73	11.64%	27.77%	37.03%
+1221	Mean ICVF in external capsule on FA skeleton (right)	81, 14, 97, 46, 11	34.96%	80.93%	88.36%
+1222	Age asthma diagnosed by doctor	37, 40, 23, 51, 75	56.15%	63.66%	68.77%
+1223	Age hayfever or allergic rhinitis diagnosed by doctor	37, 23, 51, 78, 13	20.00%	31.89%	41.13%
+1224	Weighted-mean L3 in tract superior thalamic radiation (left)	46, 97, 0, 57, 81	53.13%	82.18%	90.12%
+1225	Femur neck BMD (bone mineral density) (left)	84, 23, 78, 49, 92	98.28%	98.72%	98.91%
+1226	Weighted-mean ISOVF in tract medial lemniscus (left)	38, 27, 51, 1, 80	46.47%	57.85%	66.84%
+1227	hypertension	52, 74, 71, 60, 21	76.61%	94.72%	97.36%
+1228	neck problem/injury	23, 17, 39, 71, 99	9.05%	22.81%	33.10%
+1229	pneumothorax	23, 78, 49, 89, 72	14.11%	30.99%	38.78%
+1230	non-infective hepatitis	89, 23, 78, 67, 49	15.43%	36.19%	47.57%
+1231	Mean FA in middle cerebellar peduncle on FA skeleton	46, 81, 89, 57, 23	41.57%	54.86%	62.14%
+1232	Mean FA in pontine crossing tract on FA skeleton	79, 38, 86, 23, 72	8.33%	23.16%	34.55%
+1233	amlodipine	74, 71, 92, 52, 32	24.14%	53.20%	64.14%
+1234	isosorbide mononitrate	83, 89, 8, 64, 82	11.80%	26.98%	37.27%
+1235	diltiazem	23, 79, 49, 1, 73	12.15%	27.12%	37.33%
+1236	amisulpride	77, 71, 67, 8, 3	8.64%	23.34%	34.18%
+1237	spiriva 18micrograms inhalation capsule	23, 49, 27, 78, 89	12.04%	27.60%	37.40%
+1238	thyroxine product	58, 83, 78, 23, 19	84.53%	88.12%	89.63%
+1239	reductil 10mg capsule	23, 78, 49, 7, 22	20.52%	40.24%	47.48%
+1240	zestoretic 10 tablet	23, 78, 49, 67, 59	8.80%	22.83%	31.90%
+1241	buccastem 3mg tablet	67, 59, 23, 89, 78	5.69%	16.37%	25.89%
+1242	clotrimazole	23, 78, 49, 81, 79	21.81%	50.83%	58.39%
+1243	felendil xl 5mg m/r tablet	23, 78, 49, 79, 22	23.33%	44.70%	53.11%
+1244	capasal shampoo	82, 30, 89, 32, 25	12.05%	26.89%	38.26%
+1245	protelos 2g sachets	23, 49, 78, 22, 10	13.13%	29.48%	40.35%
+1246	risedronate sodium	23, 79, 67, 27, 71	12.15%	27.05%	37.10%
+1247	indivina 1mg/2.5mg tablet	89, 82, 23, 78, 72	16.09%	32.16%	42.33%
+1248	atenolol	74, 71, 83, 27, 52	13.59%	27.75%	38.43%
+1249	clonazepam	79, 23, 22, 8, 59	8.51%	22.55%	32.60%
+1250	mirena 20mcg/24hrs intrauterine system	72, 82, 79, 77, 8	14.00%	30.44%	42.31%
+1251	aqueous cream bp	79, 73, 23, 8, 49	14.09%	29.98%	40.44%
+1252	plaquenil 200mg tablet	89, 23, 78, 73, 27	10.95%	30.38%	41.97%
+1253	dicloflex 25mg e/c tablet	78, 23, 89, 32, 39	10.54%	28.53%	39.72%
+1254	multivitamin+mineral preparations	72, 78, 23, 89, 0	9.13%	27.02%	39.25%
+1255	amias 2mg tablet	23, 49, 78, 71, 79	12.98%	29.94%	40.16%
+1256	femseven 50 patch	78, 8, 23, 89, 17	9.09%	24.86%	35.33%
+1257	methotrexate	58, 31, 23, 78, 73	21.02%	32.16%	40.63%
+1258	Weighted-mean L2 in tract middle cerebellar peduncle	38, 73, 13, 39, 11	35.87%	49.89%	61.15%
+1259	fluvastatin	23, 49, 78, 79, 22	14.50%	26.75%	36.97%
+1260	salbuvent 100micrograms inhaler	23, 78, 89, 49, 67	8.21%	21.08%	30.85%
+1261	singulair 10mg tablet	23, 79, 78, 49, 7	14.68%	36.16%	47.01%
+1262	mometasone	23, 27, 79, 89, 67	10.16%	23.07%	34.70%
+1263	sinemet-62.5 tablet	23, 78, 22, 77, 49	13.47%	26.60%	38.32%
+1264	cod liver oil capsule	72, 23, 39, 78, 2	11.33%	25.88%	37.88%
+1265	mometasone furoate 0.1% ointment	67, 23, 78, 59, 8	7.02%	19.58%	29.23%
+1266	aspirin	10, 83, 45, 20, 74	38.31%	58.27%	68.44%
+1267	progesterone product	23, 79, 49, 78, 41	17.66%	36.05%	48.01%
+1268	bezafibrate	23, 10, 79, 68, 49	17.94%	39.54%	46.76%
+1269	merbentyl 10mg tablet	23, 78, 79, 49, 32	12.96%	28.38%	40.93%
+1270	ibandronic acid	23, 79, 71, 49, 78	8.93%	23.96%	34.82%
+1271	synalar 1:10 cream	23, 79, 49, 72, 27	10.69%	27.03%	37.00%
+1272	phenergan 10mg tablet	67, 59, 23, 78, 8	7.01%	17.41%	26.73%
+1273	phenobarbital	23, 78, 59, 49, 89	8.46%	22.67%	32.46%
+1274	migraleve tablet	23, 49, 89, 39, 78	13.83%	24.77%	33.67%
+1275	dixarit 25mcg tablet	23, 49, 78, 82, 79	16.60%	33.79%	44.70%
+1276	ropinirole	30, 23, 27, 79, 73	8.12%	21.42%	32.48%
+1277	sodium valproate	23, 49, 79, 78, 99	17.24%	34.59%	44.14%
+1278	ispaghula husk	23, 39, 73, 89, 71	9.20%	23.66%	34.09%
+1279	azathioprine	23, 89, 39, 82, 38	10.16%	27.60%	38.27%
+1280	ventolin 100micrograms inhaler	37, 51, 70, 72, 18	86.68%	92.23%	94.23%
+1281	nuvelle tablet	82, 73, 27, 30, 38	8.20%	23.25%	32.08%
+1282	pramipexole	23, 49, 79, 82, 78	18.04%	34.44%	47.02%
+1283	quinapril	23, 49, 78, 89, 67	16.62%	28.87%	38.71%
+1284	lacri-lube eye ointment	23, 79, 71, 78, 67	14.17%	24.86%	34.54%
+1285	beclometasone	23, 78, 37, 71, 39	11.42%	25.87%	38.06%
+1286	ferrous sulphate	23, 27, 79, 73, 78	12.13%	25.72%	35.41%
+1287	mirapexin 0.088mg tablet	23, 22, 77, 71, 78	9.50%	24.06%	34.35%
+1288	budesonide product	23, 79, 49, 78, 82	12.05%	29.19%	39.27%
+1289	gtn - glyceryl trinitrate	23, 89, 49, 78, 1	12.41%	26.35%	37.58%
+1290	vesicare 5mg tablet	23, 78, 49, 7, 39	16.86%	30.09%	38.73%
+1291	naprosyn 250mg tablet	23, 78, 49, 41, 79	17.31%	36.75%	48.14%
+1292	sustanon 100 oily injection	77, 71, 11, 82, 8	9.08%	21.29%	31.68%
+1293	maxidex eye drops	67, 59, 78, 30, 23	7.15%	18.00%	26.33%
+1294	arthrotec tablet	23, 78, 71, 49, 86	11.38%	26.87%	35.49%
+1295	testosterone product	23, 27, 30, 0, 64	7.35%	21.35%	33.40%
+1296	oxybutynin	23, 78, 79, 49, 71	16.42%	31.90%	44.01%
+1297	otomize ear spray	23, 78, 89, 49, 16	11.13%	32.76%	42.04%
+1298	femulen tablet	23, 79, 49, 1, 78	9.14%	21.79%	32.49%
+1299	glibenclamide	23, 78, 49, 30, 0	19.46%	34.09%	42.99%
+1300	nitrazepam	38, 79, 1, 89, 72	8.15%	22.73%	35.66%
+1301	nitrolingual 400micrograms spray	89, 23, 78, 71, 86	13.98%	29.36%	38.52%
+1302	dilzem sr 60mg long acting m/r capsule	89, 23, 78, 82, 49	15.13%	35.32%	45.46%
+1303	cetraben emollient cream	82, 23, 30, 77, 78	11.85%	29.11%	38.52%
+1304	salbutamol product	79, 23, 49, 72, 82	13.22%	30.22%	37.16%
+1305	nortriptyline	23, 78, 71, 49, 79	14.49%	29.90%	42.19%
+1306	allergy relief antihistamine 4mg tablet	89, 23, 78, 49, 82	13.67%	36.27%	46.12%
+1307	clobetasol	82, 30, 25, 89, 38	13.03%	26.84%	38.28%
+1308	carmellose	23, 89, 82, 49, 78	10.67%	30.01%	46.08%
+1309	dipyridamole	23, 27, 39, 78, 72	10.74%	26.72%	38.31%
+1310	femoston 1/10 tablet	23, 1, 71, 49, 78	13.64%	30.33%	43.54%
+1311	nurofen 200mg tablet	23, 79, 49, 78, 71	15.79%	35.42%	47.04%
+1312	selenium product	23, 79, 49, 72, 78	15.75%	27.21%	35.93%
+1313	ciprofloxacin	23, 78, 77, 49, 11	14.30%	32.72%	41.78%
+1314	e45 cream	23, 49, 79, 78, 54	12.52%	29.95%	40.85%
+1315	antihistamine 60mg tablet	23, 71, 78, 49, 79	11.22%	23.58%	32.26%
+1316	minocycline	23, 78, 89, 49, 73	14.30%	36.13%	45.30%
+1317	mycophenolate	89, 78, 23, 49, 25	12.80%	32.88%	44.24%
+1318	timolol 0.25% eye drops	23, 79, 49, 78, 6	14.44%	28.57%	38.92%
+1319	dihydrocodeine	23, 79, 72, 27, 49	10.03%	24.27%	34.61%
+1320	forceval capsule	23, 22, 78, 27, 49	14.15%	26.95%	36.54%
+1321	loestrin 20 tablet	23, 27, 79, 82, 49	8.97%	21.86%	34.02%
+1322	xatral 2.5mg tablet	23, 78, 49, 73, 77	16.15%	31.48%	40.66%
+1323	Mean ISOVF in genu of corpus callosum on FA skeleton	0, 97, 14, 2, 23	35.86%	53.73%	60.89%
+1324	dorzolamide+timolol	82, 23, 30, 77, 25	13.31%	29.01%	40.18%
+1325	madopar 62.5 capsule	23, 78, 77, 49, 82	14.36%	28.75%	37.64%
+1326	calcichew d3 tablet	23, 89, 79, 78, 49	13.21%	27.77%	37.87%
+1327	spasmonal 60mg capsule	23, 78, 49, 30, 0	17.07%	35.49%	43.23%
+1328	rizatriptan	23, 79, 73, 59, 8	11.39%	27.98%	40.79%
+1329	ismo - isosorbide mononitrate	23, 78, 49, 79, 0	23.21%	38.43%	45.74%
+1330	calcium carbonate+cholecalciferol 1.25g/200iu tablet	39, 78, 89, 23, 81	11.41%	32.05%	47.08%
+1331	macrogol ointment	22, 23, 59, 78, 77	8.77%	25.09%	35.44%
+1332	atorvastatin	10, 86, 51, 38, 39	29.98%	41.04%	47.90%
+1333	calcium+vitamin d 500units tablet	23, 49, 7, 81, 71	17.35%	31.03%	40.94%
+1334	conjugated oestrogens	22, 23, 59, 78, 11	8.57%	24.91%	34.46%
+1335	persantin 25mg tablet	79, 23, 1, 49, 32	16.05%	38.18%	48.49%
+1336	vardenafil	23, 78, 49, 59, 22	15.14%	31.21%	41.40%
+1337	piriteze 10mg tablet	23, 77, 78, 82, 71	9.48%	24.69%	33.78%
+1338	bricanyl 250mcg inhaler	79, 23, 78, 49, 8	12.45%	32.24%	44.86%
+1339	premarin 625micrograms tablet	23, 79, 49, 78, 81	12.87%	28.19%	36.52%
+1340	prempak 0.625 tablet	23, 71, 49, 79, 78	12.51%	30.07%	39.30%
+1341	bisacodyl	23, 78, 73, 8, 77	10.80%	27.14%	36.64%
+1342	adalate 10mg capsule	23, 79, 49, 77, 8	13.81%	31.23%	41.25%
+1343	questran 4g/sachet powder	23, 78, 77, 22, 49	13.39%	28.63%	39.79%
+1344	epanutin 25mg capsule	23, 79, 49, 78, 71	23.21%	41.40%	51.64%
+1345	travatan 40micrograms/ml eye drops	23, 59, 79, 71, 22	10.05%	23.68%	32.12%
+1346	Salad/raw vegetable intake	51, 38, 27, 77, 20	43.93%	66.63%	72.60%
+1347	lisinopril	71, 74, 52, 21, 20	23.00%	54.05%	64.10%
+1348	acyclovir	23, 78, 49, 77, 16	19.86%	39.38%	47.82%
+1349	insulin product	15, 58, 83, 49, 98	43.07%	78.88%	81.28%
+1350	livial 2.5mg tablet	89, 23, 39, 72, 71	14.74%	31.02%	40.36%
+1351	migril tablet	23, 78, 49, 7, 79	20.42%	42.31%	51.45%
+1352	indapamide	27, 23, 73, 68, 79	11.67%	27.16%	39.47%
+1353	peptac liquid	23, 78, 67, 82, 89	11.39%	22.54%	32.12%
+1354	trifluoperazine	77, 71, 67, 8, 22	8.81%	23.97%	35.41%
+1355	co-proxamol	23, 22, 59, 71, 79	9.51%	24.02%	35.40%
+1356	symbicort 100/6 turbohaler	23, 37, 27, 79, 1	9.97%	26.62%	39.87%
+1357	acrivastine	82, 89, 30, 25, 38	11.60%	24.85%	34.47%
+1358	fosinopril	23, 78, 89, 82, 49	12.77%	27.59%	41.26%
+1359	adalat 5mg capsule	49, 23, 79, 78, 89	9.48%	25.72%	37.19%
+1360	co-codamol	72, 7, 79, 83, 23	12.10%	20.05%	27.44%
+1361	tolterodine l-tartrate	1, 72, 23, 39, 73	9.73%	23.15%	33.09%
+1362	eprosartan	23, 79, 49, 78, 59	13.95%	33.99%	41.13%
+1363	zumenon 1mg tablet	23, 78, 49, 16, 7	22.80%	47.76%	55.22%
+1364	aspirin 75mg tablet	23, 39, 49, 79, 78	10.15%	21.94%	32.03%
+1365	estradiol product	23, 78, 49, 79, 73	17.42%	33.00%	41.87%
+1366	sotalol	61, 23, 79, 49, 72	15.91%	36.57%	47.01%
+1367	letrozole	23, 49, 78, 27, 79	15.04%	27.52%	38.13%
+1368	pantoprazole	89, 23, 79, 67, 49	12.03%	27.56%	38.46%
+1369	noriday tablet	89, 23, 78, 71, 27	11.91%	28.88%	37.82%
+1370	aciclovir	23, 78, 79, 49, 81	14.50%	34.69%	47.01%
+1371	co-enzyme q10/ubiquinone/bio-quinone/coenzyme q10	23, 78, 79, 1, 49	18.40%	32.33%	42.03%
+1372	clarithromycin	23, 49, 78, 82, 89	12.38%	34.49%	43.59%
+1373	sodium warfarin	61, 23, 49, 79, 81	26.34%	44.33%	52.54%
+1374	chondroitin product	23, 78, 79, 64, 48	15.81%	30.54%	43.09%
+1375	terazosin	23, 78, 49, 73, 27	18.42%	38.62%	48.45%
+1376	tadalafil	23, 39, 89, 79, 78	12.66%	27.18%	38.97%
+1377	cialis 10mg tablet	73, 23, 8, 49, 79	11.24%	27.85%	41.19%
+1378	securon 40mg tablet	23, 78, 49, 82, 30	11.90%	27.25%	36.81%
+1379	cialis 20mg tablet	8, 89, 78, 23, 22	11.25%	27.36%	38.61%
+1380	omeprazole	83, 98, 18, 0, 23	33.88%	42.42%	49.07%
+1381	calcium carbonate+cholecalciferol 1.25g/5micrograms tablet	23, 78, 89, 8, 49	11.59%	28.05%	41.43%
+1382	senna	23, 78, 39, 49, 71	13.46%	27.03%	37.10%
+1383	ispaghula husk product	23, 78, 49, 59, 79	12.88%	28.03%	36.04%
+1384	eltroxin 25micrograms tablet	23, 78, 59, 49, 89	11.45%	27.17%	37.14%
+1385	venlafaxine	23, 78, 49, 79, 71	15.19%	29.77%	38.74%
+1386	motilium 10mg tablet	23, 78, 73, 49, 72	14.58%	30.85%	40.30%
+1387	captopril	89, 23, 82, 78, 49	12.83%	30.26%	42.94%
+1388	efexor 37.5mg tablet	27, 82, 23, 73, 30	14.28%	30.19%	41.26%
+1389	azopt 10mg/ml eye drops	23, 82, 6, 79, 49	11.51%	29.63%	40.32%
+1390	flax oil tablet	23, 78, 49, 71, 20	12.26%	30.01%	39.55%
+1391	cinnarizine	79, 22, 23, 77, 82	7.48%	21.80%	31.54%
+1392	ginseng product	27, 89, 23, 67, 64	14.46%	32.38%	44.42%
+1393	ginkgo forte tablet	27, 23, 49, 78, 79	14.66%	29.22%	39.73%
+1394	chlorpheniramine	23, 78, 49, 79, 16	19.05%	40.50%	48.04%
+1395	chlorpromazine	23, 27, 22, 30, 49	9.19%	25.16%	34.59%
+1396	brinzolamide	23, 78, 89, 49, 69	16.23%	38.86%	49.99%
+1397	amoxicillin	23, 79, 78, 49, 71	12.41%	26.45%	37.26%
+1398	carbocisteine	23, 78, 49, 73, 89	12.66%	29.31%	39.89%
+1399	anastrozole	23, 78, 49, 89, 71	22.36%	36.06%	45.85%
+1400	cymalon cranberry 1.5g/5ml liquid	23, 78, 49, 77, 16	18.97%	37.35%	45.01%
+1401	fybogel mebeverine sachet	23, 89, 78, 79, 49	14.93%	30.46%	40.98%
+1402	hydroxychloroquine	23, 71, 39, 78, 72	8.51%	21.99%	32.45%
+1403	terbutaline	23, 37, 79, 49, 1	12.24%	27.33%	37.25%
+1404	gaviscon liquid	23, 94, 72, 78, 79	11.54%	27.49%	41.50%
+1405	irbesartan	23, 78, 74, 72, 1	10.25%	25.20%	34.68%
+1406	climaval 1mg tablet	89, 82, 73, 77, 25	24.17%	41.61%	52.98%
+1407	simvador 10mg tablet	27, 1, 73, 68, 23	11.92%	25.30%	37.08%
+1408	telfast 30 tablet	23, 49, 78, 79, 72	16.05%	31.12%	41.62%
+1409	lansoprazole	89, 18, 86, 45, 8	10.98%	29.97%	39.24%
+1410	azithromycin	23, 79, 49, 78, 59	12.68%	27.82%	39.58%
+1411	imodium 2mg capsule	23, 78, 89, 82, 49	13.94%	32.70%	44.09%
+1412	istin 5mg tablet	23, 79, 49, 78, 81	18.82%	36.47%	46.70%
+1413	Weighted-mean OD in tract posterior thalamic radiation (left)	59, 79, 86, 23, 48	8.77%	21.09%	32.98%
+1414	beclometasone dipropionate+salbutamol	23, 79, 49, 27, 78	14.94%	30.80%	41.46%
+1415	lamotrigine	89, 78, 23, 39, 62	13.08%	31.35%	44.11%
+1416	testogel 50mg gel 5g sachet	23, 78, 8, 73, 77	10.94%	26.97%	38.21%
+1417	rhinocort 50micrograms nasal spray	23, 78, 49, 16, 89	18.98%	36.41%	46.16%
+1418	Weighted-mean OD in tract medial lemniscus (left)	79, 23, 74, 32, 86	10.26%	21.58%	30.61%
+1419	regulan 3.6g/sachet powder	67, 59, 1, 78, 23	6.52%	17.55%	26.66%
+1420	hydrocortisone product	23, 78, 49, 79, 0	15.69%	32.28%	42.92%
+1421	exemestane	23, 79, 78, 30, 0	16.30%	30.42%	38.81%
+1422	Mean ISOVF in superior cerebellar peduncle on FA skeleton (left)	48, 89, 79, 23, 86	8.85%	25.11%	37.50%
+1423	Weighted-mean OD in tract inferior longitudinal fasciculus (right)	97, 64, 14, 86, 48	20.90%	31.87%	41.35%
+1424	diprobase cream	23, 27, 72, 78, 71	9.44%	22.07%	31.91%
+1425	levetiracetam	23, 78, 89, 49, 82	15.38%	37.21%	48.00%
+1426	antihypertensive	23, 78, 77, 82, 49	15.76%	30.10%	41.33%
+1427	flu - influenza vaccine	73, 23, 89, 78, 8	7.98%	23.34%	37.53%
+1428	lithium product	23, 78, 49, 18, 79	15.67%	32.31%	42.43%
+1429	b12 - hydroxocobalamin prep	23, 79, 49, 13, 82	14.71%	30.79%	39.08%
+1430	montelukast product	37, 23, 49, 89, 8	12.34%	29.99%	41.53%
+1431	diprosalic ointment	23, 22, 0, 30, 78	9.56%	21.62%	29.70%
+1432	oestrogen product	23, 27, 82, 38, 78	9.11%	23.87%	34.73%
+1433	doxycycline	23, 78, 79, 49, 89	19.99%	39.99%	51.57%
+1434	loratadine	23, 78, 49, 72, 37	10.80%	28.13%	39.80%
+1435	tylex capsule	82, 23, 78, 27, 98	12.47%	24.98%	35.21%
+1436	zimovane ls 3.75mg tablet	23, 78, 49, 77, 73	11.46%	27.81%	37.30%
+1437	Volume of grey matter in Cingulate Gyrus, posterior division (left)	48, 8, 1, 35, 22	64.01%	70.53%	75.49%
+1438	formoterol	23, 78, 49, 27, 16	18.76%	34.29%	42.77%
+1439	almotriptan	23, 78, 49, 3, 11	14.57%	34.36%	41.15%
+1440	dovonex scalp solution	82, 77, 23, 30, 25	14.01%	29.66%	42.14%
+1441	co-tenidone	67, 27, 23, 89, 49	9.16%	26.38%	35.95%
+1442	cozaar 25mg tablet	23, 78, 1, 71, 7	17.18%	30.10%	41.03%
+1443	rabeprazole sodium	23, 73, 79, 1, 90	8.03%	20.24%	29.19%
+1444	celecoxib	89, 23, 27, 39, 67	14.88%	33.15%	44.02%
+1445	sulphasalazine	23, 82, 49, 72, 79	12.49%	26.53%	37.26%
+1446	calcium+ergocalciferol tablet	78, 23, 89, 49, 82	12.61%	33.20%	44.04%
+1447	celebrex 100mg capsule	23, 49, 78, 81, 79	21.01%	37.62%	48.49%
+1448	hydroxyzine	23, 79, 78, 49, 27	14.86%	33.48%	44.62%
+1449	allopurinol	59, 99, 39, 8, 73	83.90%	88.50%	90.47%
+1450	co-amilozide	23, 79, 78, 49, 22	11.33%	23.52%	33.31%
+1451	amiloride	23, 78, 77, 49, 11	13.26%	28.70%	37.04%
+1452	verapamil	27, 23, 67, 82, 64	15.19%	28.72%	37.92%
+1453	adipine mr 10 m/r tablet	23, 78, 73, 27, 49	14.48%	32.75%	42.10%
+1454	celluvisc 1% single-use eye drops	23, 78, 49, 89, 0	17.94%	37.30%	50.22%
+1455	cosopt 2%/0.5% eye drops	73, 79, 23, 8, 77	11.71%	29.58%	41.66%
+1456	Volume of grey matter in Frontal Orbital Cortex (left)	48, 23, 20, 92, 49	80.54%	84.59%	86.71%
+1457	plavix 75mg tablet	23, 78, 49, 22, 77	16.75%	31.75%	40.55%
+1458	Sitting height	5, 16, 78, 7, 79	73.34%	90.33%	94.61%
+1459	iron sulphate	89, 23, 78, 49, 82	14.14%	35.27%	47.05%
+1460	cipralex 5mg tablet	23, 78, 71, 49, 89	14.09%	28.18%	40.76%
+1461	flixonase 50micrograms aqueous nasal spray	23, 78, 71, 49, 1	13.03%	28.03%	38.25%
+1462	simvastatin	10, 89, 83, 20, 18	42.63%	54.07%	60.79%
+1463	alfuzosin	89, 23, 82, 79, 78	10.08%	25.19%	34.70%
+1464	hormonin tablet	82, 23, 77, 79, 25	12.05%	29.10%	41.13%
+1465	lyrica 25mg capsule	23, 78, 49, 79, 16	14.87%	35.86%	46.06%
+1466	imigran 50mg tablet	23, 49, 79, 78, 71	16.49%	31.41%	41.69%
+1467	anusol cream	82, 23, 78, 49, 89	9.61%	25.48%	37.55%
+1468	metoprolol	23, 78, 49, 82, 79	13.45%	28.91%	39.94%
+1469	Weighted-mean OD in tract inferior fronto-occipital fasciculus (right)	97, 8, 0, 46, 48	15.11%	29.23%	39.21%
+1470	vitamin b12 preparation	23, 49, 79, 78, 8	11.85%	27.13%	37.75%
+1471	doxazosin	79, 71, 72, 8, 74	14.71%	35.33%	46.37%
+1472	tears naturale eye drops	23, 78, 79, 49, 27	17.80%	37.99%	50.13%
+1473	cyanocobalamin product	23, 67, 78, 59, 1	6.94%	19.31%	28.25%
+1474	actonel 5mg tablet	23, 79, 27, 49, 1	14.79%	31.83%	44.19%
+1475	tiotropium	27, 23, 72, 38, 77	9.01%	21.36%	29.59%
+1476	ezetimibe	10, 2, 79, 45, 23	76.86%	81.02%	84.10%
+1477	evorel 25 patch	23, 89, 71, 1, 78	9.70%	22.97%	34.52%
+1478	nizatidine	23, 78, 49, 82, 89	15.39%	32.78%	44.26%
+1479	Volume of grey matter in Intracalcarine Cortex (right)	48, 92, 62, 20, 73	14.47%	33.96%	43.78%
+1480	Volume of grey matter in Intracalcarine Cortex (left)	48, 92, 62, 73, 20	13.38%	34.66%	44.90%
+1481	Mean ISOVF in superior cerebellar peduncle on FA skeleton (right)	48, 23, 49, 78, 14	24.41%	38.00%	45.26%
+1482	candesartan cilexetil	79, 52, 49, 78, 23	13.98%	31.47%	41.16%
+1483	Mean ICVF in medial lemniscus on FA skeleton (left)	14, 20, 0, 51, 59	35.84%	54.91%	63.75%
+1484	Volume of grey matter in Lateral Occipital Cortex, superior division (left)	48, 78, 23, 39, 49	84.41%	88.83%	91.01%
+1485	Volume of grey matter in Lateral Occipital Cortex, inferior division (right)	48, 23, 78, 49, 27	44.08%	58.98%	65.05%
+1486	senna product	59, 23, 67, 78, 22	7.21%	18.24%	28.43%
+1487	Mean ISOVF in posterior limb of internal capsule on FA skeleton (right)	0, 23, 97, 49, 79	13.99%	28.96%	39.33%
+1488	oxycodone hydrochloride	23, 59, 78, 89, 49	9.54%	22.76%	33.35%
+1489	Mean ICVF in inferior cerebellar peduncle on FA skeleton (right)	14, 81, 20, 51, 0	28.98%	64.05%	77.00%
+1490	clobetasone	23, 79, 49, 78, 81	21.71%	42.43%	53.98%
+1491	hyoscine butylbromide	22, 77, 23, 59, 28	10.27%	25.65%	33.76%
+1492	buscopan 10mg tablet	23, 78, 7, 79, 49	14.22%	28.83%	39.32%
+1493	tranexamic acid	23, 71, 99, 0, 39	10.20%	22.63%	34.18%
+1494	terbinafine	23, 71, 49, 78, 89	15.64%	30.70%	41.71%
+1495	Mean ICVF in superior longitudinal fasciculus on FA skeleton (left)	81, 46, 1, 57, 27	92.67%	95.78%	97.12%
+1496	nexium 20mg tablet	89, 8, 23, 79, 82	9.64%	23.65%	36.11%
+1497	lisinopril+hydrochlorothiazide 10mg/12.5mg tablet	23, 78, 49, 16, 85	19.15%	36.97%	47.97%
+1498	pravastatin	20, 73, 72, 23, 98	33.53%	42.07%	49.67%
+1499	tacrolimus	23, 89, 82, 78, 27	10.68%	29.91%	44.40%
+1500	felodipine	89, 74, 72, 23, 78	11.53%	28.86%	40.08%
+1501	lecithin product	23, 8, 79, 78, 94	15.72%	30.22%	41.35%
+1502	monomax xl 60mg m/r tablet	82, 89, 23, 78, 30	10.62%	23.44%	33.88%
+1503	bumetanide	23, 49, 78, 79, 89	15.79%	32.68%	43.34%
+1504	ismn - isosorbide mononitrate	23, 89, 49, 82, 78	10.29%	25.47%	37.51%
+1505	movelat gel	23, 78, 49, 89, 41	16.63%	35.74%	42.26%
+1506	movelat cream	82, 30, 25, 89, 23	13.59%	28.16%	39.21%
+1507	indomethacin	23, 59, 78, 79, 49	8.57%	21.63%	30.72%
+1508	inderal 10mg tablet	23, 78, 49, 79, 81	19.47%	41.45%	49.38%
+1509	olanzapine	39, 23, 71, 89, 78	9.15%	23.39%	33.99%
+1510	normacol granules	23, 78, 49, 89, 73	15.73%	33.72%	45.08%
+1511	oil of peppermint	23, 79, 78, 49, 72	16.72%	33.44%	44.55%
+1512	salamol 100micrograms inhaler	23, 78, 89, 59, 38	11.13%	28.46%	37.35%
+1513	salbutamol+ipratropium 100micrograms/20micrograms inhaler	23, 78, 67, 59, 49	8.14%	20.67%	30.96%
+1514	penicillin	23, 78, 49, 79, 82	21.10%	36.13%	45.30%
+1515	metoclopramide	79, 23, 82, 91, 98	14.82%	30.19%	36.82%
+1516	procyclidine	23, 78, 49, 16, 30	18.38%	32.92%	39.49%
+1517	dexamethasone+hypromellose 0.1%/0.5% eye drops	23, 78, 49, 89, 50	16.18%	36.43%	47.67%
+1518	respiratory mometasone	23, 79, 49, 82, 86	8.42%	22.09%	32.43%
+1519	risperidone	23, 78, 49, 89, 16	20.07%	42.06%	52.07%
+1520	cozaar-comp 50mg/12.5mg tablet	59, 23, 78, 67, 82	7.21%	20.26%	30.28%
+1521	losartan potassium+hydrochlorothiazide 50mg/12.5mg tablet	23, 79, 1, 49, 78	12.10%	26.75%	35.96%
+1522	pizotifen	23, 79, 49, 56, 78	10.23%	24.72%	34.38%
+1523	beclomist 50micrograms nasal spray	23, 78, 49, 16, 77	21.89%	40.60%	47.25%
+1524	nicorandil	79, 23, 10, 8, 78	6.89%	19.16%	29.59%
+1525	paracetamol + codeine	23, 79, 22, 28, 77	7.16%	18.12%	27.26%
+1526	Red blood cell (erythrocyte) count	91, 55, 40, 19, 56	96.34%	99.40%	99.60%
+1527	vagifem 25mcg pessary	82, 68, 79, 30, 18	9.08%	25.90%	35.25%
+1528	moxonidine	23, 49, 79, 78, 30	12.92%	31.14%	43.01%
+1529	tridestra tablet	82, 78, 23, 79, 49	8.32%	22.97%	35.50%
+1530	beclazone 50 inhaler	23, 39, 78, 49, 71	18.94%	33.32%	46.54%
+1531	estriol product	78, 23, 89, 8, 49	10.67%	28.55%	37.53%
+1532	Years of cough on most days	23, 78, 64, 49, 41	14.51%	30.94%	42.27%
+1533	proctosedyl ointment	23, 78, 89, 49, 73	13.22%	31.02%	42.34%
+1534	garlic product	23, 78, 49, 89, 79	13.38%	28.94%	40.40%
+1535	levocetirizine	23, 77, 78, 49, 41	14.45%	28.84%	37.91%
+1536	zapain caplet	23, 78, 49, 68, 77	19.74%	35.20%	42.98%
+1537	airomir 100micrograms cfc-free inhaler	89, 23, 78, 82, 49	16.39%	36.60%	49.58%
+1538	tamsulosin	23, 78, 72, 39, 71	12.30%	28.87%	41.08%
+1539	salmeterol product	23, 79, 8, 1, 49	13.81%	30.02%	43.47%
+1540	Weighted-mean L2 in tract inferior longitudinal fasciculus (left)	57, 14, 81, 46, 20	75.26%	93.62%	95.55%
+1541	oramorph 10mg/5ml oral solution	23, 78, 77, 32, 82	11.05%	28.14%	38.98%
+1542	salmeterol+fluticasone propionate	23, 1, 71, 78, 79	13.66%	28.69%	41.37%
+1543	co-amoxiclav	23, 78, 49, 82, 89	15.55%	33.38%	43.65%
+1544	mercilon tablet	23, 78, 89, 8, 73	11.04%	27.09%	37.83%
+1545	cabergoline	78, 23, 49, 59, 67	7.99%	21.91%	31.24%
+1546	mebeverine	23, 78, 89, 82, 79	15.23%	30.74%	41.61%
+1547	dermovate cream	23, 78, 49, 79, 41	12.41%	27.14%	36.73%
+1548	quinine	6, 23, 78, 52, 49	12.82%	27.30%	36.47%
+1549	solifenacin	23, 39, 79, 71, 78	14.30%	27.98%	39.38%
+1550	gtn 400micrograms spray	23, 78, 79, 49, 72	10.91%	24.93%	35.76%
+1551	fludrocortisone	23, 78, 89, 22, 49	15.79%	31.94%	42.04%
+1552	calceos chewable tablet	23, 49, 78, 79, 77	19.73%	37.33%	47.69%
+1553	alverine	23, 79, 78, 49, 27	15.06%	30.79%	42.23%
+1554	levothyroxine sodium	58, 20, 70, 19, 72	97.17%	97.79%	98.05%
+1555	pulmicort ls 50micrograms inhaler	79, 23, 1, 49, 78	14.52%	32.71%	44.96%
+1556	calcium salts	23, 78, 49, 79, 27	20.58%	36.71%	47.95%
+1557	calcichew forte 2.5g chewable tablet	89, 23, 78, 38, 39	19.80%	35.42%	45.52%
+1558	budesonide	1, 23, 78, 49, 27	13.10%	30.48%	39.85%
+1559	climesse tablet	89, 82, 27, 78, 23	11.84%	27.49%	41.00%
+1560	perindopril+indapamide	23, 77, 82, 78, 11	9.72%	26.99%	36.94%
+1561	zantac 75 tablet	23, 82, 78, 27, 49	14.39%	28.33%	37.04%
+1562	cipramil 10mg tablet	23, 73, 27, 78, 72	10.10%	25.97%	39.19%
+1563	diclofenac sodium+misoprostol	23, 79, 49, 78, 16	17.71%	33.64%	43.41%
+1564	nitrofurantoin	23, 27, 79, 30, 64	11.91%	28.31%	39.92%
+1565	oestrogel 1.25g gel	59, 78, 89, 23, 67	7.74%	18.50%	28.67%
+1566	trandolapril	23, 78, 27, 49, 79	13.99%	26.93%	37.84%
+1567	lorazepam	23, 82, 77, 30, 78	10.82%	25.25%	36.84%
+1568	priadel 200mg m/r tablet	79, 23, 72, 49, 1	10.73%	24.60%	33.46%
+1569	topiramate	73, 82, 27, 23, 89	8.89%	25.15%	38.43%
+1570	solpadeine tablet	82, 30, 25, 77, 38	14.88%	30.12%	41.17%
+1571	Inverted temporal signal-to-noise ratio in artefact-cleaned pre-processed rfMRI	79, 23, 64, 67, 89	10.10%	26.63%	38.67%
+1572	alendronate sodium	23, 78, 72, 49, 48	10.41%	27.81%	38.55%
+1573	latanoprost	23, 89, 78, 49, 27	10.11%	25.96%	37.27%
+1574	codeine phosphate+kaolin 10mg/3g/10ml mixture	23, 78, 73, 49, 17	17.28%	35.98%	44.96%
+1575	carbimazole	23, 49, 79, 78, 71	12.33%	29.87%	41.68%
+1576	salbutamol 100micrograms spacehaler	37, 23, 8, 89, 7	15.55%	32.51%	42.69%
+1577	oxytetracycline	89, 77, 82, 59, 23	9.61%	25.08%	35.82%
+1578	glimepiride	23, 78, 49, 16, 8	16.72%	33.16%	41.79%
+1579	solpadol caplet	23, 77, 71, 68, 79	7.73%	22.24%	32.63%
+1580	betahistine	23, 79, 27, 67, 49	11.88%	24.14%	32.59%
+1581	nasacort 55micrograms aqueous nasal spray	23, 89, 72, 82, 78	10.82%	26.65%	36.76%
+1582	coversyl plus 4mg/1.25mg tablet	82, 67, 89, 30, 38	9.11%	21.83%	32.72%
+1583	carbamazepine	23, 78, 79, 49, 1	16.79%	34.38%	45.75%
+1584	nifedipine	23, 78, 71, 49, 39	14.05%	26.44%	34.26%
+1585	imdur 60mg durule	23, 78, 49, 16, 30	13.21%	28.97%	34.98%
+1586	st john's wort/hypericum [ctsu]	72, 23, 79, 49, 38	10.32%	25.81%	34.01%
+1587	leflunomide	23, 89, 78, 49, 82	14.31%	37.49%	49.01%
+1588	aloe vera product	39, 23, 59, 17, 71	8.03%	21.28%	32.02%
+1589	prochlorperazine	23, 79, 39, 49, 89	15.43%	28.21%	38.56%
+1590	food supplement/plant/herbal extract	23, 71, 27, 78, 79	11.44%	27.29%	39.01%
+1591	glyceryl trinitrate	8, 79, 23, 1, 83	9.78%	25.50%	34.14%
+1592	progynova 1mg tablet	23, 78, 49, 16, 82	21.14%	39.48%	46.80%
+1593	calcium carbonate+colecalciferol 1.25g/5micrograms tablet	23, 78, 49, 82, 89	13.74%	28.58%	37.82%
+1594	omega-3/fish oil supplement	72, 39, 23, 78, 83	14.25%	32.11%	44.28%
+1595	evening primrose oil product	23, 79, 49, 78, 89	17.56%	36.37%	44.87%
+1596	hypromellose product	78, 23, 89, 73, 8	10.47%	28.14%	40.80%
+1597	canesten 1% cream	23, 22, 77, 78, 27	10.35%	24.84%	34.98%
+1598	ezetrol 10mg tablet	10, 23, 78, 89, 0	22.97%	39.41%	48.70%
+1599	arcoxia 90mg tablet	23, 22, 59, 78, 28	10.43%	25.67%	38.79%
+1600	minerals - magnesium	79, 23, 78, 71, 49	13.70%	31.11%	44.76%
+1601	codipar caplet	82, 89, 30, 67, 24	8.27%	22.26%	31.98%
+1602	indometacin	23, 89, 78, 49, 17	10.28%	26.89%	35.15%
+1603	piriton 4mg tablet	23, 78, 79, 1, 48	17.79%	32.01%	42.03%
+1604	natrilix sr 1.5mg m/r tablet	82, 77, 30, 25, 23	15.35%	29.78%	42.11%
+1605	serc-8 tablet	23, 59, 78, 49, 67	11.15%	25.61%	36.34%
+1606	elleste duet conti tablet	79, 89, 23, 38, 1	8.51%	21.80%	31.71%
+1607	losartan	23, 52, 78, 7, 16	14.73%	31.18%	38.58%
+1608	viagra 25mg tablet	23, 78, 49, 59, 79	14.22%	30.70%	38.53%
+1609	viagra 50mg tablet	23, 78, 49, 73, 77	15.16%	33.58%	41.36%
+1610	viagra 100mg tablet	23, 78, 49, 77, 15	14.35%	32.01%	41.05%
+1611	zolmitriptan	89, 23, 0, 78, 49	11.84%	32.58%	44.56%
+1612	tamoxifen	23, 78, 73, 27, 71	10.41%	29.74%	40.25%
+1613	zomig 2.5mg tablet	23, 79, 78, 73, 77	14.19%	34.74%	44.55%
+1614	quetiapine	79, 23, 72, 86, 49	8.82%	20.88%	29.39%
+1615	duloxetine	89, 23, 78, 20, 49	13.86%	32.34%	42.29%
+1616	arimidex 1mg tablet	23, 67, 89, 27, 79	10.45%	24.06%	35.15%
+1617	prednisone	23, 8, 78, 79, 49	14.43%	29.87%	41.27%
+1618	olmetec 10mg tablet	23, 79, 49, 78, 16	14.35%	31.70%	40.45%
+1619	beconase 50micrograms nasal spray	37, 23, 1, 49, 78	11.97%	25.89%	34.76%
+1620	mesalazine	23, 59, 49, 39, 17	11.18%	23.44%	34.34%
+1621	raloxifene hydrochloride	23, 78, 49, 79, 71	19.14%	34.01%	44.46%
+1622	calfovit d3 powder for oral suspension	77, 23, 22, 71, 82	9.97%	22.99%	33.29%
+1623	evista 60mg tablet	89, 23, 78, 35, 49	12.77%	29.12%	40.35%
+1624	kalms tablet	23, 78, 49, 79, 82	15.96%	34.80%	42.25%
+1625	estraderm mx 25 patch	23, 89, 8, 78, 1	7.79%	19.86%	30.81%
+1626	kelp+garlic product	23, 89, 78, 49, 72	17.60%	32.48%	43.99%
+1627	vitamin c product	23, 27, 49, 78, 1	11.86%	27.35%	38.85%
+1628	Platelet count	72, 76, 19, 23, 11	33.82%	60.95%	66.22%
+1629	seroxat 20mg tablet	23, 78, 79, 81, 49	17.14%	30.67%	40.07%
+1630	spironolactone	23, 79, 1, 49, 78	14.28%	29.50%	39.98%
+1631	bisoprolol fumarate+hydrochlorothiazide 10mg/6.25mg tablet	23, 79, 49, 1, 13	18.61%	39.24%	50.72%
+1632	alphagan 0.2% eye drops	23, 78, 49, 67, 59	11.87%	26.70%	34.92%
+1633	sildenafil	79, 23, 8, 49, 78	11.56%	27.12%	38.25%
+1634	betnesol 0.1% eye/ear/nose drops	23, 49, 0, 78, 22	16.11%	30.13%	41.76%
+1635	brimonidine tartrate	23, 82, 59, 67, 78	8.13%	19.67%	29.66%
+1636	senokot 7.5mg tablet	23, 78, 22, 30, 49	17.91%	32.45%	42.94%
+1637	loperamide	79, 8, 23, 82, 89	14.22%	31.30%	43.71%
+1638	ipratropium	23, 79, 78, 89, 49	13.39%	30.17%	42.01%
+1639	menophase tablet	89, 78, 23, 8, 27	9.69%	25.25%	38.03%
+1640	arthrotec 50 tablet	23, 71, 78, 89, 49	19.12%	34.36%	45.10%
+1641	Mean ISOVF in corticospinal tract on FA skeleton (left)	22, 23, 28, 14, 97	9.56%	23.02%	32.25%
+1642	uniphyllin continus 200mg m/r tablet	89, 23, 78, 82, 49	14.06%	31.42%	42.88%
+1643	morphine	23, 79, 8, 78, 49	16.00%	30.59%	40.51%
+1644	vitamin e product	23, 49, 78, 16, 71	16.27%	33.92%	43.12%
+1645	budesonide+formoterol	59, 22, 23, 35, 71	11.28%	23.88%	33.26%
+1646	sertraline	23, 79, 89, 78, 49	18.71%	36.19%	44.30%
+1647	cardura 1mg tablet	23, 8, 79, 30, 7	9.98%	22.93%	33.84%
+1648	Age cataract diagnosed	67, 27, 23, 89, 64	8.51%	23.22%	34.77%
+1649	climagest 1mg tablet	23, 22, 59, 35, 79	10.45%	24.82%	35.97%
+1650	prozac 20mg capsule	23, 78, 89, 49, 71	11.48%	28.33%	40.65%
+1651	dorzolamide	23, 78, 49, 79, 59	16.11%	31.30%	41.26%
+1652	Age lung cancer (not mesothelioma) diagnosed by doctor	77, 71, 67, 23, 3	7.73%	20.62%	31.47%
+1653	Weighted-mean OD in tract superior longitudinal fasciculus (left)	97, 0, 64, 89, 46	20.87%	42.60%	49.69%
+1654	Weighted-mean OD in tract superior longitudinal fasciculus (right)	0, 97, 48, 46, 20	26.96%	46.72%	55.16%
+1655	Weighted-mean OD in tract posterior thalamic radiation (right)	86, 59, 79, 89, 1	8.39%	22.04%	30.97%
+1656	hydroxocobalamin	23, 59, 79, 71, 22	7.28%	16.93%	26.11%
+1657	coaprovel 150mg/12.5mg tablet	23, 78, 49, 22, 59	13.04%	26.82%	37.74%
+1658	imipramine	89, 23, 78, 49, 82	13.24%	35.43%	48.28%
+1659	protium 20mg e/c tablet	23, 78, 49, 82, 79	15.57%	35.97%	44.72%
+1660	Weighted-mean OD in tract inferior longitudinal fasciculus (left)	23, 97, 20, 0, 13	8.96%	25.75%	39.95%
+1661	Speech-reception-threshold (SRT) estimate (left)	92, 73, 86, 39, 0	12.63%	28.06%	40.49%
+1662	orlistat	23, 27, 38, 71, 79	9.85%	20.22%	29.40%
+1663	xenical 120mg capsule	23, 79, 49, 81, 78	15.64%	34.42%	43.90%
+1664	Arm fat mass (left)	23, 49, 22, 28, 50	48.14%	95.95%	96.98%
+1665	bendrofluazide	23, 78, 49, 58, 43	13.72%	28.29%	35.79%
+1666	amiodarone	61, 23, 79, 78, 71	21.60%	40.19%	51.27%
+1667	bimatoprost	23, 78, 30, 79, 73	8.41%	19.63%	29.80%
+1668	codeine	89, 23, 39, 78, 49	12.44%	26.29%	35.96%
+1669	iron+folic acid	82, 27, 22, 23, 77	8.88%	22.03%	33.97%
+1670	kliovance 1mg/0.5mg tablet	79, 8, 77, 82, 23	11.86%	30.15%	43.63%
+1671	ortho-gynest 500micrograms pessary	23, 39, 71, 89, 73	12.03%	27.92%	36.96%
+1672	tildiem 60mg m/r tablet	23, 78, 49, 39, 79	14.57%	28.63%	38.06%
+1673	Mean rfMRI head motion, averaged across space and time points	17, 94, 38, 27, 77	9.35%	22.54%	31.73%
+1674	Mean tfMRI head motion, averaged across space and time points	27, 23, 73, 94, 24	7.46%	18.42%	26.72%
+1675	Weighted-mean L2 in tract uncinate fasciculus (left)	14, 20, 57, 27, 92	75.32%	87.36%	90.89%
+1676	Weighted-mean L2 in tract superior thalamic radiation (right)	46, 0, 97, 14, 81	47.15%	83.16%	88.33%
+1677	phyllocontin continus 225mg m/r tablet	23, 78, 22, 7, 0	15.45%	27.90%	35.22%
+1678	hydroxycarbamide	23, 78, 49, 89, 16	15.43%	30.06%	37.95%
+1679	Weighted-mean L1 in tract forceps minor	97, 46, 64, 0, 20	21.12%	52.01%	77.66%
+1680	calcichew 1.25g chewable tablet	23, 79, 72, 49, 78	12.72%	32.00%	43.75%
+1681	Weighted-mean L1 in tract inferior longitudinal fasciculus (right)	57, 97, 14, 81, 0	44.44%	73.83%	83.50%
+1682	bisoprolol	61, 8, 10, 64, 83	11.31%	28.06%	40.29%
+1683	strontium product	59, 23, 89, 78, 67	7.57%	19.78%	30.80%
+1684	celiprolol	23, 82, 78, 30, 77	13.64%	26.15%	37.05%
+1685	coracten sr 10mg m/r capsule	23, 8, 79, 78, 49	13.08%	28.90%	39.52%
+1686	lactulose product	27, 23, 78, 39, 49	13.10%	28.97%	41.13%
+1687	Volume of grey matter in Cingulate Gyrus, posterior division (right)	48, 18, 68, 20, 75	58.37%	66.79%	72.80%
+1688	Volume of grey matter in Frontal Orbital Cortex (right)	48, 23, 89, 78, 92	81.20%	84.78%	86.72%
+1689	losec 10mg capsule	23, 79, 71, 78, 49	14.93%	29.17%	37.95%
+1690	triamcinolone	23, 78, 49, 16, 41	18.91%	41.31%	47.98%
+1691	tetracycline	82, 67, 89, 30, 59	6.04%	16.98%	26.95%
+1692	dovobet ointment	23, 39, 89, 11, 20	8.89%	20.88%	31.03%
+1693	seretide 50 evohaler	37, 72, 39, 51, 79	51.52%	69.04%	74.71%
+1694	evorel conti patch	23, 27, 78, 79, 49	15.12%	28.85%	39.19%
+1695	vitamin b compound tablet	23, 78, 81, 8, 49	13.05%	26.41%	36.81%
+1696	combivent inhaler	23, 78, 49, 77, 11	15.98%	38.03%	45.07%
+1697	maxalt 5mg tablet	23, 79, 49, 27, 82	9.48%	24.92%	36.69%
+1698	angitil sr 90 m/r capsule	23, 49, 78, 79, 27	19.08%	35.26%	46.23%
+1699	vitamin b1 preparation	23, 78, 89, 49, 73	14.16%	33.75%	43.59%
+1700	thyroxine sodium	58, 83, 23, 80, 49	35.15%	50.43%	56.78%
+1701	vitamin b6 preparation	23, 48, 78, 79, 89	13.38%	29.32%	42.36%
+1702	temazepam	27, 23, 78, 79, 71	8.75%	24.30%	36.67%
+1703	tegretol 100mg tablet	23, 79, 78, 27, 49	12.11%	27.31%	37.02%
+1704	eumovate cream	23, 78, 16, 77, 71	12.69%	28.46%	41.03%
+1705	flixotide 25micrograms inhaler	39, 59, 23, 89, 71	10.41%	24.05%	36.45%
+1706	zirtek allergy 10mg tablet	23, 77, 82, 78, 27	10.68%	26.97%	37.14%
+1707	Mean ISOVF in fornix on FA skeleton	72, 38, 86, 54, 11	13.86%	28.74%	36.93%
+1708	Mean ISOVF in body of corpus callosum on FA skeleton	0, 97, 14, 46, 23	26.18%	55.30%	62.95%
+1709	flecainide	61, 23, 78, 49, 79	42.32%	53.88%	60.15%
+1710	Mean ICVF in superior corona radiata on FA skeleton (right)	81, 97, 14, 57, 46	85.89%	96.10%	97.13%
+1711	Mean ICVF in anterior corona radiata on FA skeleton (right)	81, 97, 46, 1, 67	89.39%	96.68%	97.33%
+1712	rennie duo oral suspension	23, 78, 27, 73, 72	13.04%	30.23%	44.04%
+1713	Mean ICVF in retrolenticular part of internal capsule on FA skeleton (left)	81, 57, 14, 0, 20	85.31%	96.59%	97.12%
+1714	timoptol 0.25% eye drops	79, 23, 49, 77, 22	13.97%	34.12%	43.56%
+1715	Mean ISOVF in medial lemniscus on FA skeleton (right)	38, 72, 39, 14, 23	24.86%	43.47%	53.74%
+1716	Ever attempted suicide	89, 86, 79, 2, 23	21.77%	40.93%	49.99%
+1717	ferrous salt product	23, 78, 49, 85, 89	19.99%	39.39%	47.55%
+1718	paroxetine	23, 78, 49, 79, 68	22.62%	39.78%	51.29%
+1719	opticrom allergy eye drops	23, 78, 89, 49, 79	15.84%	31.79%	42.87%
+1720	Weighted-mean FA in tract superior longitudinal fasciculus (left)	46, 57, 97, 81, 0	52.49%	84.54%	92.27%
+1721	vascalpha 5mg m/r tablet	23, 30, 78, 82, 27	11.61%	24.15%	34.14%
+1722	esomeprazole	27, 39, 23, 38, 71	8.93%	24.30%	36.43%
+1723	lacidipine	23, 89, 39, 78, 27	11.01%	30.11%	41.42%
+1724	prednisolone	27, 23, 78, 73, 71	15.02%	29.05%	37.77%
+1725	cyclizine	23, 78, 49, 16, 41	19.37%	40.12%	49.63%
+1726	desloratadine	23, 67, 78, 81, 71	14.36%	26.12%	36.37%
+1727	glyceryl trinitrate product	22, 23, 79, 28, 59	7.63%	19.53%	29.11%
+1728	irbesartan+hydrochlorothiazide 150mg/12.5mg tablet	23, 59, 78, 22, 49	10.80%	25.05%	35.68%
+1729	lofepramine	23, 27, 78, 79, 30	18.43%	32.47%	42.40%
+1730	Weighted-mean L2 in tract uncinate fasciculus (right)	14, 57, 97, 46, 81	71.03%	82.95%	87.39%
+1731	buprenorphine	23, 49, 79, 78, 27	13.29%	31.12%	43.68%
+1732	rosuvastatin	72, 20, 92, 10, 32	17.07%	35.72%	50.35%
+1733	phenobarbitone	23, 49, 78, 79, 22	17.54%	34.31%	45.87%
+1734	logMAR, initial (left)	92, 80, 59, 1, 98	67.25%	85.54%	89.29%
+1735	crestor 10mg tablet	23, 79, 1, 49, 38	12.21%	27.88%	37.50%
+1736	keppra 250mg tablet	82, 23, 77, 30, 32	9.01%	23.55%	36.07%
+1737	dosulepin	23, 78, 49, 79, 1	16.86%	32.29%	42.36%
+1738	vitamin a	23, 78, 79, 49, 16	19.37%	37.02%	49.74%
+1739	neoclarityn 5mg tablet	89, 23, 78, 39, 20	16.63%	33.06%	43.87%
+1740	digoxin	61, 72, 8, 23, 79	75.00%	79.05%	82.24%
+1741	pioglitazone	27, 67, 79, 23, 49	11.55%	26.54%	36.12%
+1742	anadin tablet	23, 79, 78, 35, 22	15.05%	28.01%	35.48%
+1743	avodart 500micrograms capsule	82, 23, 30, 77, 25	12.63%	28.05%	40.78%
+1744	slozem 120mg m/r capsule	23, 78, 49, 77, 73	16.33%	34.12%	41.93%
+1745	tramadol	6, 49, 78, 7, 94	22.57%	32.53%	41.71%
+1746	fosamax 5mg tablet	23, 78, 79, 49, 39	20.22%	33.12%	44.51%
+1747	cetirizine	23, 37, 39, 78, 83	12.52%	30.98%	41.70%
+1748	gabapentin	23, 78, 49, 71, 79	16.06%	32.96%	41.89%
+1749	finasteride	23, 89, 78, 39, 38	10.18%	27.07%	39.77%
+1750	folic acid product	72, 58, 83, 23, 39	11.49%	32.85%	45.13%
+1751	adcal 600mg chewable tablet	23, 79, 78, 27, 7	9.23%	26.71%	36.20%
+1752	fluoxetine	79, 23, 78, 49, 54	10.37%	27.78%	38.31%
+1753	clonidine	23, 89, 78, 39, 73	9.82%	22.97%	33.48%
+1754	clomipramine	23, 78, 79, 73, 49	19.92%	36.03%	44.97%
+1755	diazepam	23, 89, 78, 27, 79	11.45%	28.34%	39.28%
+1756	phenoxymethylpenicillin	82, 67, 59, 30, 89	6.07%	17.89%	28.39%
+1757	dothiepin	23, 78, 49, 85, 81	16.85%	39.80%	46.23%
+1758	calcipotriol	23, 82, 79, 49, 27	9.36%	23.38%	33.13%
+1759	indoramin	59, 22, 23, 67, 78	8.77%	20.75%	30.37%
+1760	etodolac	23, 78, 89, 49, 0	15.82%	32.18%	43.84%
+1761	enalapril maleate+hydrochlorothiazide 20mg/12.5mg tablet	23, 78, 49, 41, 81	23.09%	47.91%	56.50%
+1762	elocon cream	23, 79, 49, 78, 81	20.87%	38.16%	47.58%
+1763	nasobec aqueous 50micrograms nasal spray	23, 78, 22, 0, 49	13.94%	32.06%	40.18%
+1764	cimetidine	23, 8, 79, 2, 38	8.89%	24.41%	35.56%
+1765	flucloxacillin	23, 78, 73, 49, 41	14.33%	34.69%	43.24%
+1766	magnesium citrate	23, 27, 78, 22, 49	13.78%	28.61%	39.13%
+1767	fluticasone	89, 23, 72, 86, 49	9.75%	27.04%	37.23%
+1768	nitromin 400micrograms cfc-free spray	23, 78, 49, 79, 16	22.96%	46.89%	58.13%
+1769	lodine 200mg tablet	78, 23, 89, 73, 49	8.03%	23.32%	34.55%
+1770	berocca effervescent tablet	82, 23, 30, 89, 49	10.87%	23.77%	34.11%
+1771	oilatum cream	23, 89, 78, 27, 82	11.78%	30.13%	44.35%
+1772	rino clenil 50micrograms nasal spray	23, 78, 49, 79, 1	14.15%	26.04%	35.19%
+1773	Weighted-mean L3 in tract cingulate gyrus part of cingulum (right)	46, 81, 14, 27, 11	60.99%	79.46%	86.36%
+1774	avandamet 1mg/500mg tablet	23, 78, 49, 73, 27	11.87%	30.17%	41.63%
+1775	timolol	23, 79, 78, 49, 16	18.00%	29.59%	37.67%
+1776	zolpidem	23, 78, 49, 27, 81	13.53%	27.71%	38.06%
+1777	isosorbide dinitrate	82, 30, 23, 78, 89	10.66%	23.23%	32.77%
+1778	viscotears liquid eye gel	23, 79, 27, 72, 78	10.76%	22.93%	33.42%
+1779	lercanidipine	23, 89, 79, 71, 49	9.53%	25.96%	35.34%
+1780	diclofenac	72, 79, 94, 23, 81	12.46%	28.23%	39.71%
+1781	logynon tablet	79, 72, 23, 49, 8	13.20%	25.62%	36.05%
+1782	salbutamol	37, 89, 49, 83, 78	47.26%	57.70%	66.09%
+1783	Mean ISOVF in fornix cres+stria terminalis on FA skeleton (left)	14, 0, 23, 82, 78	11.76%	30.86%	42.00%
+1784	desmopressin	23, 78, 49, 82, 16	19.50%	35.83%	45.32%
+1785	domperidone	39, 23, 38, 17, 71	7.61%	20.98%	31.50%
+1786	luteine	23, 79, 77, 49, 73	11.02%	26.37%	34.81%
+1787	adcal-d3 1.5g/10micrograms chewable tablet	23, 27, 78, 49, 83	11.62%	28.03%	37.96%
+1788	vitamin d product	23, 78, 49, 79, 1	15.20%	30.04%	39.38%
+1789	b12 - cyanocobalamin prep	77, 82, 23, 27, 78	10.92%	28.52%	39.10%
+1790	norgeston tablet	23, 78, 89, 22, 49	17.05%	34.99%	44.42%
+1791	gliclazide	15, 72, 79, 39, 74	81.46%	87.86%	89.64%
+1792	cardioplen xl 5mg m/r tablet	23, 79, 49, 78, 59	20.28%	41.81%	50.98%
+1793	omacor 1g capsule	10, 79, 23, 49, 78	9.78%	25.96%	36.75%
+1794	hydroxocobalamin product	23, 77, 22, 78, 27	10.50%	22.86%	34.02%
+1795	hepacon b12 1mg/1ml injection	78, 23, 49, 8, 17	14.11%	32.82%	41.99%
+1796	stemetil 5mg tablet	27, 23, 82, 78, 22	8.63%	22.33%	31.99%
+1797	naratriptan	23, 49, 79, 8, 78	16.06%	32.49%	43.94%
+1798	marvelon tablet	23, 78, 49, 77, 30	18.27%	37.63%	43.73%
+1799	liquifilm tears 1.4% eye drops	78, 8, 89, 23, 73	11.24%	25.60%	38.10%
+1800	sno-tears eye drops	22, 77, 27, 23, 82	10.12%	26.34%	36.97%
+1801	becotide 50 inhaler	37, 51, 70, 23, 27	56.28%	67.92%	74.43%
+1802	becloforte 250micrograms inhaler	23, 78, 89, 49, 73	15.19%	33.27%	45.00%
+1803	naramig 2.5mg tablet	23, 30, 0, 78, 39	12.63%	24.11%	34.68%
+1804	care cetirizine hayfever relief 10mg tablet	22, 23, 77, 78, 27	9.26%	25.66%	34.68%
+1805	hydrocortisone	23, 79, 78, 49, 82	14.24%	30.59%	42.31%
+1806	solpadeine capsule	22, 23, 78, 59, 77	10.70%	24.97%	35.11%
+1807	glucophage 500mg tablet	79, 23, 49, 8, 78	13.74%	35.14%	45.13%
+1808	saw palmetto product	27, 23, 79, 89, 49	8.72%	22.75%	33.62%
+1809	paramax tablet	23, 78, 49, 27, 16	18.48%	38.01%	47.35%
+1810	zinc product	72, 38, 20, 23, 27	8.70%	21.76%	33.67%
+1811	tetralysal 300 capsule	89, 23, 78, 82, 49	9.21%	25.71%	36.80%
+1812	lymecycline	89, 82, 78, 23, 49	9.61%	26.48%	41.89%
+1813	glandosane plain spray	23, 78, 49, 89, 22	17.29%	36.10%	44.57%
+1814	sumatriptan	79, 72, 23, 83, 14	15.26%	36.05%	45.55%
+1815	lumigan 0.3mg/ml eye drops	23, 79, 78, 49, 16	19.87%	42.72%	53.56%
+1816	humira 40mg injection solution 0.8ml prefilled syringe	59, 23, 22, 78, 89	8.79%	22.53%	32.22%
+1817	ibuprofen	72, 18, 39, 98, 83	13.07%	28.98%	39.57%
+1818	co-amilofruse	79, 23, 8, 22, 59	11.65%	24.69%	35.87%
+1819	isotard 25xl m/r tablet	23, 78, 49, 89, 81	21.08%	42.12%	51.67%
+1820	oestradiol product	23, 78, 22, 30, 0	14.40%	27.40%	36.17%
+1821	enalapril	23, 54, 52, 78, 49	8.73%	22.29%	34.27%
+1822	beclomethasone	23, 89, 79, 78, 49	11.58%	26.26%	38.93%
+1823	oxis 6micrograms turbohaler	23, 82, 77, 78, 25	11.26%	28.19%	39.05%
+1824	didronel 200mg tablet	23, 77, 78, 32, 30	14.05%	30.40%	41.59%
+1825	coversyl 2mg tablet	23, 77, 78, 22, 49	11.59%	22.94%	33.02%
+1826	sodium thyroxine	82, 23, 89, 78, 49	9.71%	25.93%	37.07%
+1827	ramipril	74, 71, 20, 10, 73	12.87%	34.34%	44.52%
+1828	manevac granules	23, 30, 82, 0, 78	12.94%	26.04%	36.45%
+1829	arcoxia 60mg tablet	23, 79, 49, 78, 7	20.62%	37.63%	49.32%
+1830	etoricoxib	23, 39, 71, 89, 78	9.86%	25.65%	36.99%
+1831	serevent 25mcg inhaler	79, 23, 8, 89, 49	15.23%	29.98%	43.14%
+1832	Weighted-mean L3 in tract parahippocampal part of cingulum (left)	64, 38, 27, 80, 67	20.10%	48.24%	62.18%
+1833	bendroflumethiazide	71, 52, 74, 60, 6	36.21%	64.54%	74.00%
+1834	ventolin 2mg tablet	23, 78, 77, 49, 16	17.28%	34.22%	43.62%
+1835	salmeterol	89, 72, 39, 38, 86	16.24%	28.61%	37.67%
+1836	lipitor 10mg tablet	10, 79, 39, 23, 77	69.27%	75.91%	80.34%
+1837	dutasteride	59, 79, 22, 23, 89	9.18%	24.76%	35.48%
+1838	dexamethasone	23, 78, 49, 82, 30	13.52%	27.22%	37.86%
+1839	valsartan	23, 1, 59, 49, 79	14.40%	27.27%	37.44%
+1840	warfarin	61, 54, 89, 51, 1	56.92%	65.35%	70.15%
+1841	diovan 40mg capsule	89, 78, 23, 49, 71	13.03%	36.31%	44.93%
+1842	sodium bicarbonate	23, 59, 78, 22, 49	9.63%	23.01%	33.50%
+1843	balsalazide disodium	23, 78, 77, 22, 49	12.79%	29.78%	38.78%
+1844	deep relief ibuprofen gel	77, 71, 67, 22, 8	7.91%	21.35%	31.29%
+1845	oestrogel 0.06% gel	82, 59, 23, 89, 67	7.85%	20.38%	30.79%
+1846	nicotine product	23, 78, 30, 49, 22	12.78%	23.58%	32.86%
+1847	depakote 250mg e/c tablet	23, 79, 78, 49, 82	16.93%	33.75%	46.97%
+1848	asacol 400mg e/c tablet	23, 79, 89, 94, 78	11.08%	22.02%	31.82%
+1849	fentanyl	23, 59, 22, 78, 49	8.16%	22.47%	33.70%
+1850	pentasa sr 250mg m/r tablet	79, 23, 49, 1, 78	13.00%	32.57%	42.14%
+1851	ovestin 0.1% vaginal cream	23, 79, 49, 78, 11	10.80%	23.05%	32.17%
+1852	amantadine	59, 67, 82, 23, 30	6.64%	17.41%	27.61%
+1853	betamethasone	23, 89, 49, 78, 39	13.15%	29.82%	40.03%
+1854	prednisolone product	23, 78, 49, 77, 11	17.62%	33.13%	41.30%
+1855	adizem-xl plus m/r capsule	23, 49, 22, 16, 71	11.42%	22.86%	32.27%
+1856	piroxicam	23, 78, 49, 77, 27	17.35%	31.31%	40.26%
+1857	naproxen	23, 79, 78, 16, 81	15.08%	28.97%	37.97%
+1858	ketoprofen	23, 59, 78, 22, 67	9.25%	22.87%	33.46%
+1859	syndol tablet	23, 79, 49, 78, 7	22.38%	38.37%	49.57%
+1860	metformin	15, 54, 72, 73, 3	96.44%	97.07%	97.44%
+1861	colofac-100 tablet	23, 82, 27, 89, 78	10.09%	25.22%	34.74%
+1862	asacol mr 400mg e/c tablet	23, 78, 89, 73, 49	10.90%	28.55%	37.73%
+1863	half-inderal la 80mg m/r capsule	23, 78, 89, 49, 73	10.85%	28.04%	38.33%
+1864	micardis 20mg tablet	23, 78, 77, 22, 49	11.04%	25.61%	37.06%
+1865	amitriptyline hydrochloride+perphenazine 10mg/2mg tablet	82, 89, 23, 67, 32	7.56%	19.08%	29.08%
+1866	sodium cromoglycate	23, 78, 49, 16, 79	21.33%	44.78%	51.90%
+1867	cefalexin	23, 79, 82, 49, 78	11.92%	26.55%	37.58%
+1868	Haematocrit percentage	55, 91, 27, 96, 40	95.53%	98.26%	98.56%
+1869	xalatan 0.005% eye drops	6, 23, 71, 78, 49	25.60%	44.97%	53.22%
+1870	Mean FA in body of corpus callosum on FA skeleton	81, 46, 72, 18, 75	41.79%	68.27%	73.78%
+1871	Age at death	23, 79, 49, 27, 78	28.26%	40.96%	50.19%
+1872	dovonex 50micrograms/g cream	72, 23, 79, 49, 82	8.33%	21.24%	30.12%
+1873	Cancer year/age first occurred	72, 23, 86, 20, 39	14.25%	26.18%	35.07%
+1874	Water intake	62, 98, 71, 22, 32	96.79%	97.58%	98.04%
+1875	Weighted-mean OD in tract cingulate gyrus part of cingulum (left)	73, 82, 27, 74, 30	7.93%	22.37%	31.83%
+1876	Weighted-mean OD in tract anterior thalamic radiation (right)	97, 0, 46, 64, 48	26.36%	42.56%	53.94%
+1877	Weighted-mean OD in tract parahippocampal part of cingulum (left)	89, 18, 45, 23, 75	12.41%	26.16%	35.44%
+1878	rosiglitazone 1mg/metformin 500mg tablet	23, 78, 49, 7, 85	16.95%	37.25%	43.79%
+1879	nebivolol	79, 23, 49, 86, 1	15.04%	31.08%	41.91%
+1880	Weighted-mean OD in tract forceps major	27, 79, 49, 23, 8	9.32%	21.77%	32.71%
+1881	clopidogrel	45, 10, 8, 64, 23	8.69%	22.90%	31.95%
+1882	adizem-60 m/r tablet	23, 78, 0, 49, 67	16.07%	34.18%	43.14%
+1883	loratadine product	82, 30, 67, 89, 24	7.65%	19.76%	30.10%
+1884	telmisartan	23, 78, 89, 79, 49	11.70%	27.57%	38.04%
+1885	baclofen	23, 89, 78, 67, 39	11.04%	27.27%	38.13%
+1886	elleste-solo 1mg tablet	89, 77, 23, 79, 82	12.74%	28.43%	41.65%
+1887	docusate sodium	23, 79, 81, 77, 1	12.02%	24.61%	34.46%
+1888	ranitidine	72, 39, 83, 73, 89	21.43%	34.56%	43.52%
+1889	nefopam	67, 59, 78, 23, 8	7.54%	19.11%	27.58%
+1890	Weighted-mean L2 in tract posterior thalamic radiation (right)	57, 14, 97, 81, 59	35.42%	59.18%	72.27%
+1891	metronidazole	23, 78, 49, 30, 16	18.71%	34.68%	43.48%
+1892	Weighted-mean L2 in tract posterior thalamic radiation (left)	57, 14, 64, 59, 97	38.06%	57.28%	72.03%
+1893	asasantin retard m/r capsule	23, 78, 49, 22, 77	17.37%	33.95%	41.65%
+1894	bendroflumethiazide+potassium 2.5mg/7.7mmol m/r tablet	23, 82, 89, 78, 49	10.89%	25.83%	38.09%
+1895	Weighted-mean L2 in tract inferior longitudinal fasciculus (right)	57, 81, 14, 46, 97	78.09%	92.35%	96.71%
+1896	Weighted-mean L2 in tract acoustic radiation (left)	51, 64, 14, 46, 57	42.63%	61.99%	73.27%
+1897	multivitamins	23, 89, 78, 1, 72	16.07%	27.64%	37.74%
+1898	Weighted-mean L1 in tract superior longitudinal fasciculus (left)	97, 0, 46, 81, 57	35.34%	61.22%	75.97%
+1899	flomax mr 400micrograms m/r capsule	23, 78, 89, 49, 8	14.50%	35.47%	44.78%
+1900	gamolenic acid	23, 82, 30, 77, 27	8.53%	24.22%	35.24%
+1901	epilim 100mg crushable tablet	23, 79, 49, 72, 78	11.24%	29.69%	40.01%
+1902	fexofenadine	73, 27, 23, 1, 20	8.41%	22.41%	35.12%
+1903	trospium	23, 89, 78, 82, 49	12.38%	33.05%	43.06%
+1904	rosiglitazone	23, 15, 79, 78, 7	10.22%	25.18%	33.99%
+1905	depo-provera 50mg/1ml injection	27, 67, 23, 64, 89	13.93%	31.44%	44.93%
+1906	carbomers	23, 59, 22, 71, 78	7.72%	20.78%	30.96%
+1907	movicol oral powder	23, 39, 72, 78, 89	9.16%	23.96%	37.41%
+1908	mirena 52mg intrauterine system	89, 82, 79, 77, 23	11.03%	29.17%	42.83%
+1909	pyridoxine preparation	59, 22, 23, 67, 78	8.60%	23.20%	33.26%
+1910	zoton 15mg capsule	23, 78, 64, 27, 72	11.68%	24.58%	34.60%
+1911	thiamine preparation	23, 89, 78, 39, 49	11.40%	26.69%	36.91%
+1912	Mean ISOVF in posterior limb of internal capsule on FA skeleton (left)	14, 23, 89, 49, 79	17.15%	33.26%	41.45%
+1913	Weighted-mean OD in tract middle cerebellar peduncle	23, 72, 22, 86, 89	6.30%	18.26%	29.57%
+1914	nabumetone	78, 23, 27, 73, 49	9.70%	25.86%	38.32%
+1915	perindopril	64, 79, 52, 23, 72	8.44%	22.97%	32.99%
+1916	cardicor 1.25mg tablet	89, 23, 78, 39, 67	22.36%	34.86%	44.50%
+1917	co-dydramol	23, 27, 78, 72, 39	10.83%	23.31%	33.61%
+1918	beclomethasone dipropionate+salbutamol	82, 89, 30, 23, 67	9.01%	21.16%	30.50%
+1919	zirtek 10mg tablet	77, 78, 23, 71, 82	8.13%	21.43%	32.34%
+1920	clarityn 10mg tablet	79, 23, 49, 78, 54	14.43%	38.67%	49.57%
+1921	cerazette 75micrograms tablet	23, 79, 27, 49, 89	16.03%	27.91%	36.34%
+1922	sulfasalazine	23, 78, 49, 71, 79	16.17%	33.11%	44.21%
+1923	trimovate ointment	23, 79, 49, 1, 78	12.19%	27.62%	36.80%
+1924	fenofibrate	10, 23, 89, 72, 78	51.93%	61.28%	67.33%
+1925	iron product	23, 89, 82, 27, 67	11.22%	26.68%	38.55%
+1926	furosemide	89, 83, 68, 23, 78	6.62%	18.05%	27.71%
+1927	multivitamins capsule	23, 49, 78, 79, 81	18.44%	40.61%	49.68%
+1928	propranolol	23, 72, 71, 39, 78	7.76%	21.30%	32.88%
+1929	dermol 500 lotion	23, 79, 49, 78, 81	17.89%	39.09%	51.15%
+1930	pregabalin	79, 49, 23, 77, 27	9.29%	23.94%	36.40%
+1931	Mean ISOVF in splenium of corpus callosum on FA skeleton	97, 14, 23, 57, 8	26.81%	45.46%	53.98%
+1932	paracetamol	20, 11, 51, 86, 35	18.93%	35.96%	46.04%
+1933	dovonex 50micrograms/g ointment	82, 77, 89, 25, 23	14.50%	30.39%	42.01%
+1934	tibolone	27, 23, 49, 78, 73	8.81%	23.36%	34.42%
+1935	polytar liquid	22, 23, 77, 78, 59	11.10%	27.45%	36.83%
+1936	fybogel orange s/f granules	23, 71, 79, 78, 1	11.04%	26.06%	37.00%
+1937	chlorphenamine	23, 78, 79, 72, 49	9.85%	21.57%	31.28%
+1938	nasonex 0.05% aqueous nasal spray	23, 72, 79, 27, 20	10.05%	24.09%	35.03%
+1939	citalopram	72, 23, 1, 78, 80	9.09%	22.81%	32.29%
+1940	evening primrose oil	83, 23, 78, 72, 49	11.51%	24.46%	35.46%
+1941	doublebase gel	23, 78, 82, 73, 49	13.06%	27.83%	39.63%
+1942	amitriptyline	72, 39, 89, 86, 78	16.91%	33.31%	43.49%
+1943	Weighted-mean OD in tract forceps minor	64, 27, 89, 73, 48	10.17%	27.49%	42.05%
+1944	carvedilol	23, 79, 49, 78, 67	13.78%	26.94%	34.99%
+1945	aprovel 75mg tablet	23, 79, 49, 8, 78	10.11%	24.15%	33.73%
+1946	voltarol 25mg e/c tablet	23, 49, 78, 59, 39	10.79%	23.38%	33.63%
+1947	glucosamine product	72, 8, 98, 92, 39	21.18%	34.62%	44.00%
+1948	selenium ace tablet	23, 79, 89, 71, 27	12.81%	27.85%	37.87%
+1949	starflower oil	23, 39, 78, 89, 73	12.50%	29.13%	42.35%
+1950	fucibet cream	23, 49, 79, 78, 16	18.26%	39.53%	49.48%
+1951	mefenamic acid	23, 78, 49, 71, 81	15.92%	35.26%	47.39%
+1952	mucodyne 375mg capsule	23, 89, 78, 73, 27	9.22%	24.79%	37.36%
+1953	olmesartan	23, 71, 78, 39, 81	9.74%	23.49%	32.75%
+1954	escitalopram	23, 78, 71, 39, 99	11.29%	23.99%	35.33%
+1955	detrusitol 1mg tablet	79, 72, 23, 14, 67	11.72%	28.49%	37.44%
+1956	Volume of caudate (left)	48, 23, 92, 99, 20	69.99%	75.62%	78.49%
+1957	tramacet 325mg/37.5mg tablet	23, 78, 77, 11, 81	12.37%	28.31%	36.44%
+1958	hypromellose	23, 27, 78, 73, 71	9.12%	25.35%	36.45%
+1959	trazodone	79, 49, 23, 71, 78	9.98%	25.70%	38.71%
+1960	erythromycin	23, 22, 79, 71, 77	9.13%	22.48%	31.97%
+1961	solpadol capsule	23, 8, 49, 79, 72	15.33%	30.45%	41.35%
+1962	meloxicam	23, 49, 78, 89, 81	14.29%	29.57%	40.41%
+1963	pariet 10mg e/c tablet	23, 79, 49, 8, 1	10.39%	26.34%	37.93%
+1964	tenofovir	23, 78, 49, 67, 42	15.54%	33.19%	40.20%
+1965	colpermin 0.2ml m/r gel e/c capsule	79, 73, 8, 23, 67	9.67%	26.76%	37.35%
+1966	peppermint oil product	23, 82, 49, 79, 77	13.25%	30.69%	41.90%
+1967	micronor tablet	82, 89, 8, 1, 45	8.67%	25.02%	34.92%
+1968	xalacom 0.005%/0.5% eye drops	23, 78, 89, 49, 16	16.50%	32.94%	43.68%
+1969	trimethoprim	23, 71, 39, 78, 72	12.78%	29.13%	38.57%
+1970	zydol 50mg capsule	23, 49, 78, 79, 41	21.30%	46.50%	57.67%
+1971	microgynon 30 tablet	23, 79, 73, 49, 78	14.59%	25.46%	35.05%
+1972	metronidazole product	23, 78, 49, 41, 79	20.99%	39.53%	47.85%
+1973	frusemide	23, 49, 79, 64, 89	10.63%	26.34%	36.68%
+1974	Volume of grey matter in Precuneous Cortex (right)	48, 94, 23, 77, 89	89.82%	91.26%	92.38%
+1975	zanidip 10mg tablet	78, 23, 89, 8, 17	9.62%	26.17%	35.23%
+1976	zoladex 3.6mg implant	23, 79, 30, 49, 73	13.78%	25.04%	34.23%
+1977	bromelains	23, 78, 49, 79, 50	19.96%	41.88%	50.71%
+1978	cilest tablet	23, 82, 89, 8, 72	10.10%	23.69%	35.46%
+1979	sodium cromoglicate	23, 78, 39, 49, 71	15.23%	29.89%	40.84%
+1980	kapake tablet	23, 22, 78, 59, 77	9.10%	25.06%	36.82%
+1981	penicillin v	89, 23, 78, 82, 49	11.53%	29.45%	42.63%
+1982	atrovent 20micrograms inhaler	89, 23, 78, 49, 0	12.29%	31.30%	44.45%
+1983	colchicine	59, 23, 78, 82, 89	20.67%	37.12%	49.12%
+1984	Android total mass	17, 94, 27, 71, 78	88.89%	97.93%	98.42%
+1985	qvar 50 inhaler	37, 89, 23, 79, 78	8.96%	23.71%	32.00%
+1986	ursodeoxycholic acid	78, 23, 11, 49, 77	10.76%	27.19%	38.05%
+1987	celebrex 200mg capsule	23, 78, 49, 16, 7	21.57%	39.62%	46.91%
+1988	travoprost	23, 78, 89, 49, 27	19.01%	36.62%	46.65%
+1989	magnesium carbonate	23, 78, 49, 22, 79	14.32%	31.83%	40.44%
+1990	salazopyrin 500mg tablet	23, 27, 78, 0, 39	10.50%	22.73%	32.64%
+1991	creon e/c granules in capsule	72, 8, 23, 79, 49	13.09%	29.25%	40.09%
+1992	zopiclone	89, 23, 78, 27, 72	9.63%	23.55%	33.97%
+1993	nedocromil	67, 59, 23, 24, 78	7.34%	18.23%	26.99%
+1994	Mean ICVF in corticospinal tract on FA skeleton (right)	46, 27, 38, 23, 59	13.62%	32.40%	42.69%
+1995	daktacort cream	23, 49, 78, 79, 39	14.08%	31.29%	40.23%
+1996	co-careldopa	23, 78, 82, 49, 89	9.67%	23.61%	34.93%
+1997	epaderm ointment	8, 23, 72, 38, 79	10.11%	26.91%	39.13%
+1998	voltarol emulgel	23, 79, 49, 1, 78	11.85%	26.88%	36.27%
+1999	betnovate cream	71, 23, 37, 89, 78	8.76%	24.32%	34.95%
+2000	mirtazapine	23, 79, 89, 49, 78	12.24%	29.48%	43.14%
+2001	liothyronine	23, 59, 82, 78, 67	8.77%	21.46%	31.81%
+2002	premique cycle 10mg tablet	23, 78, 49, 89, 22	15.28%	33.88%	41.74%
+2003	premique 0.625mg/5mg tablet	89, 82, 77, 25, 8	16.21%	29.46%	37.22%
+2004	ascorbic acid product	77, 23, 82, 78, 71	9.25%	27.13%	36.84%
+2005	kliofem tablet	23, 78, 49, 1, 89	13.96%	30.90%	41.55%
+2006	norethisterone	23, 49, 78, 79, 36	22.23%	41.41%	51.46%
+2007	Pravastatin	20, 73, 72, 23, 98	33.53%	42.07%	49.67%
+2008	Simvastatin	10, 89, 83, 20, 18	42.63%	54.07%	60.79%
+2009	phenytoin	23, 78, 49, 79, 89	15.58%	35.63%	46.69%
+2010	alfacalcidol	23, 89, 78, 0, 49	10.87%	30.61%	39.70%
+2011	implanon 68mg subdermal implant	23, 78, 89, 22, 77	15.83%	33.89%	43.44%
+2012	femara 2.5mg tablet	59, 22, 67, 23, 78	9.51%	22.62%	31.08%
+2013	Statin	10, 72, 83, 54, 27	94.28%	96.24%	97.21%
+2014	Atorvastatin	10, 86, 51, 38, 39	29.98%	41.04%	47.90%
+2015	Fluvastatin	23, 49, 78, 79, 22	14.50%	26.75%	36.97%
+2016	Rosuvastatin	72, 20, 92, 10, 32	17.07%	35.72%	50.35%
+2017	NHS	58, 23, 78, 39, 49	11.00%	28.05%	40.72%
+2018	Doctor diagnosed COPD (chronic obstructive pulmonary disease)	72, 23, 79, 38, 67	14.79%	29.17%	38.32%
+2019	Doctor diagnosed sarcoidosis	23, 39, 78, 71, 0	14.79%	30.62%	43.01%
+2020	Doctor diagnosed bronchiectasis	23, 89, 79, 71, 49	16.14%	32.57%	41.26%
+2021	Doctor diagnosed tuberculosis	89, 23, 78, 39, 71	14.85%	32.25%	43.33%
+2022	Bring up phlegm/sputum/mucus on most days	23, 49, 79, 78, 3	15.76%	34.54%	43.70%
+2023	Cough on most days	73, 78, 27, 23, 1	9.49%	21.59%	32.34%
+2024	Hearing aid user	23, 72, 78, 89, 39	13.72%	31.10%	41.43%
+2025	Back pain for 3+ months	27, 49, 23, 79, 78	14.02%	25.87%	33.41%
+2026	Diabetes diagnosed by doctor	15, 73, 72, 39, 27	97.17%	97.92%	98.23%
+2027	Neck/shoulder pain for 3+ months	72, 73, 82, 27, 1	8.89%	22.90%	32.12%
+2028	Stomach/abdominal pain for 3+ months	27, 23, 79, 67, 13	15.88%	28.99%	35.90%
+2029	Ever used hormone-replacement therapy (HRT)	13, 20, 73, 64, 92	37.04%	58.78%	64.86%
+2030	Ever had hysterectomy (womb removed)	78, 39, 80, 23, 27	8.54%	22.18%	32.85%
+2031	Headaches for 3+ months	72, 89, 86, 23, 94	10.86%	28.72%	39.00%
+2032	Long-standing illness, disability or infirmity	83, 54, 92, 11, 52	24.77%	38.67%	48.05%
+2033	Ever had stillbirth, spontaneous miscarriage or termination	23, 49, 78, 27, 72	15.60%	30.33%	41.53%
+2034	Fractured/broken bones in last 5 years	92, 79, 72, 39, 20	14.03%	33.32%	46.13%
+2035	Doctor diagnosed lung cancer (not mesothelioma)	23, 78, 89, 59, 49	9.31%	23.41%	35.39%
+2036	Doctor diagnosed hayfever or allergic rhinitis	37, 51, 20, 70, 79	49.96%	79.68%	84.72%
+2037	Doctor diagnosed asthma	37, 51, 70, 20, 92	89.62%	95.18%	96.19%
+2038	Doctor diagnosed emphysema	68, 79, 22, 1, 23	7.13%	20.27%	31.96%
+2039	Doctor diagnosed chronic bronchitis	23, 79, 49, 80, 71	14.28%	30.90%	40.27%
+2040	Knee pain for 3+ months	27, 23, 83, 45, 72	10.34%	24.54%	33.86%
+2041	Hearing difficulty/problems with background noise	27, 51, 45, 64, 54	14.72%	34.90%	50.30%
+2042	Hip pain for 3+ months	89, 79, 23, 86, 49	10.90%	28.40%	38.75%
+2043	Gestational diabetes only	78, 23, 39, 49, 71	10.02%	29.43%	40.09%
+2044	Facial pains for 3+ months	23, 78, 49, 79, 81	14.01%	30.84%	39.90%
+2045	Cancer diagnosed by doctor	18, 75, 20, 1, 2	29.82%	62.39%	68.94%
+2046	Other serious medical condition/disability diagnosed by doctor	68, 38, 77, 58, 98	6.71%	19.59%	30.90%
+2047	Cochlear implant	23, 78, 49, 16, 22	20.04%	41.26%	48.05%
+2048	Suffer from 'nerves'	90, 20, 51, 11, 72	47.36%	61.59%	69.39%
+2049	Irritability	54, 11, 90, 80, 35	25.61%	55.91%	73.74%
+2050	Ever unenthusiastic/disinterested for a whole week	11, 77, 48, 64, 82	9.19%	20.97%	30.71%
+2051	Guilty feelings	51, 90, 11, 80, 89	45.48%	72.48%	79.27%
+2052	Surgery on leg arteries (other than for varicose veins)	23, 78, 49, 79, 63	15.07%	30.36%	39.46%
+2053	Mood swings	11, 90, 54, 38, 51	68.60%	88.45%	91.47%
+2054	Ever highly irritable/argumentative for 2 days	11, 77, 90, 55, 23	8.96%	23.74%	32.21%
+2055	Fed-up feelings	11, 90, 51, 92, 27	80.73%	92.37%	94.44%
+2056	Ever had surgery for glaucoma or high eye pressure	23, 78, 49, 22, 7	19.62%	36.29%	43.70%
+2057	Ever had laser treatment for glaucoma or high eye pressure	23, 89, 78, 49, 7	13.49%	27.01%	35.62%
+2058	Ever had cataract surgery	23, 64, 79, 49, 86	10.58%	27.32%	36.26%
+2059	Ever had refractive laser eye surgery	23, 78, 49, 27, 41	10.77%	28.02%	36.84%
+2060	Ever had corneal graft surgery	23, 78, 8, 49, 30	19.06%	34.37%	43.60%
+2061	Ever manic/hyper for 2 days	23, 38, 72, 20, 27	9.07%	24.56%	32.69%
+2062	Risk taking	13, 0, 59, 1, 64	16.56%	40.15%	57.40%
+2063	Leg pain when walking uphill or hurrying	23, 27, 94, 38, 49	9.20%	23.70%	32.96%
+2064	Leg pain on walking	51, 11, 48, 24, 98	17.21%	28.40%	36.49%
+2065	Chest pain or discomfort walking normally	75, 89, 20, 78, 23	8.48%	20.49%	29.40%
+2066	Leg pain when walking ever disappears while walking	23, 79, 78, 49, 85	21.51%	37.08%	46.91%
+2067	Wears glasses or contact lenses	23, 72, 78, 82, 39	10.30%	26.18%	34.06%
+2068	Leg pain in calf/calves	51, 23, 49, 79, 78	6.74%	19.59%	30.04%
+2069	Loneliness, isolation	11, 90, 51, 71, 86	30.51%	54.88%	62.29%
+2070	Sensitivity/hurt feelings	90, 11, 13, 92, 39	46.17%	61.12%	67.99%
+2071	Seen a psychiatrist for nerves, anxiety, tension or depression	90, 51, 64, 11, 20	12.22%	31.63%	45.47%
+2072	Tense/'highly strung'	90, 72, 27, 73, 8	59.16%	66.15%	71.81%
+2073	Leg pain when standing still or sitting	23, 72, 89, 38, 7	13.39%	27.46%	37.38%
+2074	Worry too long after embarrassment	90, 51, 18, 73, 77	54.54%	67.51%	74.78%
+2075	Miserableness	11, 90, 27, 80, 64	61.99%	83.21%	87.83%
+2076	Nervous feelings	90, 64, 11, 39, 80	67.82%	79.22%	83.70%
+2077	Leg pain when walking normally	23, 27, 73, 20, 79	10.17%	24.23%	31.94%
+2078	Ever depressed for a whole week	38, 77, 82, 3, 8	7.19%	20.21%	29.39%
+2079	Had major operations	18, 94, 86, 8, 89	10.66%	24.83%	37.60%
+2080	Ever had eye surgery	79, 72, 92, 27, 86	7.06%	17.77%	26.88%
+2081	Worrier/anxious feelings	90, 73, 11, 38, 18	82.15%	91.84%	93.70%
+2082	Seen doctor (GP) for nerves, anxiety, tension or depression	11, 92, 38, 89, 64	37.49%	49.40%	58.97%
+2083	Chest pain due to walking ceases when standing still	27, 89, 67, 73, 23	10.83%	29.72%	40.15%
+2084	Attempted suicide vs all	23, 0, 1, 49, 78	13.89%	27.27%	38.79%
+2085	Average 24-hour sound level of noise pollution	47, 23, 78, 49, 77	99.66%	99.75%	99.78%
+2086	Particulate matter air pollution (pm2.5); 2010	88, 51, 27, 34, 0	94.23%	96.78%	97.70%
+2087	Whole body fat mass	23, 49, 33, 50, 30	47.02%	89.40%	95.86%
+2088	Sum of road length of major roads within 100m	47, 64, 38, 39, 59	19.18%	30.65%	40.07%
+2089	Nitrogen dioxide air pollution; 2005	34, 88, 23, 49, 78	99.42%	99.86%	99.89%
+2090	Inverse distance to the nearest road	47, 23, 73, 89, 72	52.46%	59.83%	65.28%
+2091	Arm fat-free mass (left)	78, 79, 85, 23, 41	39.10%	66.11%	81.14%
+2092	Trunk fat percentage	33, 23, 49, 50, 30	50.82%	96.36%	97.57%
+2093	Trunk predicted mass	78, 85, 63, 79, 23	35.99%	61.58%	78.79%
+2094	Body fat percentage	23, 33, 49, 50, 28	33.59%	91.61%	97.49%
+2095	Nitrogen dioxide air pollution; 2006	34, 88, 72, 18, 39	94.99%	99.53%	99.62%
+2096	Leg fat percentage (right)	28, 23, 49, 22, 50	39.74%	91.50%	97.02%
+2097	Impedance of arm (left)	29, 78, 23, 92, 82	84.37%	88.22%	90.21%
+2098	Total traffic load on major roads	47, 64, 38, 77, 88	14.35%	28.49%	37.62%
+2099	Leg fat percentage (left)	28, 23, 49, 22, 50	35.67%	91.12%	96.76%
+2100	Leg predicted mass (right)	78, 79, 23, 41, 12	45.78%	69.39%	79.11%
+2101	Arm predicted mass (right)	78, 79, 85, 23, 41	40.88%	65.43%	79.13%
+2102	Arm fat percentage (right)	23, 49, 50, 22, 33	34.49%	92.18%	96.15%
+2103	Leg predicted mass (left)	78, 79, 23, 41, 12	41.92%	70.73%	81.39%
+2104	Traffic intensity on the nearest major road	92, 73, 38, 39, 77	11.51%	29.61%	42.68%
+2105	Leg fat-free mass (left)	78, 79, 23, 41, 12	41.75%	70.60%	81.27%
+2106	Impedance of leg (right)	25, 29, 82, 78, 23	50.90%	85.67%	91.52%
+2107	Leg fat-free mass (right)	78, 79, 23, 41, 12	45.61%	69.10%	78.98%
+2108	Basal metabolic rate	78, 79, 23, 41, 85	37.91%	69.75%	82.21%
+2109	Inverse distance to the nearest major road	47, 88, 38, 77, 20	25.06%	56.52%	67.55%
+2110	Whole body fat-free mass	78, 79, 85, 23, 12	42.24%	68.44%	81.75%
+2111	Arm predicted mass (left)	78, 79, 85, 23, 41	38.92%	65.93%	80.99%
+2112	Average night-time sound level of noise pollution	47, 23, 79, 54, 77	99.58%	99.66%	99.72%
+2113	Average 16-hour sound level of noise pollution	47, 77, 82, 78, 23	99.28%	99.43%	99.53%
+2114	Average daytime sound level of noise pollution	47, 23, 79, 78, 77	99.61%	99.69%	99.74%
+2115	Average evening sound level of noise pollution	47, 79, 77, 23, 82	99.38%	99.53%	99.60%
+2116	Traffic intensity on the nearest road	72, 23, 78, 59, 63	10.78%	24.58%	32.72%
+2117	Nitrogen oxides air pollution; 2010	88, 34, 20, 64, 2	96.78%	99.18%	99.31%
+2118	Whole body water mass	78, 79, 85, 23, 41	42.80%	68.93%	81.62%
+2119	Particulate matter air pollution (pm2.5) absorbance; 2010	88, 34, 27, 20, 51	30.15%	61.38%	73.45%
+2120	Arm fat percentage (left)	23, 49, 50, 33, 22	35.00%	91.25%	96.74%
+2121	Impedance of whole body	29, 82, 78, 23, 30	66.39%	91.57%	95.21%
+2122	Nitrogen dioxide air pollution; 2010	88, 34, 51, 27, 79	88.44%	98.92%	99.36%
+2123	Impedance of leg (left)	25, 29, 82, 78, 23	44.52%	84.75%	91.77%
+2124	Impedance of arm (right)	29, 82, 78, 23, 30	81.29%	90.10%	92.98%
+2125	Nitrogen dioxide air pollution; 2007	34, 88, 89, 78, 51	99.67%	99.75%	99.80%
+2126	Particulate matter air pollution 2.5-10um; 2010	38, 73, 89, 77, 88	9.74%	23.50%	34.10%
+2127	Arm fat-free mass (right)	78, 79, 85, 23, 41	40.29%	65.26%	78.89%
+2128	Trunk fat-free mass	78, 85, 79, 63, 23	36.01%	61.53%	78.52%
+2129	cannabis use frequency	92, 62, 20, 23, 38	25.40%	41.90%	51.79%
