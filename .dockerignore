@@ -1,0 +1,44 @@
+# data files
+all_phenos/
+betas.npy
+degas_betas.npy
+guide_all_100lat_bl_ll.npz
+log10pvalues.npy
+w_values.npz
+
+# python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Development files
+generate_great_file.py
+misc.py
+decomposition.py
+testing.py
+
+# Git
+.git/
+.gitignore
+
+# Docker
+Dockerfile
+.dockerignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
