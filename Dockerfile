@@ -1,33 +1,20 @@
-# Use Python 3.11 slim image as base
-FROM python:3.11-slim
+# use uv for installing packages
+# use astral's debian-slim image for runtime
+FROM ghcr.io/astral-sh/uv:debian-slim
 
 # Set working directory
 WORKDIR /app
 
-# Install system dependencies that might be needed for matplotlib
-RUN apt-get update && apt-get install -y \
-    gcc \
-    g++ \
-    && rm -rf /var/lib/apt/lists/*
+ENV UV_COMPILE_BYTECODE=1
+ENV UV_NO_CACHE=1
+ENV UV_PYTHON=3.13
 
-COPY requirements.txt .
+RUN --mount=type=bind,source=uv.lock,target=uv.lock \
+    --mount=type=bind,source=pyproject.toml,target=pyproject.toml \
+    uv sync --locked --no-install-project
 
-RUN pip install --no-cache-dir -r requirements.txt
-
-COPY app.py .
-COPY plotting.py .
-COPY colors.txt .
-COPY pheno_table.tsv .
-COPY snp_gene_pq.txt .
-#COPY degas_betas.npy .
-#COPY guide_all_100lat_bl_ll.npz .
-#COPY w_values.npz .
-#COPY betas.npy .
-COPY snplist.txt .
-COPY pheno_table_enhanced.csv .
-
-#COPY all_phenos/ ./all_phenos/
+COPY . .
 
 EXPOSE 8000
 
-CMD ["shiny", "run", "app.py", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uv", "run", "shiny", "run", "app.py", "--host", "0.0.0.0", "--port", "8000"]

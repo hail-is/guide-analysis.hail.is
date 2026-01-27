@@ -12,9 +12,12 @@ __pycache__/
 *.pyo
 *.pyd
 .Python
+.python-version
 *.so
 *.egg
 *.egg-info/
+.venv/
+venv/
 dist/
 build/
 
