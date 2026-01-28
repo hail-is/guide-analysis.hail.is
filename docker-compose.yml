@@ -5,7 +5,7 @@ services:
       - "8000:8000"
     volumes:
       - ./all_phenos:/app/all_phenos:ro
-      - ./guide_all_100lat_bl_ll.npz:/app/guide_all_100lat_bl_ll.npz:ro
-      - ./w_values.npz:/app/w_values.npz:ro
       - ./betas.npy:/app/betas.npy:ro
+      - ./guide_all_100lat_bl_ll.npz:/app/guide_all_100lat_bl_ll.npz:ro
       - ./log10pvalues.npy:/app/log10pvalues.npy:ro
+      - ./w_values.npz:/app/w_values.npz:ro
