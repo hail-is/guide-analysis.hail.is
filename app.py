@@ -61,7 +61,6 @@ def load_log10pvalues():
             return False, None
 
     print(f'Z-scores loaded successfully! Shape: {log10pvalues.shape}')
-    print(f'-log10(p) range: [{log10pvalues.min():.2f}, {log10pvalues.max():.2f}]')
     return True, log10pvalues
 
 
