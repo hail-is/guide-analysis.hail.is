@@ -16,6 +16,7 @@ ExecStart=docker container run --rm --name=guide-analysis-browser \
     --mount=type=bind,src=guide_all_100lat_bl_ll.npz,dst=/app/guide_all_100lat_bl_ll.npz:ro \
     --mount=type=bind,src=log10pvalues.npy,dst=/app/log10pvalues.npy:ro \
     --mount=type=bind,src=w_values.npz,dst=/app/w_values.npz:ro \
+    us-docker.pkg.dev/hail-vdc/hail/guide-browser:latest \
     uv run shiny run -h 0.0.0.0 -p 8000 app.py
 
 [Install]
