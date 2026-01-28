@@ -1,5 +1,6 @@
 import csv
 import itertools as it
+from pathlib import Path
 
 import numpy as np
 from shiny import App, Inputs, Outputs, Session, render, ui, reactive
@@ -17,11 +18,21 @@ LATENT_LABELS = []
 PLOT_HEIGHT = 400
 
 
+def load_npy(path, mmap_mode='r') -> np.array:
+    try:
+        return np.load(path, mmap_mode=mmap_mode)
+    except ValueError as e:
+        print(
+            f'Cannot memory map numpy array {path}, failed with: `{e}`, falling back to regular load.'
+        )
+    return np.load(path, allow_pickle=True)
+
+
 def load_w_values():
     try:
-        w_values_data = np.load('./w_values.npz')
-        logw_mat_TL = w_values_data['logw_mat_TL']
-        logw_mat_XL = w_values_data['logw_mat_XL']
+        wvpath = Path('./w_values')
+        logw_mat_TL = load_npy(wvpath / 'logw_mat_TL.npy')
+        logw_mat_XL = load_npy(wvpath / 'logw_mat_XL.npy')
         print('w-values loaded successfully!')
         return True, logw_mat_TL, logw_mat_XL
     except (FileNotFoundError, KeyError):
@@ -35,7 +46,7 @@ def load_log10pvalues():
     # there are around 3.8GiB of zscores/pvalues, it's read only so we can
     # memory map it in order to run in a more constrained environment.
     try:
-        log10pvalues = np.load('./log10pvalues.npy', mmap_mode='r')
+        log10pvalues = load_npy('./log10pvalues.npy')
     except FileNotFoundError:
         log10pvalues = None
 
@@ -43,7 +54,7 @@ def load_log10pvalues():
         # getting here means we haven't precomputed the log10 pvalues,
         # so we try to do so, and eat the memory usage
         try:
-            zscores = np.load('./degas_betas.npy')
+            zscores = load_npy('./degas_betas.npy', mmap_mode=None)
 
             # try to use inplace operations to cut down on memory usage
             pvalues = np.abs(zscores, out=zscores)
@@ -410,15 +421,15 @@ def create_enhanced_phenotype_table(pheno_labels, contrib_phe, w_values_availabl
     return df
 
 
-GZ = np.load('./guide_all_100lat_bl_ll.npz', allow_pickle=True)
-COS_GUIDE = GZ['cos_phe']
-PHENO_GUIDE = GZ['label_phe']
-FACTOR_GUIDE = GZ['factor_phe']
-CONTRIB_GUIDE = GZ['contribution_phe']
-GENE_CONTRIB_GUIDE = GZ['contribution_gene']
-CONTRIB_VAR_GUIDE = GZ['contribution_var']
-VAR_LABELS = GZ['label_var']
-del GZ
+GZP = Path('./guide_all_100lat_bl_ll')
+CONTRIB_GUIDE = load_npy(GZP / 'contribution_phe.npy')
+CONTRIB_VAR_GUIDE = load_npy(GZP / 'contribution_var.npy')
+COS_GUIDE = load_npy(GZP / 'cos_phe.npy')
+FACTOR_GUIDE = load_npy(GZP / 'factor_phe.npy')
+GENE_CONTRIB_GUIDE = load_npy(GZP / 'contribution_gene.npy')
+PHENO_GUIDE = load_npy(GZP / 'label_phe.npy')
+VAR_LABELS = load_npy(GZP / 'label_var.npy')
+del GZP
 
 COLORS = list(pd.read_csv('./colors.txt', sep='\t', header=None)[0])
 

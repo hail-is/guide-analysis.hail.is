@@ -228,7 +228,6 @@ def extract_if_needed(keep_all, refreshed, data_spec):
             tarf.extractall(filter=tarfile.data_filter)
         out_path.touch()
 
-
     if data_spec.handler is Handler.ZIP:
         # TODO: verbose output
         with ZipFile(data_spec.name, mode='r') as zipf:
@@ -240,7 +239,6 @@ def extract_if_needed(keep_all, refreshed, data_spec):
             for path in paths:
                 # print('  x', path.name, '->', path)
                 zipf.extract(path.name, path=datadir)
-
 
 
 if __name__ == '__main__':
@@ -261,8 +259,13 @@ if __name__ == '__main__':
         '--all',
         '-a',
         action='store_true',
-        help='download and extract all files, including already downloaded and unneded files')
-    parser.add_argument('--use-checksums', action='store_true', help='use checksums in addition to size/mtime to compute file freshness')
+        help='download and extract all files, including already downloaded and unneded files',
+    )
+    parser.add_argument(
+        '--use-checksums',
+        action='store_true',
+        help='use checksums in addition to size/mtime to compute file freshness',
+    )
     parser.add_argument('--bucket', '-b', help='GCS bucket for data files')
     parser.add_argument('--path-prefix', '-p', help='prefix within storage bucket for data files')
 

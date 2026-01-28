@@ -1,13 +1,6 @@
 # GUIDE Browser
 This repository contains the core code for the GUIDE browser: [https://guide-analysis.hail.is/](https://guide-analysis.hail.is/).
 
-## Building
-To build:
-```sh
-docker build . -t us-docker.pkg.dev/hail-vdc/hail/guide-browser:latest
-docker push us-docker.pkg.dev/hail-vdc/hail/guide-browser:latest
-```
-
 ## Data files
 The hail team maintains copies of the data files for the browser in a requester
 pays Google Cloud Storage bucket. To localize them for testing, run:
@@ -32,7 +25,18 @@ docker compose up
 # then navigate to localhost:8000 in a browser
 ```
 
-## Deploy
+## Production
+This section outlines steps needed to build a production container image, and
+deploy it to the Google Compute Engine VM.
+
+### Build
+To build and push for deployment:
+```sh
+docker build --platform linux/amd64 . -t us-docker.pkg.dev/hail-vdc/hail/guide-browser:latest
+docker push us-docker.pkg.dev/hail-vdc/hail/guide-browser:latest
+```
+
+### Deploy
 The hail team maintains a configured server in Google Cloud that serves this
 browser. No changes to nginx, systemd, or docker configuration should be
 required to maintain the service as a whole.
@@ -46,12 +50,9 @@ systemd units and restart the guide-browser service:
 sudo systemctl stop guide-analysis.service
 cd /usr/src/guide-analysis.hail.is
 git pull
+python3 download-data.py broad-ctsa /var/www/guide-analysis
 
-docker pull us-docker.pkg.dev/hail-vdc/hail/guide-browser:latest
-
-cd /var/www/guide-analysis
-gcloud storage cp <DATA_FILES> .
-
+sudo docker pull us-docker.pkg.dev/hail-vdc/hail/guide-browser:latest
 sudo systemctl daemon-reload
 sudo systemctl start guide-analysis.service
 ```

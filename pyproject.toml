@@ -17,3 +17,8 @@ line-length = 100
 
 [tool.ruff.format]
 quote-style = "single"
+
+[dependency-groups]
+dev = [
+    "google-cloud-storage>=3.8.0",
+]
