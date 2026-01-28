@@ -1,10 +1,13 @@
 # data files
 all_phenos/
+all_phnos.tar.gz
 betas.npy
 degas_betas.npy
 guide_all_100lat_bl_ll.npz
+guide_all_100lat_bl_ll/
 log10pvalues.npy
 w_values.npz
+w_values/
 
 # python files
 __pycache__/
