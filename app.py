@@ -661,7 +661,9 @@ def server(input: Inputs, output: Outputs, session: Session):
         return fig
 
     @session.download(
-        filename=lambda: f'guide-genes-{LATENT_LABELS[0].replace(" ", "_") if LATENT_LABELS else "none"}-{date.today().isoformat()}.csv'
+        filename=lambda: (
+            f'guide-genes-{LATENT_LABELS[0].replace(" ", "_") if LATENT_LABELS else "none"}-{date.today().isoformat()}.csv'
+        )
     )
     async def download_genes():
         if not LATENT_LABELS:
@@ -1032,7 +1034,9 @@ def server(input: Inputs, output: Outputs, session: Session):
         return ui.markdown('\n'.join(info_parts))
 
     @session.download(
-        filename=lambda: f'manhattan-{input.manhattan_trait().replace("/", "_").replace(" ", "_") if input.manhattan_trait() else "data"}-{date.today().isoformat()}.csv'
+        filename=lambda: (
+            f'manhattan-{input.manhattan_trait().replace("/", "_").replace(" ", "_") if input.manhattan_trait() else "data"}-{date.today().isoformat()}.csv'
+        )
     )
     async def download_manhattan_data():
         if not input.manhattan_trait():

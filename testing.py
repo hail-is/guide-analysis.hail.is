@@ -230,7 +230,9 @@ def server(input: Inputs, output: Outputs, session: Session):
             return pheno_table.iloc[list(input.grid_selected_rows())]
 
     @session.download(
-        filename=lambda: f'guide-genes-{latent_labels[0].replace(" ", "_")}-{date.today().isoformat()}-{np.random.randint(100, 999)}.csv'
+        filename=lambda: (
+            f'guide-genes-{latent_labels[0].replace(" ", "_")}-{date.today().isoformat()}-{np.random.randint(100, 999)}.csv'
+        )
     )
     async def download_genes():
         yield f'Gene Name\tContribution\n'
