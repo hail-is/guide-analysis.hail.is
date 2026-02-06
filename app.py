@@ -1,5 +1,7 @@
 import csv
 import itertools as it
+import json
+import logging
 from pathlib import Path
 
 import numpy as np
@@ -13,6 +15,11 @@ from scipy.stats import norm
 
 from plotting import var_contrib_to_lat, plot_variance_components, pheno_contribs_to_lat
 
+# general FIXME: use log rather than print
+
+log = logging.getLogger('shiny')
+log.setLevel(logging.WARNING)
+
 ALL_LATENT_LABELS = [f'GUIDE Lat{i}' for i in range(100)]
 LATENT_LABELS = []
 PLOT_HEIGHT = 400
@@ -22,10 +29,30 @@ def load_npy(path, mmap_mode='r') -> np.array:
     try:
         return np.load(path, mmap_mode=mmap_mode)
     except ValueError as e:
-        print(
-            f'Cannot memory map numpy array {path}, failed with: `{e}`, falling back to regular load.'
-        )
+        log.warning('Cannot memory map numpy array %s, falling back to regular load. (%s)', path, e)
     return np.load(path, allow_pickle=True)
+
+
+def load_llm_data():
+    with open('./GUIDE_browser_llm_prompt.txt', 'r', encoding='utf-8') as f:
+        llm_prompt_text = f.read()
+
+    with open('./llm_out.json', 'r', encoding='utf-8') as f:
+        llm_data = json.load(f)
+
+    llm_latent_choices = {}
+    # llm_display_to_key = {}  # Add this reverse mapping  # unused
+    for key, factor in llm_data.get('latent_factors', {}).items():
+        factor_num = key.replace('Lat', '')
+        label = factor.get('label', 'Unknown')
+        display_name = f'Latent Factor {factor_num}: {label}'
+        llm_latent_choices[key] = display_name
+        # llm_display_to_key[display_name] = key
+
+    return llm_prompt_text, llm_data, llm_latent_choices
+
+
+LLM_PROMPT, LLM_DATA, LLM_LATENT_CHOICES = load_llm_data()
 
 
 def load_w_values():
@@ -33,9 +60,10 @@ def load_w_values():
         wvpath = Path('./w_values')
         logw_mat_TL = load_npy(wvpath / 'logw_mat_TL.npy')
         logw_mat_XL = load_npy(wvpath / 'logw_mat_XL.npy')
-        print('w-values loaded successfully!')
+        log.info('w-values loaded successfully!')
         return True, logw_mat_TL, logw_mat_XL
     except (FileNotFoundError, KeyError):
+        log.warning('could not load w-values', exc_info=True)
         return False, None, None
 
 
@@ -54,7 +82,7 @@ def load_log10pvalues():
         # getting here means we haven't precomputed the log10 pvalues,
         # so we try to do so, and eat the memory usage
         try:
-            zscores = load_npy('./degas_betas.npy', mmap_mode=None)
+            zscores = load_npy('./zscores.npy', mmap_mode=None)
 
             # try to use inplace operations to cut down on memory usage
             pvalues = np.abs(zscores, out=zscores)
@@ -67,11 +95,11 @@ def load_log10pvalues():
             log10pvalues = np.log10(pvalues, out=pvalues)
             np.negative(log10pvalues, out=log10pvalues)
             np.clip(log10pvalues, a_min=0, a_max=None, out=log10pvalues)
-        except Exception as e:
-            print(f'Could not load z-scores: {e}')
+        except Exception:
+            log.warning('Could not load z-scores', exc_info=True)
             return False, None
 
-    print(f'Z-scores loaded successfully! Shape: {log10pvalues.shape}')
+    log.info('Z-scores loaded successfully! Shape: %s', log10pvalues.shape)
     return True, log10pvalues
 
 
@@ -236,8 +264,8 @@ def plot_manhattan(
             fontsize=14,
         )
         return fig, ax
-    print(
-        f'DEBUG: value column min={data_df[value_col].min():.4f}, max={data_df[value_col].max():.4f}'
+    log.debug(
+        'DEBUG: value column min=%.4f, max=%.4f', data_df[value_col].min(), data_df[value_col].max()
     )
     chromosomes = sorted(data_df['CHR'].unique())
     rank_colors = {1: '#D62728', 2: '#FF7F0E', 3: '#2CA02C', 0: '#A9A9A9'}
@@ -279,9 +307,9 @@ def plot_manhattan(
     for rank in [0, 3, 2, 1]:
         mask = data_df['top_latent_rank'] == rank
         if rank > 0 and len(top3_latent_labels) >= rank:
-            label = f'{top3_latent_labels[rank - 1]} (E={enrichment_scores[rank]:.2f})'
+            label = f'{top3_latent_labels[rank - 1]} (En={enrichment_scores[rank]:.2f})'
         else:
-            label = f'Other (E={enrichment_scores[rank]:.2f})'
+            label = f'Other (En={enrichment_scores[rank]:.2f})'
         if mask.any():
             rank_data = data_df[mask]
             ax.scatter(
@@ -326,7 +354,7 @@ def plot_manhattan(
     y_min = 0
     y_padding = max(y_max * 0.1, 1.0)
     ax.set_ylim(y_min, y_max + y_padding)
-    print(f'DEBUG: Setting ylim to [{y_min}, {y_max + y_padding}]')
+    log.debug('DEBUG: Setting ylim to [%f, %f]', y_min, y_max + y_padding)
     if highlight_threshold <= y_max + y_padding:
         ax.axhline(
             y=highlight_threshold,
@@ -411,6 +439,7 @@ def create_enhanced_phenotype_table(pheno_labels, contrib_phe, w_values_availabl
                 {
                     'rank': rank + 1,
                     'latent': f'Lat{latent_idx}',
+                    'latent_idx': int(latent_idx),
                     'contribution': contrib_val,
                     'w_value': w_val,
                 }
@@ -428,6 +457,7 @@ COS_GUIDE = load_npy(GZP / 'cos_phe.npy')
 FACTOR_GUIDE = load_npy(GZP / 'factor_phe.npy')
 GENE_CONTRIB_GUIDE = load_npy(GZP / 'contribution_gene.npy')
 PHENO_GUIDE = load_npy(GZP / 'label_phe.npy')
+ALL_PHENOTYPES = list(PHENO_GUIDE)
 VAR_LABELS = load_npy(GZP / 'label_var.npy')
 del GZP
 
@@ -438,38 +468,24 @@ ENHANCED_PHENO_TABLE = create_enhanced_phenotype_table(
     PHENO_GUIDE, CONTRIB_GUIDE, W_VALUES_AVAILABLE, LOGW_MAT_TL
 )
 
+DEFAULT_PHENOTYPE = "Alzheimer's disease/dementia"
 plots = ui.page_sidebar(
     ui.sidebar(
         ui.input_selectize(
             'pheno_select',
             'Choose a phenotype:',
-            list(PHENO_GUIDE),
-            selected="Alzheimer's disease/dementia",
+            ALL_PHENOTYPES,
+            selected=DEFAULT_PHENOTYPE,
         ),
         ui.input_slider(
-            'n_var_components',
-            'Number of Latent Factors',
-            min=1,
-            max=10,
-            value=5,
-            step=1.0,
+            'n_var_components', 'Number of Latent Factors', min=1, max=10, value=5, step=1.0
         ),
         ui.input_slider(
-            'n_phenotypes_show',
-            'Number of Phenotypes in Plot',
-            min=1,
-            max=5,
-            value=3,
-            step=1.0,
+            'n_phenotypes_show', 'Number of Phenotypes in Plot', min=1, max=5, value=3, step=1.0
         ),
         ui.input_slider('topn_loci', 'Number of Loci in Plot', min=1, max=15, value=9, step=1.0),
         ui.input_slider(
-            'topn_genes',
-            'Number of Example Genes per Locus',
-            min=1,
-            max=5,
-            value=2,
-            step=1.0,
+            'topn_genes', 'Number of Example Genes per Locus', min=1, max=5, value=2, step=1.0
         ),
         ui.download_button('download_genes', 'Download Gene List'),
         width=300,
@@ -490,6 +506,7 @@ plots = ui.page_sidebar(
     ),
     ui.row(ui.output_plot('var_contrib_to_lat_controller', height=f'{PLOT_HEIGHT}px')),
 )
+
 table = ui.page_fluid(
     ui.HTML(
         """
@@ -503,12 +520,7 @@ table = ui.page_fluid(
             ui.input_text('filter_pheno', 'Filter by phenotype:', placeholder='Type to search...'),
             ui.input_text('filter_latent', 'Filter by latent:', placeholder='e.g., Lat42'),
             ui.input_numeric(
-                'min_contrib',
-                'Min variance component:',
-                value=0,
-                min=0,
-                max=1,
-                step=0.01,
+                'min_contrib', 'Min variance component:', value=0, min=0, max=1, step=0.01
             ),
             ui.hr(),
             ui.download_button('download_table', 'Download Table'),
@@ -523,13 +535,11 @@ table = ui.page_fluid(
     ),
     class_='p-3',
 )
+
 manhattan_ui = ui.page_sidebar(
     ui.sidebar(
         ui.input_selectize(
-            'manhattan_trait',
-            'Select Trait:',
-            choices=list(PHENO_GUIDE),
-            selected="Alzheimer's disease/dementia",
+            'manhattan_trait', 'Select Trait:', choices=ALL_PHENOTYPES, selected=DEFAULT_PHENOTYPE
         ),
         ui.hr(),
         ui.markdown('**Chromosomal View**'),
@@ -550,59 +560,205 @@ manhattan_ui = ui.page_sidebar(
     <p>Select a trait to view its variant associations.
     Variants are colored by which of the trait's top 3 latent factors they load onto:</p>
     <ul>
-        <li><strong>Red</strong>: Loads onto 1st latent (E = enrichment score)</li>
+        <li><strong>Red</strong>: Loads onto 1st latent (En = enrichment score)</li>
         <li><strong>Orange</strong>: Loads onto 2nd latent</li>
         <li><strong>Green</strong>: Loads onto 3rd latent</li>
         <li><strong>Gray</strong>: Loads onto other latents</li>
     </ul>
-    <p>Enrichment score: E = (g_sig/g_total) / (n_sig/n_total)</p>
+    <p>Enrichment score: En = (g_sig/g_total) / (n_sig/n_total)</p>
     <p><strong>Reference:</strong> <a href="https://www.biorxiv.org/content/10.1101/2024.05.03.592285v2" target="_blank">Lazarev et al. bioRxiv 2024</a></p>
     """
     ),
     ui.output_plot('manhattan_plot', height='600px'),
     ui.output_ui('manhattan_info_ui'),
 )
+
+llm_ui = ui.page_sidebar(
+    ui.sidebar(
+        ui.input_selectize(
+            'llm_latent_select',
+            'Select Latent Factor:',
+            choices=LLM_LATENT_CHOICES,
+            selected=list(LLM_LATENT_CHOICES.keys())[0] if LLM_LATENT_CHOICES else None,
+        ),
+        ui.hr(),
+        ui.download_button('download_llm_data', 'Download Factor Data'),
+        width=320,
+    ),
+    ui.HTML(
+        """
+    <h3>GUIDE Browser - LLM Characterization</h3>
+    <p><strong>Reference:</strong> <a href="https://www.biorxiv.org/content/10.1101/2024.05.03.592285v2" target="_blank">Lazarev et al. bioRxiv 2024</a></p>
+    """
+    ),
+    ui.output_ui('llm_factor_display'),
+    ui.HTML(f"""
+    <details style="margin-top: 30px; padding: 20px; background-color: #f8f9fa; border-radius: 8px; border: 1px solid #dee2e6;">
+        <summary style="cursor: pointer; font-weight: 600; font-size: 14px; color: #495057; user-select: none;">
+            <span style="margin-left: 8px;">About this Dataset and LLM Characterization</span>
+        </summary>
+        <div style="margin-top: 16px; padding-top: 16px; border-top: 1px solid #dee2e6; line-height: 1.6; font-size: 13px; color: #495057;">
+            <h4 style="margin-top: 0; color: #495057; font-size: 14px;">Dataset</h4>
+            <p style="margin-bottom: 12px;">
+                This browser uses the "all" dataset from
+                <a href="https://www.nature.com/articles/s41467-019-11953-9" target="_blank" style="color: #0d6efd;">Tanigawa et al. (Nature Communications 2019)</a>,
+                which includes comprehensive phenotypic data from the UK Biobank.
+            </p>
+
+            <h4 style="color: #495057; font-size: 14px; margin-top: 16px;">Creating Your Own Model</h4>
+            <p style="margin-bottom: 12px;">
+                To create your own GUIDE model, visit the
+                <a href="https://github.com/daniel-lazarev/GUIDE" target="_blank" style="color: #0d6efd;">GUIDE GitHub repository</a>
+                for the relevant code. For detailed methodology and theoretical background, refer to our paper:
+                <a href="https://www.biorxiv.org/content/10.1101/2024.05.03.592285v2" target="_blank" style="color: #0d6efd;">Lazarev et al. bioRxiv 2024</a>.
+            </p>
+
+            <h4 style="color: #495057; font-size: 14px; margin-top: 16px;">LLM Characterization Details</h4>
+            <p style="margin-bottom: 12px;">
+                The latent factor characterizations displayed in this browser were generated using
+                <strong>Claude Opus 4.5</strong> with extended thinking enabled and a minimized temperature parameter to ensure reproducibility.
+                The model analyzed the top associated phenotypes, genetic variants, and biological pathways for each latent factor
+                to produce interpretable summaries of the underlying biological mechanisms.
+            </p>
+
+            <details style="margin-top: 16px; padding: 12px; background-color: white; border-radius: 4px; border: 1px solid #dee2e6;">
+                <summary style="cursor: pointer; font-weight: 600; font-size: 13px; color: #667eea; user-select: none;">
+                    <span style="margin-left: 8px;">View Full LLM Prompt</span>
+                </summary>
+                <div style="margin-top: 12px; max-height: 400px; overflow-y: auto;">
+                    <pre style="background-color: #f8f9fa; padding: 12px; border-radius: 4px; font-size: 11px; line-height: 1.4; margin: 0; white-space: pre-wrap; word-wrap: break-word; font-family: 'Courier New', monospace;">{LLM_PROMPT}</pre>
+                </div>
+            </details>
+        </div>
+    </details>
+    """),
+)
+
 app_ui = ui.page_navbar(
     ui.nav_panel('Table', table),
     ui.nav_panel('Bar Plots', plots),
     ui.nav_panel('Manhattan Plots', manhattan_ui),
+    ui.nav_panel('LLM Characterization', llm_ui),
     title='GUI for GUIDE',
     id='main_navbar',
+    header=ui.tags.script("""
+        function navigateToTab(tabName) {
+            const tabs = document.querySelectorAll('.nav-link');
+            tabs.forEach(tab => {
+                if (tab.textContent.trim() === tabName) {
+                    tab.click();
+                }
+            });
+        }
+
+        function navigateToManhattan(phenotype) {
+            navigateToTab('Manhattan Plots');
+            setTimeout(() => {
+                Shiny.setInputValue('nav_phenotype', phenotype, {priority: 'event'});
+            }, 100);
+        }
+
+        function navigateToBarPlots(phenotype) {
+            navigateToTab('Bar Plots');
+            setTimeout(() => {
+                Shiny.setInputValue('nav_phenotype', phenotype, {priority: 'event'});
+            }, 100);
+        }
+
+        function navigateToLLM(latentKey) {
+            navigateToTab('LLM Characterization');
+            setTimeout(() => {
+                Shiny.setInputValue('nav_latent', latentKey, {priority: 'event'});
+            }, 100);
+        }
+    """),
 )
 
 
 def server(input: Inputs, output: Outputs, session: Session):
+
+    selected_phenotype = reactive.value(DEFAULT_PHENOTYPE)
+    nav_latent_value = reactive.value(None)
+
+    @reactive.effect
+    @reactive.event(input.nav_phenotype)
+    def handle_nav_phenotype():
+        pheno = input.nav_phenotype()
+        if pheno and pheno in ALL_PHENOTYPES:
+            selected_phenotype.set(pheno)
+
+    @reactive.effect
+    @reactive.event(input.nav_latent)
+    def handle_nav_latent():
+        latent = input.nav_latent()
+        print(f'>>> NAV_LATENT RECEIVED: {latent}')
+        if latent:
+            latent_key = f'Lat{latent}'
+            print(f'>>> LOOKING FOR KEY: {latent_key}')
+            if latent_key in LLM_LATENT_CHOICES:
+                print(f'>>> UPDATING DROPDOWN TO: {latent_key}')
+                ui.update_selectize('llm_latent_select', selected=latent_key)
+            else:
+                print('>>> KEY NOT FOUND IN CHOICES')
+
+    @reactive.effect
+    @reactive.event(input.pheno_select)
+    def sync_from_barplots():
+        pheno = input.pheno_select()
+        print(f'=== BARPLOTS CHANGED: {pheno}')
+        if pheno:
+            selected_phenotype.set(pheno)
+            print(f'=== SET selected_phenotype to: {pheno}')
+
+    @reactive.effect
+    @reactive.event(input.manhattan_trait)
+    def sync_from_manhattan():
+        pheno = input.manhattan_trait()
+        if pheno and pheno != selected_phenotype.get():
+            selected_phenotype.set(pheno)
+
+    @reactive.effect
+    def update_pheno_select():
+        pheno = selected_phenotype.get()
+        if pheno:
+            ui.update_selectize('pheno_select', selected=pheno)
+
+    @reactive.effect
+    def update_manhattan_trait():
+        pheno = selected_phenotype.get()
+        if pheno:
+            ui.update_selectize('manhattan_trait', selected=pheno)
+
+    @reactive.calc
+    def current_llm_latent():
+        dropdown_val = input.llm_latent_select()
+        nav_val = nav_latent_value.get()
+        if nav_val and dropdown_val != nav_val:
+            return nav_val
+        return dropdown_val
+
+    @reactive.effect
+    def clear_nav_latent_after_sync():
+        dropdown_val = input.llm_latent_select()
+        nav_val = nav_latent_value.get()
+        if nav_val and dropdown_val == nav_val:
+            nav_latent_value.set(None)
+
     @output
     @render.plot
     def plot_variance_components_controller():
-        interested_phenos = input.pheno_select()
+        interested_phenos = selected_phenotype.get()
         if isinstance(interested_phenos, str):
             interested_phenos = [interested_phenos]
         paths = [
             f'./all_phenos/phenotypes/guide/{get_safe_phe_name(p)}/squared_cosine_scores.tsv'
             for p in interested_phenos
         ]
-        try:
-            df = pd.read_csv(paths[0], sep='\t')
-        except:
-            fig, ax = plt.subplots(figsize=(6, 4))
-            ax.text(
-                0.5,
-                0.5,
-                'Data file not found',
-                ha='center',
-                va='center',
-                transform=ax.transAxes,
-            )
-            ax.axis('off')
-            return fig
+        df = pd.read_csv(paths[0], sep='\t')
+
         topn_var = input.n_var_components()
         fig, ax, latent_labels_local = plot_variance_components(
-            df,
-            ['squared_cosine_score'],
-            [interested_phenos],
-            topn=topn_var,
-            bar_width=0.0001,
+            df, ['squared_cosine_score'], [interested_phenos], topn=topn_var, bar_width=0.0001
         )
         set_latent_labels(latent_labels_local)
         return fig
@@ -622,7 +778,7 @@ def server(input: Inputs, output: Outputs, session: Session):
             )
             ax.axis('off')
             return fig
-        interested_phenos = input.pheno_select()
+        interested_phenos = selected_phenotype.get()
         if isinstance(interested_phenos, str):
             interested_phenos = [interested_phenos]
         paths = [
@@ -644,6 +800,7 @@ def server(input: Inputs, output: Outputs, session: Session):
     @output
     @render.plot
     def pheno_contrib_to_lat_controller():
+        # interested_phenos = selected_phenotype.get()  # FIXME: unused. bug?
         if not LATENT_LABELS:
             fig, ax = plt.subplots(figsize=(12, 4))
             ax.text(
@@ -657,6 +814,8 @@ def server(input: Inputs, output: Outputs, session: Session):
             ax.axis('off')
             return fig
         df = gen_barplot_data(PHENO_GUIDE, CONTRIB_GUIDE, True, COLORS)
+        input.topn_genes()
+        input.topn_loci()
         fig = pheno_contribs_to_lat(df, LATENT_LABELS, topn=input.n_phenotypes_show(), spacing=3)
         return fig
 
@@ -739,6 +898,14 @@ def server(input: Inputs, output: Outputs, session: Session):
                 color: #212529;
                 max-width: 300px;
             }
+            .pheno-name-link {
+                color: #0d6efd;
+                cursor: pointer;
+                text-decoration: none;
+            }
+            .pheno-name-link:hover {
+                text-decoration: underline;
+            }
             .latent-subtable {
                 width: 100%;
                 border-collapse: collapse;
@@ -772,7 +939,14 @@ def server(input: Inputs, output: Outputs, session: Session):
                 width: 100px;
                 font-family: "Courier New", monospace;
                 font-weight: 500;
+            }
+            .latent-link {
                 color: #0d6efd;
+                cursor: pointer;
+                text-decoration: none;
+            }
+            .latent-link:hover {
+                text-decoration: underline;
             }
             .contrib-col {
                 width: 120px;
@@ -798,10 +972,13 @@ def server(input: Inputs, output: Outputs, session: Session):
         ]
         for _, row in df.iterrows():
             pheno_name = row['Phenotype']
+            pheno_escaped = pheno_name.replace("'", "\\'").replace('"', '&quot;')
             latent_info = row['latent_info']
             html_parts.append(f"""
                 <tr>
-                    <td class="pheno-name">{pheno_name}</td>
+                    <td class="pheno-name">
+                        <span class="pheno-name-link" onclick="navigateToBarPlots('{pheno_escaped}')">{pheno_name}</span>
+                    </td>
                     <td>
                         <table class="latent-subtable">
                             <thead>
@@ -815,15 +992,17 @@ def server(input: Inputs, output: Outputs, session: Session):
             """)
             for info in latent_info:
                 latent = info['latent']
+                latent_idx = info['latent_idx']
+                latent_key = str(latent_idx)
                 contrib = info['contribution']
                 w_val = info['w_value']
                 w_str = f'{w_val:.4f}' if not pd.isna(w_val) else 'N/A'
                 html_parts.append(f"""
-                            <tr>
-                                <td class="latent-col">{latent}</td>
-                                <td class="contrib-col">{contrib:.4f}</td>
-                                <td class="w-col">{w_str}</td>
-                            </tr>
+                        <tr>
+                            <td class="latent-col"><span class="latent-link" onclick="navigateToLLM('{latent_key}')">{latent}</span></td>
+                            <td class="contrib-col">{contrib:.4f}</td>
+                            <td class="w-col">{w_str}</td>
+                        </tr>
                 """)
             html_parts.append("""
                             </tbody>
@@ -842,6 +1021,8 @@ def server(input: Inputs, output: Outputs, session: Session):
             Columns: Latent ID | Variance Component | -log10(w)
             &nbsp;&nbsp;|&nbsp;&nbsp;
             <em>Phenotypes sorted by cumulative top 3 variance component (highest first)</em>
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <em>Click phenotype names to view Bar Plots, click latents to view LLM characterization</em>
         </div>
         """)
         return ui.HTML(''.join(html_parts))
@@ -862,7 +1043,8 @@ def server(input: Inputs, output: Outputs, session: Session):
     @output
     @render.plot
     def manhattan_plot():
-        if not input.manhattan_trait():
+        trait = selected_phenotype.get()
+        if not trait:
             fig, ax = plt.subplots(figsize=(16, 6))
             ax.text(
                 0.5,
@@ -896,7 +1078,7 @@ def server(input: Inputs, output: Outputs, session: Session):
                 )
                 ax.axis('off')
                 return fig
-        selected_trait = input.manhattan_trait()
+        selected_trait = trait
         df = prepare_manhattan_data(
             VAR_LABELS,
             CONTRIB_VAR_GUIDE,
@@ -940,13 +1122,15 @@ def server(input: Inputs, output: Outputs, session: Session):
     @output
     @render.ui
     def manhattan_info_ui():
-        if not input.manhattan_trait():
+        trait = selected_phenotype.get()
+        if not trait:
             return ui.markdown('**Please select a trait.**')
-        selected_trait = input.manhattan_trait()
+        selected_trait = trait
         df = prepare_manhattan_data(VAR_LABELS, CONTRIB_VAR_GUIDE, selected_trait, CONTRIB_GUIDE)
         if df is None:
             return ui.markdown('**Error: Could not load data for trait.**')
         top3_latent_labels = df.attrs.get('top3_latent_labels', [])
+        top3_latents = df.attrs.get('top3_latents', [])
         top3_contributions = df.attrs.get('top3_contributions', [])
         top3_w_values = df.attrs.get('top3_w_values', [])
         if input.manhattan_regional():
@@ -989,15 +1173,18 @@ def server(input: Inputs, output: Outputs, session: Session):
             '### Top 3 Contributing Latent Factors',
         ]
 
-        for i, (lat_label, contrib, w_val) in enumerate(
-            zip(top3_latent_labels, top3_contributions, top3_w_values), 1
+        for i, (lat_label, lat_idx, contrib, w_val) in enumerate(
+            zip(top3_latent_labels, top3_latents, top3_contributions, top3_w_values), 1
         ):
+            latent_key = str(lat_idx)
             if not pd.isna(w_val):
                 info_parts.append(
-                    f'{i}. **{lat_label}** (variance component: {contrib:.4f}, -log10(w-value): {w_val:.4f})'
+                    f'{i}. <span class="latent-link" onclick="navigateToLLM(\'{latent_key}\')" style="color: #0d6efd; cursor: pointer;">**{lat_label}**</span> (variance component: {contrib:.4f}, -log10(w-value): {w_val:.4f})'
                 )
             else:
-                info_parts.append(f'{i}. **{lat_label}** (variance component: {contrib:.4f})')
+                info_parts.append(
+                    f'{i}. <span class="latent-link" onclick="navigateToLLM(\'{latent_key}\')" style="color: #0d6efd; cursor: pointer;">**{lat_label}**</span> (variance component: {contrib:.4f})'
+                )
 
         info_parts.extend(
             [
@@ -1013,6 +1200,8 @@ def server(input: Inputs, output: Outputs, session: Session):
                 f'- **{top3_latent_labels[1] if len(top3_latent_labels) > 1 else "2nd"} (Orange):** {n_2nd:,} variants (En={enrichment_scores[2]:.2f})',
                 f'- **{top3_latent_labels[2] if len(top3_latent_labels) > 2 else "3rd"} (Green):** {n_3rd:,} variants (En={enrichment_scores[3]:.2f})',
                 f'- **Other (Gray):** {n_other:,} variants (En={enrichment_scores[0]:.2f})',
+                '',
+                'Note: values below are capped at -log10(w-value) or -log10(p-value) = 300',
                 '',
                 '### Top 5 Variants by Association',
                 '',
@@ -1031,18 +1220,19 @@ def server(input: Inputs, output: Outputs, session: Session):
                 f'{i}. **{row["VAR"]}**{gene_info}{rank_info}  \n'
                 f'   {value_label}: {row["value"]:.4f}'
             )
-        return ui.markdown('\n'.join(info_parts))
+        return ui.HTML(ui.markdown('\n'.join(info_parts)))
 
     @session.download(
         filename=lambda: (
-            f'manhattan-{input.manhattan_trait().replace("/", "_").replace(" ", "_") if input.manhattan_trait() else "data"}-{date.today().isoformat()}.csv'
+            f'manhattan-{selected_phenotype.get().replace("/", "_").replace(" ", "_") if selected_phenotype.get() else "data"}-{date.today().isoformat()}.csv'
         )
     )
     async def download_manhattan_data():
-        if not input.manhattan_trait():
+        trait = selected_phenotype.get()
+        if not trait:
             yield 'Error: No trait selected\n'
             return
-        selected_trait = input.manhattan_trait()
+        selected_trait = trait
         df = prepare_manhattan_data(VAR_LABELS, CONTRIB_VAR_GUIDE, selected_trait, CONTRIB_GUIDE)
         if df is None:
             yield 'Error: Could not load data for trait.\n'
@@ -1090,6 +1280,437 @@ def server(input: Inputs, output: Outputs, session: Session):
                 yield f'{int(row["CHR"])}\t{int(row["POS"])}\t{row["VAR"]}\t{row["GENE"]}\t{row["value"]:.8f}\t{latent_str}\t{enrichment:.4f}\t{w_val_str}\n'
             else:
                 yield f'{int(row["CHR"])}\t{int(row["POS"])}\t{row["VAR"]}\t{row["GENE"]}\t{row["value"]:.8f}\t{latent_str}\t{enrichment:.4f}\n'
+
+    @output
+    @render.ui
+    def llm_factor_display():
+        current_latent = input.llm_latent_select()  # This is now "Lat39"
+        print(f'>>> RENDERING WITH LATENT: {current_latent}')
+
+        if not current_latent or current_latent not in LLM_DATA.get('latent_factors', {}):
+            return ui.HTML('<p>Please select a latent factor.</p>')
+
+        factor = LLM_DATA['latent_factors'][current_latent]
+        factor_num = current_latent.replace('Lat', '')
+
+        html_parts = [
+            """
+        <style>
+            .llm-container {
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+                max-width: 1200px;
+                padding: 20px;
+            }
+            .llm-header {
+                background-color: #667eea;
+                color: white;
+                padding: 24px;
+                border-radius: 12px;
+                margin-bottom: 24px;
+            }
+            .llm-header h2 {
+                margin: 0 0 8px 0;
+                font-size: 28px;
+            }
+            .llm-header .mechanism {
+                font-size: 16px;
+                opacity: 0.9;
+            }
+            .llm-section {
+                background: white;
+                border: 1px solid #e9ecef;
+                border-radius: 8px;
+                padding: 20px;
+                margin-bottom: 20px;
+                box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            }
+            .llm-section h3 {
+                color: #495057;
+                border-bottom: 2px solid #667eea;
+                padding-bottom: 8px;
+                margin-top: 0;
+                margin-bottom: 16px;
+            }
+            .stats-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                gap: 16px;
+            }
+            .stat-card {
+                background: #f8f9fa;
+                padding: 16px;
+                border-radius: 8px;
+                text-align: center;
+            }
+            .stat-value {
+                font-size: 24px;
+                font-weight: 700;
+                color: #667eea;
+            }
+            .stat-label {
+                font-size: 12px;
+                color: #6c757d;
+                text-transform: uppercase;
+                margin-top: 4px;
+            }
+            .bio-interpretation {
+                line-height: 1.7;
+                color: #343a40;
+                font-size: 15px;
+            }
+            .data-table {
+                width: 100%;
+                border-collapse: collapse;
+                font-size: 13px;
+            }
+            .data-table th {
+                background: #f8f9fa;
+                padding: 12px;
+                text-align: left;
+                font-weight: 600;
+                color: #495057;
+                border-bottom: 2px solid #dee2e6;
+                position: sticky;
+                top: 0;
+            }
+            .data-table td {
+                padding: 10px 12px;
+                border-bottom: 1px solid #e9ecef;
+            }
+            .data-table tbody tr:hover {
+                background-color: #f8f9fa;
+            }
+            .data-table .rank-col {
+                width: 50px;
+                text-align: center;
+                font-weight: 600;
+                color: #667eea;
+            }
+            .data-table .value-col {
+                text-align: right;
+                font-family: "Courier New", monospace;
+            }
+            .pheno-link {
+                color: #0d6efd;
+                cursor: pointer;
+                text-decoration: none;
+            }
+            .pheno-link:hover {
+                text-decoration: underline;
+            }
+            .gene-list {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 8px;
+            }
+            .gene-tag {
+                background: #e7f1ff;
+                color: #0d6efd;
+                padding: 4px 12px;
+                border-radius: 16px;
+                font-size: 13px;
+                font-weight: 500;
+            }
+            .region-list {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 8px;
+            }
+            .region-tag {
+                background: #fff3cd;
+                color: #856404;
+                padding: 4px 12px;
+                border-radius: 16px;
+                font-size: 13px;
+                font-weight: 500;
+            }
+            .annotation-item {
+                padding: 12px;
+                border-left: 3px solid #667eea;
+                background: #f8f9fa;
+                margin-bottom: 8px;
+                border-radius: 0 8px 8px 0;
+            }
+            .annotation-gene {
+                font-weight: 600;
+                color: #495057;
+            }
+            .annotation-function {
+                color: #6c757d;
+                font-size: 14px;
+                margin-top: 4px;
+            }
+            .table-container {
+                max-height: 400px;
+                overflow-y: auto;
+                border: 1px solid #e9ecef;
+                border-radius: 8px;
+            }
+        </style>
+        """
+        ]
+
+        label = factor.get('label', 'Unknown')
+        mechanism = factor.get('primary_mechanism', 'Not specified')
+
+        html_parts.append(f"""
+        <div class="llm-container">
+            <div class="llm-header">
+                <h2>Latent Factor {factor_num}: {label}</h2>
+                <div class="mechanism"><strong>Primary Mechanism:</strong> {mechanism}</div>
+            </div>
+        """)
+
+        stats = factor.get('summary_statistics', {})
+        html_parts.append("""
+            <div class="llm-section">
+                <h3>Summary Statistics</h3>
+                <div class="stats-grid">
+        """)
+
+        if stats.get('top_phenotype_variance_component') is not None:
+            html_parts.append(f"""
+                    <div class="stat-card">
+                        <div class="stat-value">{stats['top_phenotype_variance_component']:.4f}</div>
+                        <div class="stat-label">Top Phenotype Variance Component</div>
+                    </div>
+            """)
+
+        if stats.get('top_phenotype_neg_log10_w_value') is not None:
+            html_parts.append(f"""
+                    <div class="stat-card">
+                        <div class="stat-value">{stats['top_phenotype_neg_log10_w_value']:.2f}</div>
+                        <div class="stat-label">Top Phenotype -log10(w-value)</div>
+                    </div>
+            """)
+
+        primary_domain = stats.get('primary_domain')
+        if primary_domain:
+            html_parts.append(f"""
+                    <div class="stat-card">
+                        <div class="stat-value">{primary_domain['variance_component_percentage']:.1f}%</div>
+                        <div class="stat-label">Primary Domain: {primary_domain['name']}</div>
+                    </div>
+            """)
+
+        secondary_domain = stats.get('secondary_domain')
+        if secondary_domain:
+            html_parts.append(f"""
+                    <div class="stat-card">
+                        <div class="stat-value">{secondary_domain['variance_component_percentage']:.1f}%</div>
+                        <div class="stat-label">Secondary Domain: {secondary_domain['name']}</div>
+                    </div>
+            """)
+
+        html_parts.append("""
+                </div>
+            </div>
+        """)
+
+        bio_interp = factor.get('biological_interpretation', '')
+        if bio_interp:
+            html_parts.append(f"""
+            <div class="llm-section">
+                <h3>Biological Interpretation</h3>
+                <p class="bio-interpretation">{bio_interp}</p>
+            </div>
+            """)
+
+        phenos_var = factor.get('top_phenotypes_by_variance', [])
+        if phenos_var:
+            html_parts.append("""
+            <div class="llm-section">
+                <h3>Top Phenotypes by Variance Component</h3>
+                <div class="table-container">
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th class="rank-col">Rank</th>
+                            <th>Phenotype</th>
+                            <th class="value-col">Variance Component</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+            """)
+            for p in phenos_var:
+                pheno_name = p.get('phenotype', '')
+                pheno_escaped = pheno_name.replace("'", "\\'").replace('"', '&quot;')
+                if pheno_name in ALL_PHENOTYPES:
+                    html_parts.append(f"""
+                        <tr>
+                            <td class="rank-col">{p.get('rank', '')}</td>
+                            <td><span class="pheno-link" onclick="navigateToBarPlots('{pheno_escaped}')">{pheno_name}</span></td>
+                            <td class="value-col">{p.get('variance_component', 0):.5f}</td>
+                        </tr>
+                    """)
+                else:
+                    html_parts.append(f"""
+                        <tr>
+                            <td class="rank-col">{p.get('rank', '')}</td>
+                            <td>{pheno_name}</td>
+                            <td class="value-col">{p.get('variance_component', 0):.5f}</td>
+                        </tr>
+                    """)
+            html_parts.append("""
+                    </tbody>
+                </table>
+                </div>
+            </div>
+            """)
+
+        phenos_sig = factor.get('top_phenotypes_by_significance', [])
+        if phenos_sig:
+            html_parts.append("""
+            <div class="llm-section">
+                <h3>Top Phenotypes by Statistical Significance</h3>
+                <div class="table-container">
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th class="rank-col">Rank</th>
+                            <th>Phenotype</th>
+                            <th class="value-col">-log10(w-value)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+            """)
+            for p in phenos_sig:
+                pheno_name = p.get('phenotype', '')
+                pheno_escaped = pheno_name.replace("'", "\\'").replace('"', '&quot;')
+                if pheno_name in ALL_PHENOTYPES:
+                    html_parts.append(f"""
+                        <tr>
+                            <td class="rank-col">{p.get('rank', '')}</td>
+                            <td><span class="pheno-link" onclick="navigateToBarPlots('{pheno_escaped}')">{pheno_name}</span></td>
+                            <td class="value-col">{p.get('neg_log10_w_value', 0):.3f}</td>
+                        </tr>
+                    """)
+                else:
+                    html_parts.append(f"""
+                        <tr>
+                            <td class="rank-col">{p.get('rank', '')}</td>
+                            <td>{pheno_name}</td>
+                            <td class="value-col">{p.get('neg_log10_w_value', 0):.3f}</td>
+                        </tr>
+                    """)
+            html_parts.append("""
+                    </tbody>
+                </table>
+                </div>
+            </div>
+            """)
+
+        genetics = factor.get('genetic_architecture', {})
+        if genetics:
+            html_parts.append("""
+            <div class="llm-section">
+                <h3>Genetic Architecture</h3>
+            """)
+
+            variants = genetics.get('top_genetic_variants', [])
+            if variants:
+                html_parts.append("""
+                <h4 style="color: #6c757d; margin-top: 0;">Top Genetic Variants</h4>
+                <div class="table-container" style="margin-bottom: 20px;">
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th class="rank-col">Rank</th>
+                            <th>Variant ID</th>
+                            <th>Gene</th>
+                            <th>Location</th>
+                            <th class="value-col">Variance Component</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                """)
+                for v in variants:
+                    html_parts.append(f"""
+                        <tr>
+                            <td class="rank-col">{v.get('rank', '')}</td>
+                            <td style="font-family: monospace;">{v.get('variant_id', '')}</td>
+                            <td>{v.get('gene', '')}</td>
+                            <td>{v.get('location', '')}</td>
+                            <td class="value-col">{v.get('variance_component', 0):.5f}</td>
+                        </tr>
+                    """)
+                html_parts.append("""
+                    </tbody>
+                </table>
+                </div>
+                """)
+
+            top_genes = genetics.get('top_genes', [])
+            if top_genes:
+                html_parts.append("""
+                <h4 style="color: #6c757d;">Top Genes (by cumulative variance component)</h4>
+                <div class="gene-list" style="margin-bottom: 20px;">
+                """)
+                for gene in top_genes:
+                    html_parts.append(f'<span class="gene-tag">{gene}</span>')
+                html_parts.append('</div>')
+
+            regions = genetics.get('key_chromosomal_regions', [])
+            if regions:
+                html_parts.append("""
+                <h4 style="color: #6c757d;">Key Chromosomal Regions</h4>
+                <div class="region-list" style="margin-bottom: 20px;">
+                """)
+                for region in regions:
+                    html_parts.append(f'<span class="region-tag">{region}</span>')
+                html_parts.append('</div>')
+
+            annotations = genetics.get('gene_function_annotations', {})
+            if annotations:
+                html_parts.append("""
+                <h4 style="color: #6c757d;">Gene Function Annotations</h4>
+                """)
+                for gene, function in annotations.items():
+                    html_parts.append(f"""
+                <div class="annotation-item">
+                    <div class="annotation-gene">{gene}</div>
+                    <div class="annotation-function">{function}</div>
+                </div>
+                    """)
+
+            html_parts.append('</div>')
+
+        html_parts.append('</div>')
+
+        return ui.HTML(''.join(html_parts))
+
+    @session.download(
+        filename=lambda: (
+            f'llm-factor-{current_llm_latent().replace("Lat", "") if current_llm_latent() else "data"}-{date.today().isoformat()}.json'
+        )
+    )
+    async def download_llm_data():
+        nav_val = nav_latent_value.get()
+        dropdown_val = input.llm_latent_select()
+        current_latent = nav_val if nav_val else dropdown_val
+        if not current_latent:
+            yield '{"error": "No data available"}'
+            return
+        if current_latent in LLM_DATA.get('latent_factors', {}):
+            factor_data = {
+                'latent_factor': current_latent,
+                'data': LLM_DATA['latent_factors'][current_latent],
+            }
+            yield json.dumps(factor_data, indent=2)
+        else:
+            yield '{"error": "Factor not found"}'
+
+    @reactive.effect
+    def debug_selected_phenotype():
+        val = selected_phenotype.get()
+        print(f'*** selected_phenotype IS NOW: {val}')
+
+    @reactive.effect
+    @reactive.event(input.llm_latent_select)
+    def debug_llm_select():
+        val = input.llm_latent_select()
+        print(f'>>> LLM DROPDOWN CHANGED TO: {val}')
+        print(nav_latent_value.get())
 
 
 app = App(app_ui, server, debug=True)

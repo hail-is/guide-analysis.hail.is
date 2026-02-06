@@ -44,7 +44,7 @@ DATA = [
         [FileSpec('all_phenos', True)],
     ),
     DataSpec('betas.npy', Handler.NONE, False, [FileSpec('betas.npy', False)]),
-    DataSpec('degas_betas.npy', Handler.NONE, False, [FileSpec('degas_betas.npy', False)]),
+    DataSpec('degas_betas.npz', Handler.ZIP, False, [FileSpec('zscores.npy', False)]),
     DataSpec(
         'guide_all_100lat_bl_ll.npz',
         Handler.ZIP,

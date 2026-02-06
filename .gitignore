@@ -1,12 +1,13 @@
+/all_phenos.tar.gz
+/all_phenos/
 /betas.npy
-/degas_betas.npy
+/degas_betas.npz
 /guide_all_100lat_bl_ll.npz
 /guide_all_100lat_bl_ll/
 /log10pvalues.npy
 /w_values.npz
 /w_values/
-/all_phenos.tar.gz
-/all_phenos/
+/zscores.npy
 
 # Created by https://www.toptal.com/developers/gitignore/api/python
 # Edit at https://www.toptal.com/developers/gitignore?templates=python
