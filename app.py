@@ -15,8 +15,6 @@ from scipy.stats import norm
 
 from plotting import var_contrib_to_lat, plot_variance_components, pheno_contribs_to_lat
 
-# general FIXME: use log rather than print
-
 log = logging.getLogger('shiny')
 log.setLevel(logging.WARNING)
 
@@ -691,24 +689,24 @@ def server(input: Inputs, output: Outputs, session: Session):
     @reactive.event(input.nav_latent)
     def handle_nav_latent():
         latent = input.nav_latent()
-        print(f'>>> NAV_LATENT RECEIVED: {latent}')
+        log.debug('>>> NAV_LATENT RECEIVED: %s', latent)
         if latent:
             latent_key = f'Lat{latent}'
-            print(f'>>> LOOKING FOR KEY: {latent_key}')
+            log.debug('>>> LOOKING FOR KEY: %s', latent_key)
             if latent_key in LLM_LATENT_CHOICES:
-                print(f'>>> UPDATING DROPDOWN TO: {latent_key}')
+                log.debug('>>> UPDATING DROPDOWN TO: %s', latent_key)
                 ui.update_selectize('llm_latent_select', selected=latent_key)
             else:
-                print('>>> KEY NOT FOUND IN CHOICES')
+                log.debug('>>> KEY NOT FOUND IN CHOICES')
 
     @reactive.effect
     @reactive.event(input.pheno_select)
     def sync_from_barplots():
         pheno = input.pheno_select()
-        print(f'=== BARPLOTS CHANGED: {pheno}')
+        log.debug('=== BARPLOTS CHANGED: %s', pheno)
         if pheno:
             selected_phenotype.set(pheno)
-            print(f'=== SET selected_phenotype to: {pheno}')
+            log.debug('=== SET selected_phenotype to: %s', pheno)
 
     @reactive.effect
     @reactive.event(input.manhattan_trait)
@@ -1285,7 +1283,7 @@ def server(input: Inputs, output: Outputs, session: Session):
     @render.ui
     def llm_factor_display():
         current_latent = input.llm_latent_select()  # This is now "Lat39"
-        print(f'>>> RENDERING WITH LATENT: {current_latent}')
+        log.debug('>>> RENDERING WITH LATENT: %s', current_latent)
 
         if not current_latent or current_latent not in LLM_DATA.get('latent_factors', {}):
             return ui.HTML('<p>Please select a latent factor.</p>')
@@ -1703,14 +1701,14 @@ def server(input: Inputs, output: Outputs, session: Session):
     @reactive.effect
     def debug_selected_phenotype():
         val = selected_phenotype.get()
-        print(f'*** selected_phenotype IS NOW: {val}')
+        log.debug('*** selected_phenotype IS NOW: %s', val)
 
     @reactive.effect
     @reactive.event(input.llm_latent_select)
     def debug_llm_select():
         val = input.llm_latent_select()
-        print(f'>>> LLM DROPDOWN CHANGED TO: {val}')
-        print(nav_latent_value.get())
+        log.debug('>>> LLM DROPDOWN CHANGED TO: %s', val)
+        log.debug('>>> nav_latent_value: %s', nav_latent_value.get())
 
 
 app = App(app_ui, server, debug=True)
