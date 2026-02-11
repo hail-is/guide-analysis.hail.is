@@ -333,10 +333,11 @@ def pheno_contribs_to_lat(df, cols, topn=3, spacing=2.3, figname=None):
     for i, lat in enumerate(cols):
         for j, pheno in enumerate(phenos_seen):
             if pheno in top_per_lat[lat]:
-                try:
-                    phe_contrib_mat[i, j] = df[lat][pheno]
-                except:
-                    phe_contrib_mat[i, j] = df[lat][pheno][1]
+                item = df[lat][pheno]
+                if isinstance(item, pd.Series):
+                    phe_contrib_mat[i, j] = item.iloc[1]
+                else:
+                    phe_contrib_mat[i, j] = item
             else:
                 phe_contrib_mat[i, j] = 0
 

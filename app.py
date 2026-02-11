@@ -88,7 +88,7 @@ def load_log10pvalues():
                 pvalues[ix, :] = norm.cdf(data)
             np.subtract(1, pvalues, out=pvalues)
             np.multiply(2, pvalues, out=pvalues)
-            np.clip(pvalues, a_min=1e-300, a_max=None, out=pvalues)
+            np.clip(pvalues, a_min=1e-40, a_max=None, out=pvalues)
 
             log10pvalues = np.log10(pvalues, out=pvalues)
             np.negative(log10pvalues, out=log10pvalues)
@@ -798,7 +798,7 @@ def server(input: Inputs, output: Outputs, session: Session):
     @output
     @render.plot
     def pheno_contrib_to_lat_controller():
-        # interested_phenos = selected_phenotype.get()  # FIXME: unused. bug?
+        selected_phenotype.get()  # FIXME: this is a load bearing load, forces a bar plot refresh
         if not LATENT_LABELS:
             fig, ax = plt.subplots(figsize=(12, 4))
             ax.text(
@@ -1199,7 +1199,7 @@ def server(input: Inputs, output: Outputs, session: Session):
                 f'- **{top3_latent_labels[2] if len(top3_latent_labels) > 2 else "3rd"} (Green):** {n_3rd:,} variants (En={enrichment_scores[3]:.2f})',
                 f'- **Other (Gray):** {n_other:,} variants (En={enrichment_scores[0]:.2f})',
                 '',
-                'Note: values below are capped at -log10(w-value) or -log10(p-value) = 300',
+                'Note: values below are capped at -log10(w-value) or -log10(p-value) = 40',
                 '',
                 '### Top 5 Variants by Association',
                 '',
