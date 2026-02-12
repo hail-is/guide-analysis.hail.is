@@ -11,6 +11,9 @@ w_values.npz
 w_values/
 zscores.npy
 
+# utility scripts uneeded inside the container
+scripts/
+
 # python files
 __pycache__/
 *.pyc
