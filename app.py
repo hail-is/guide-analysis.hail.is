@@ -69,33 +69,12 @@ W_VALUES_AVAILABLE, LOGW_MAT_TL, LOGW_MAT_XL = load_w_values()
 
 
 def load_log10pvalues():
-    # there are around 3.8GiB of zscores/pvalues, it's read only so we can
+    # there are around 1.9GiB of zscores/pvalues, it's read only so we can
     # memory map it in order to run in a more constrained environment.
     try:
         log10pvalues = load_npy('./log10pvalues.npy')
     except FileNotFoundError:
-        log10pvalues = None
-
-    if log10pvalues is None:
-        # getting here means we haven't precomputed the log10 pvalues,
-        # so we try to do so, and eat the memory usage
-        try:
-            zscores = load_npy('./zscores.npy', mmap_mode=None)
-
-            # try to use inplace operations to cut down on memory usage
-            pvalues = np.abs(zscores, out=zscores)
-            for ix, data in enumerate(pvalues):
-                pvalues[ix, :] = norm.cdf(data)
-            np.subtract(1, pvalues, out=pvalues)
-            np.multiply(2, pvalues, out=pvalues)
-            np.clip(pvalues, a_min=1e-40, a_max=None, out=pvalues)
-
-            log10pvalues = np.log10(pvalues, out=pvalues)
-            np.negative(log10pvalues, out=log10pvalues)
-            np.clip(log10pvalues, a_min=0, a_max=None, out=log10pvalues)
-        except Exception:
-            log.warning('Could not load z-scores', exc_info=True)
-            return False, None
+        return False, None
 
     log.info('Z-scores loaded successfully! Shape: %s', log10pvalues.shape)
     return True, log10pvalues
@@ -1199,7 +1178,7 @@ def server(input: Inputs, output: Outputs, session: Session):
                 f'- **{top3_latent_labels[2] if len(top3_latent_labels) > 2 else "3rd"} (Green):** {n_3rd:,} variants (En={enrichment_scores[3]:.2f})',
                 f'- **Other (Gray):** {n_other:,} variants (En={enrichment_scores[0]:.2f})',
                 '',
-                'Note: values below are capped at -log10(w-value) or -log10(p-value) = 40',
+                'Note: values below are capped at -log10(w-value) or -log10(p-value) = 300',
                 '',
                 '### Top 5 Variants by Association',
                 '',
